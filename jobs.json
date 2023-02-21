@@ -1,23 +1,26 @@
 [
   {
-    "title": "Web Developer",
-    "location": "San Francisco",
-    "description": "We're looking for a talented web developer to join our team. Must have experience with HTML, CSS, and JavaScript.",
-    "postedDate": "2022-02-15",
-    "applicationURL": "https://www.example.com/careers/web-developer"
+    "title": "Front-end Developer",
+    "location": "San Francisco, CA",
+    "description": "We're looking for a front-end developer to help us build amazing web applications!",
+    "applicationURL": "https://example.com/apply",
+    "postedDate": "2023-02-21",
+    "imageURL": "https://raw.githubusercontent.com/wilderbuchanan/job-board/main/images/apple.jpeg"
   },
   {
-    "title": "UI Designer",
-    "location": "New York",
-    "description": "We're seeking a skilled UI designer with experience in Sketch and Figma. Must be able to work in a fast-paced environment.",
-    "postedDate": "2022-02-10",
-    "applicationURL": "https://www.example.com/careers/ui-designer"
+    "title": "Back-end Developer",
+    "location": "New York, NY",
+    "description": "We're looking for a back-end developer to help us build amazing web applications!",
+    "applicationURL": "https://example.com/apply",
+    "postedDate": "2023-02-20",
+    "imageURL": "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png"
   },
   {
-    "title": "Marketing Manager",
-    "location": "Los Angeles",
-    "description": "We're hiring a marketing manager to lead our marketing team. Must have at least 5 years of experience in marketing and a proven track record of success.",
-    "postedDate": "2022-02-05",
-    "applicationURL": "https://www.example.com/careers/marketing-manager"
+    "title": "UI/UX Designer",
+    "location": "Los Angeles, CA",
+    "description": "We're looking for a UI/UX designer to help us design beautiful web applications!",
+    "applicationURL": "https://example.com/apply",
+    "postedDate": "2023-02-19",
+    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/86583e966849b2f081928769a6abdb09"
   }
 ]

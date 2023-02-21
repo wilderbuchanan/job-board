@@ -1,9 +1,36 @@
-fetch('https://api.github.com/repos/{wilderbuchanan}/{job-board}/contents/', {
-  headers: {
-    'Authorization': 'token <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>'
-  }
-})
-.then(response => response.json())
-.then(data => {
-  // Do something with the retrieved data
-});
+<div class="job-listings">
+  <h2>Job Openings</h2>
+  <ul id="job-listings-ul">
+  </ul>
+</div>
+
+<script>
+  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/jobs.json')
+    .then(response => response.json())
+    .then(data => {
+      const jobListingsUl = document.getElementById('job-listings-ul');
+      data.forEach(job => {
+        const li = document.createElement('li');
+        const h3 = document.createElement('h3');
+        h3.textContent = job.title;
+        const location = document.createElement('p');
+        location.textContent = job.location;
+        const description = document.createElement('p');
+        description.textContent = job.description;
+        const applyLink = document.createElement('a');
+        applyLink.href = job.applicationURL;
+        applyLink.textContent = 'Apply now';
+        description.appendChild(applyLink);
+        const postedDate = document.createElement('p');
+        postedDate.textContent = `Posted: ${job.postedDate}`;
+        const image = document.createElement('img');
+        image.src = job.imageURL;
+        li.appendChild(image);
+        li.appendChild(h3);
+        li.appendChild(location);
+        li.appendChild(description);
+        li.appendChild(postedDate);
+        jobListingsUl.appendChild(li);
+      });
+    });
+</script>
