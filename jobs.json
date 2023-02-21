@@ -5,7 +5,9 @@
     "location": "San Francisco, CA",
     "applicationURL": "https://example.com/apply",
     "postedDate": "2023-02-21",
-    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/9c42dfacff0d3503c78e5cf9020b8025"
+    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/9c42dfacff0d3503c78e5cf9020b8025",
+    "tags": ["internship", "software development"]
+
   },
   {
     "title": "Back-end Developer",
@@ -13,7 +15,9 @@
     "location": "New York, NY",
     "applicationURL": "https://example.com/apply",
     "postedDate": "2023-02-20",
-    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/d4f923a4b165338b3921e91ccf0970fa"
+    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/d4f923a4b165338b3921e91ccf0970fa",
+    "tags": ["remote"]
+
   },
   {
     "title": "UI/UX Designer",
@@ -21,6 +25,8 @@
     "location": "Los Angeles, CA",
     "applicationURL": "https://example.com/apply",
     "postedDate": "2023-02-19",
-    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/86583e966849b2f081928769a6abdb09"
+    "imageURL": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/86583e966849b2f081928769a6abdb09",
+    "tags": ["startup", "manufacturing"]
+
   }
 ]
