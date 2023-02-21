@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Web Developer",
+    "location": "San Francisco",
+    "description": "We're looking for a talented web developer to join our team. Must have experience with HTML, CSS, and JavaScript.",
+    "postedDate": "2022-02-15",
+    "applicationURL": "https://www.example.com/careers/web-developer"
+  },
+  {
+    "title": "UI Designer",
+    "location": "New York",
+    "description": "We're seeking a skilled UI designer with experience in Sketch and Figma. Must be able to work in a fast-paced environment.",
+    "postedDate": "2022-02-10",
+    "applicationURL": "https://www.example.com/careers/ui-designer"
+  },
+  {
+    "title": "Marketing Manager",
+    "location": "Los Angeles",
+    "description": "We're hiring a marketing manager to lead our marketing team. Must have at least 5 years of experience in marketing and a proven track record of success.",
+    "postedDate": "2022-02-05",
+    "applicationURL": "https://www.example.com/careers/marketing-manager"
+  }
+]

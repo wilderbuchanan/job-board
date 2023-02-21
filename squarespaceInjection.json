@@ -1,0 +1,9 @@
+fetch('https://api.github.com/repos/{wilderbuchanan}/{job-board}/contents/', {
+  headers: {
+    'Authorization': 'token <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>'
+  }
+})
+.then(response => response.json())
+.then(data => {
+  // Do something with the retrieved data
+});
