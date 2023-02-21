@@ -1,6 +1,7 @@
 [
   {
     "title": "Front-end Developer",
+    "company": "SpaceX",
     "location": "San Francisco, CA",
     "applicationURL": "https://example.com/apply",
     "postedDate": "2023-02-21",
@@ -8,6 +9,7 @@
   },
   {
     "title": "Back-end Developer",
+    "company": "Boeing",
     "location": "New York, NY",
     "applicationURL": "https://example.com/apply",
     "postedDate": "2023-02-20",
@@ -15,6 +17,7 @@
   },
   {
     "title": "UI/UX Designer",
+    "company": "Apple",
     "location": "Los Angeles, CA",
     "applicationURL": "https://example.com/apply",
     "postedDate": "2023-02-19",
