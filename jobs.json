@@ -292,6 +292,87 @@
         "priority": 0
     },
     {
+        "title": "Mechanical Engineering Associate III",
+        "company": "Audubon Companies",
+        "location": "Metairie, LA",
+        "applicationURL": "https://recruiting.adp.com/srccar/public/nghome.guid?c=1129507&d=AudubonCompaniesCareers&prc=RMPOD1&r=5000887914006#/",
+        "postedDate": "6 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQHh7baoc1OwDA/company-logo_100_100/0/1601935636533?e=1685577600&v=beta&t=tkLVLUxWNnxKx0DUb_TCTVMv2i9A8Ck34Y6ArJaea0U",
+        "tags": [],
+        "priority": 0
+    },
+    {
+        "title": "Electrical Co-Op Summer 2023 - Energy Solutions - CMTA",
+        "company": "CMTA, Inc.",
+        "location": "Louisville, KY",
+        "applicationURL": "https://us63.dayforcehcm.com/CandidatePortal/en-US/legence/site/studentportal/Posting/View/3508",
+        "postedDate": "58 minutes ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQETp1Xb-764BQ/company-logo_100_100/0/1652302011609?e=1685577600&v=beta&t=QxGB64md7OM1yilTpfIrwOyLgeKScj_Wg7w4Wukh1zY",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Co-op",
+        "company": "Domtar",
+        "location": "Hawesville, KY",
+        "applicationURL": "https://jobs.jobvite.com/domtar-fr/job/o5pZkfwx?__jvst=Job%20Board&__jvsd=LinkedIn",
+        "postedDate": "2 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C510BAQHfjomoqYZ0LQ/company-logo_100_100/0/1519912170789?e=1685577600&v=beta&t=IF289zSPYxpuJZFgHKhLuCx8TbWmPRjlZ6p1t3rXSy8",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Operations Management Trainee",
+        "company": "Vulcan Materials Company",
+        "location": "Adairsville, GA",
+        "applicationURL": "https://vulcanmat.taleo.net/careersection/2/jobdetail.ftl?job=368655&src=LinkedIn",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQH5kNI0Zr_pWg/company-logo_100_100/0/1556031901124?e=1685577600&v=beta&t=kna7V09b93p8cOCugCkCgeFOAxJm-zZ7Bvxbc4G8lOI",
+        "tags": [],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Internship",
+        "company": "Steel Dynamics, Inc",
+        "location": "Butler, IN",
+        "applicationURL": "https://careers-steeldynamics.icims.com/jobs/3216/mechanical-engineering-internship/job?mode=job&iis=Job+Posting&iisn=LinkedIn",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQEDPby0xPhylg/company-logo_100_100/0/1625574973929?e=1685577600&v=beta&t=TbMeqTP8-64GaONXMmQQp82HVVy78kQsPj-OrPu1g5c",
+        "tags": [
+            "internship",
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Water/Wastewater Engineering Intern",
+        "company": "HDR",
+        "location": "Doral, FL",
+        "applicationURL": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=170656&lang=en&src=SNS-10025",
+        "postedDate": "2 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQGfpTq19zKb0g/company-logo_100_100/0/1560873606208?e=1685577600&v=beta&t=uGnQpfQhZeQ_CUGmqcPUFrWzZgamJaCTYCEpqJ6goK4",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "2024 Nestlé Spring Packaging Co-Op",
+        "company": "Nestlé",
+        "location": "Solon, OH",
+        "applicationURL": "https://jobdetails.nestle.com/job/Solon-OH-44139/859313401/?feedId=256801&utm_source=LinkedInJobPostings",
+        "postedDate": "5 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQGaL-YyJ8xd7Q/company-logo_100_100/0/1592405863758?e=1685577600&v=beta&t=egqZp9xwg0XSzUP0JGQGYO4G3dQCFWOUlS7FEJz3H5A",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
         "title": "Mechanical Engineering Co-Op (Fall 2023)",
         "company": "The Hershey Company",
         "location": "Hershey, PA",
