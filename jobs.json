@@ -123,6 +123,92 @@
         "priority": 0
     },
     {
+        "title": "Mechanical Engineering Co-op",
+        "company": "Domtar",
+        "location": "Hawesville, KY",
+        "applicationURL": "https://jobs.jobvite.com/domtar-fr/job/o5pZkfwx?__jvst=Job%20Board&__jvsd=LinkedIn",
+        "postedDate": "1 day ago",
+        "imageURL": "https://media.licdn.com/dms/image/C510BAQHfjomoqYZ0LQ/company-logo_100_100/0/1519912170789?e=1685577600&v=beta&t=IF289zSPYxpuJZFgHKhLuCx8TbWmPRjlZ6p1t3rXSy8",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "2023 Summer Engineering Co-op",
+        "company": "Sherwin-Williams",
+        "location": "Rochester, PA",
+        "applicationURL": "https://sherwin.taleo.net/careersection/10/jobdetail.ftl?job=22000LC7&lang=en&src=LinkedIn",
+        "postedDate": "4 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQGoU7XlRM6WkQ/company-logo_100_100/0/1535048003861?e=1685577600&v=beta&t=9Mb_Alh9vLf-ZQFbzp3Ks3v85_wE2FuWejbsvQyu3yo",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Engineer Intern (Summer 2023)",
+        "company": "Calumet Specialty Products Partners, L.P.",
+        "location": "Shreveport, LA",
+        "applicationURL": "https://us63.dayforcehcm.com/CandidatePortal/en-US/calumet/Posting/View/4242",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C510BAQE81AlSViEe0g/company-logo_100_100/0/1519875303282?e=1685577600&v=beta&t=pT4DO7PA1xo2DdOBxT_e1H7WpyW7LQgWTnn9PdJLC-E",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Intern - Mechanical Engineering Student (Summer 2023)",
+        "company": "Westlake",
+        "location": "Longview, TX",
+        "applicationURL": "https://www.westlaketalent.com/job/16748104/intern-mechanical-engineering-student-summer-2023-longview-tx/",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQFQJ8QBwfvAWw/company-logo_100_100/0/1660847803352?e=1685577600&v=beta&t=roP1DFYhIAgo-k8d_MXBipbx8OM_Qu72a-D7LlK6MeQ",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Internship",
+        "company": "Steel Dynamics, Inc",
+        "location": "Butler, IN",
+        "applicationURL": "https://careers-steeldynamics.icims.com/jobs/3216/mechanical-engineering-internship/job?mode=job&iis=Job+Posting&iisn=LinkedIn",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQEDPby0xPhylg/company-logo_100_100/0/1625574973929?e=1685577600&v=beta&t=TbMeqTP8-64GaONXMmQQp82HVVy78kQsPj-OrPu1g5c",
+        "tags": [
+            "internship",
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Building Physics Intern",
+        "company": "Harris",
+        "location": "St Paul, VA",
+        "applicationURL": "https://recruiting2.ultipro.com/ONE1016OHINC/JobBoard/71350453-e4a5-4859-b196-5d0c56c9190e/OpportunityDetail?opportunityId=2760e25d-f6b5-47c1-b3c5-e4983b4d0ab3&utm_source=LINKEDIN&utm_medium=referrer",
+        "postedDate": "2 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQGsa8GyoLdVZQ/company-logo_100_100/0/1565379936250?e=1685577600&v=beta&t=d_RZYjUM8wzQ0WcnL0A0oOAAHfcDl7PSMQ_5mq6tfEM",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "DoD Skillbridge - Maintenance and Engineering Internships",
+        "company": "Cushman & Wakefield",
+        "location": "Norfolk, VA",
+        "applicationURL": "https://careers.cushmanwakefield.com/global/en/job/CUWAGLOBALR108603ENGLOBALEXTERNAL/DoD-Skillbridge-Maintenance-and-Engineering-Internships?utm_source=linkedin&utm_medium=phenom-feeds",
+        "postedDate": "1 day ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQFGzt1GFBgdlg/company-logo_100_100/0/1519855921162?e=1685577600&v=beta&t=dH_wY4ghdQYuOfiP9jHVTuGoBLDKXUZsaBzgkM3VJvA",
+        "tags": [
+            "internship",
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
         "title": "Mechanical Engineering Co-Op (Fall 2023)",
         "company": "The Hershey Company",
         "location": "Hershey, PA",
