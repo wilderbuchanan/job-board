@@ -1,5 +1,59 @@
 <head>
   <style>
+    @media screen and (max-width: 480px) {
+      .job-listings li .apply-button {
+        display: none !important;
+      }
+      .job-listings li {
+        cursor: pointer;
+      }
+      .job-listings li a {
+        display: none;
+      }
+      .job-listings li:hover {
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        background-color: transparent;
+        outline: 2px solid #26ACAF;
+        color: black;
+      }
+      .job-listings li:hover .job-info-wrapper {
+      }
+      .job-listings li:hover .job-info-wrapper h3,
+      .job-listings li:hover .job-info-wrapper p {
+        color: black;
+      }
+      .job-listings li:hover .job-info-wrapper p.company-name {
+        color: #26ACAF;
+      }
+      .job-listings li:hover .job-info-wrapper p.location {
+        color: #999999;
+      }
+      .job-listings li:hover .job-info-wrapper p.posted-date {
+        color: #999999;
+      }
+      .job-listings li a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      .job-listings .tags-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      
+      .job-listings .tag {
+        font-size: 6px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        display: inline-block;
+
+      }
+    }
     .job-listings {
       margin: 20px;
       margin-bottom: 100px;
@@ -26,7 +80,7 @@
 
     .job-listings .apply-button {
       display: inline-block;
-      background-color: #FFC24A;
+      background-color: #26ACAF;
       border: none;
       color: white;
       padding: 10px 20px;
@@ -42,6 +96,8 @@
       flex-grow: 1;
       margin-left: 10px;
       padding-right: 20px;
+      /*background-color: #FFC24A;*/
+
 
     }
 
@@ -70,7 +126,7 @@
 
     .job-listings .apply-button:hover {
       background-color: transparent;
-      outline: 2px solid #FFC24A;
+      outline: 2px solid #26ACAF;
       color: black;
     }
 
@@ -95,7 +151,7 @@
       outline: 1px solid #26ACAF;
       border-radius: 4px;
       padding: 2px 4px;
-      margin-right: 12px;
+      margin-right: 20px;
       margin-bottom: 8px;
       font-size: 14px;
       background-color: transparent;
@@ -107,14 +163,13 @@
 
 
 <div style="text-align: center; margin-top: 20px;">
-  <label for="filter" style="font-size: 20px;">Filter by:</label>
-  <select id="filter" style="font-size: 20px; padding: 8px;">
+  <label for="filter" style="font-size: 20px; margin-right: 2px;">Filter by: </label>
+  <select id="filter" style="font-size: 20px; padding: 8px; border: none; border-radius: 10px;background-color: #f5f5f5;outline: 2px solid #FFC24A;">
     <option value="all">All</option>
     <option value="internship">Internship</option>
     <option value="manufacturing">Manufacturing</option>
   </select>
 </div>
-
 
 <div class="job-listings">
   <h1 style="text-align: center; white-space: pre-wrap; transition-timing-function: ease; transition-duration: 0.65s; transition-delay: 0.325s;" class="preScale scaleIn"></h1>
@@ -154,7 +209,7 @@
       tagsContainer.classList.add('tag-container');
       job.tags.forEach(tag => {
         const tagEl = document.createElement('span');
-        tagEl.classList.add('tag', 'blue');
+        tagEl.classList.add('tag');
         tagEl.textContent = tag;
         tagsContainer.appendChild(tagEl);
       });
@@ -169,6 +224,7 @@
       li.appendChild(tagsContainer); // Add the tags container to the li element
       jobListingsUl.appendChild(li);
     });
+
     const filterSelect = document.getElementById('filter');
     filterSelect.addEventListener('change', () => {
       const selectedFilter = filterSelect.value;
