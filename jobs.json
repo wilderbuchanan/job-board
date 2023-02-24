@@ -209,6 +209,89 @@
         "priority": 0
     },
     {
+        "title": "Mechanical Engineering Co-op",
+        "company": "Domtar",
+        "location": "Hawesville, KY",
+        "applicationURL": "https://jobs.jobvite.com/domtar-fr/job/o5pZkfwx?__jvst=Job%20Board&__jvsd=LinkedIn",
+        "postedDate": "1 day ago",
+        "imageURL": "https://media.licdn.com/dms/image/C510BAQHfjomoqYZ0LQ/company-logo_100_100/0/1519912170789?e=1685577600&v=beta&t=IF289zSPYxpuJZFgHKhLuCx8TbWmPRjlZ6p1t3rXSy8",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Summer 2023 Engineering Intern - Fire Safety Research Institute",
+        "company": "UL Research Institutes",
+        "location": "Columbia, MD",
+        "applicationURL": "https://usenglish-ul.icims.com/jobs/30700/summer-2023-engineering-intern---fire-safety-research-institute/job?hub=9&mobile=false&width=900&height=1750&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
+        "postedDate": "6 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4D0BAQGUzQJRSRNlDw/company-logo_100_100/0/1656345514364?e=1685577600&v=beta&t=K3Xnh3rN82H1Tlti8vBknCHhmZC_esW_rs3VTMNa0wE",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Intern - Mechanical Engineering Student (Summer 2023)",
+        "company": "Westlake",
+        "location": "Longview, TX",
+        "applicationURL": "https://www.westlaketalent.com/job/16748104/intern-mechanical-engineering-student-summer-2023-longview-tx/",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQFQJ8QBwfvAWw/company-logo_100_100/0/1660847803352?e=1685577600&v=beta&t=roP1DFYhIAgo-k8d_MXBipbx8OM_Qu72a-D7LlK6MeQ",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Specialist, Mechanical Engineering",
+        "company": "L3Harris Technologies",
+        "location": "Plano, TX",
+        "applicationURL": "https://careers.l3harris.com/job/-/-/4832/42880674080?src=SNS-10240",
+        "postedDate": "1 day ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/0/1625156630923?e=1685577600&v=beta&t=EeuuTVYHvVj7RKZvwdmM1H8Z5T7gThjG1iW0dVjNNuo",
+        "tags": [],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Internship",
+        "company": "Steel Dynamics, Inc",
+        "location": "Butler, IN",
+        "applicationURL": "https://careers-steeldynamics.icims.com/jobs/3216/mechanical-engineering-internship/job?mode=job&iis=Job+Posting&iisn=LinkedIn",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQEDPby0xPhylg/company-logo_100_100/0/1625574973929?e=1685577600&v=beta&t=TbMeqTP8-64GaONXMmQQp82HVVy78kQsPj-OrPu1g5c",
+        "tags": [
+            "internship",
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Field Engineer Intern",
+        "company": "Flatiron Construction",
+        "location": "Los Angeles, CA",
+        "applicationURL": "https://careers-flatironcorp.icims.com/jobs/4030/field-engineer-intern/job?hub=8&mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=990&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
+        "postedDate": "4 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQG0kSG17U9muQ/company-logo_100_100/0/1580408947202?e=1685577600&v=beta&t=ToF7qUKzrsf6mvGkPy_ktfDH4ENqOq6Q1kGsG0Z6AMU",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Transportation Engineering Intern",
+        "company": "HDR",
+        "location": "Spokane, WA",
+        "applicationURL": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=171095&lang=en&src=SNS-10025",
+        "postedDate": "2 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQGfpTq19zKb0g/company-logo_100_100/0/1560873606208?e=1685577600&v=beta&t=uGnQpfQhZeQ_CUGmqcPUFrWzZgamJaCTYCEpqJ6goK4",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
         "title": "Mechanical Engineering Co-Op (Fall 2023)",
         "company": "The Hershey Company",
         "location": "Hershey, PA",
