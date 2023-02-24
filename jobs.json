@@ -47,5 +47,91 @@
             "intern"
         ],
         "priority": 0
+    },
+    {
+        "title": "Engineering Intern (Power Distribution Design)",
+        "company": "POWER Engineers",
+        "location": "Phoenix, AZ",
+        "applicationURL": "https://phh.tbe.taleo.net/phh04/ats/careers/requisition.jsp?org=POWERENGINEERS&cws=1&rid=12983",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQEdPEC9CmJSKA/company-logo_100_100/0/1646396475685?e=1685577600&v=beta&t=Nmu2N0jSfd2Fx9p7qXua6-R0MgtTfgzWxz05XSvY2Uw",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Water Engineering Intern",
+        "company": "HDR",
+        "location": "Butte, MT",
+        "applicationURL": "https://hdr.taleo.net/careersection/ex/jobdetail.ftl?job=171525&lang=en&src=SNS-10025",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQGfpTq19zKb0g/company-logo_100_100/0/1560873606208?e=1685577600&v=beta&t=uGnQpfQhZeQ_CUGmqcPUFrWzZgamJaCTYCEpqJ6goK4",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Co-op",
+        "company": "Domtar",
+        "location": "Hawesville, KY",
+        "applicationURL": "https://jobs.jobvite.com/domtar-fr/job/o5pZkfwx?__jvst=Job%20Board&__jvsd=LinkedIn",
+        "postedDate": "1 day ago",
+        "imageURL": "https://media.licdn.com/dms/image/C510BAQHfjomoqYZ0LQ/company-logo_100_100/0/1519912170789?e=1685577600&v=beta&t=IF289zSPYxpuJZFgHKhLuCx8TbWmPRjlZ6p1t3rXSy8",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Engineering Intern/Co-Op",
+        "company": "Akron Brass Company",
+        "location": "Wooster, OH",
+        "applicationURL": "https://idexcorp.wd5.myworkdayjobs.com/IDEX_Careers/login?redirect=%2FIDEX_Careers%2Fjob%2FWooster-Ohio%2FEngineering-Intern-Co-Op_R-03770%2Fapply",
+        "postedDate": "1 hour ago",
+        "imageURL": "https://media.licdn.com/dms/image/C510BAQHrIpSLcbpOLA/company-logo_100_100/0/1519901511182?e=1685577600&v=beta&t=bFSGrgo9LMMg1ewDgb7Vxm8j33duR9Bse0GvwYlkGpg",
+        "tags": [
+            "co-op",
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Internship",
+        "company": "Steel Dynamics, Inc",
+        "location": "Butler, IN",
+        "applicationURL": "https://careers-steeldynamics.icims.com/jobs/3216/mechanical-engineering-internship/job?mode=job&iis=Job+Posting&iisn=LinkedIn",
+        "postedDate": "3 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQEDPby0xPhylg/company-logo_100_100/0/1625574973929?e=1685577600&v=beta&t=TbMeqTP8-64GaONXMmQQp82HVVy78kQsPj-OrPu1g5c",
+        "tags": [
+            "internship",
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Validation Engineering Intern",
+        "company": "BorgWarner",
+        "location": "Auburn Hills, MI",
+        "applicationURL": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/Validation-Engineering-Intern_R2022-7988",
+        "postedDate": "6 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C560BAQFw-XHMLl-72A/company-logo_100_100/0/1656687895162?e=1685577600&v=beta&t=Kns1z766bZ1aUlTq9uXeVibgt3J2YFExtCg_kGW1Rhc",
+        "tags": [
+            "intern"
+        ],
+        "priority": 0
+    },
+    {
+        "title": "Mechanical Engineering Co-Op (Fall 2023)",
+        "company": "The Hershey Company",
+        "location": "Hershey, PA",
+        "applicationURL": "https://careers.thehersheycompany.com/job/Hershey-Mechanical-Engineering-Co-Op-%28Fall-2023%29-PA-17033/986269700/",
+        "postedDate": "6 days ago",
+        "imageURL": "https://media.licdn.com/dms/image/C4E0BAQEhMHbvPwViWw/company-logo_100_100/0/1546456969630?e=1685577600&v=beta&t=LxpEQv4Tb5XxTnPQE7W44KQkj1So-q02-tib5S7P5eo",
+        "tags": [
+            "co-op"
+        ],
+        "priority": 0
     }
 ]
