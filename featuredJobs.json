@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Mechanical Engineering Intern",
+    "company": "Kreysler & Associates",
+    "location": "Vallejo, CA",
+    "applicationURL": "https://bit.ly/3Iti8Pq",
+    "postedDate": "8 days ago",
+    "imageURL": "https://github.com/wilderbuchanan/job-board/raw/main/logos/k%26A%20_logo.png",
+    "tags": ["internship", "california"]
+
+  },
+  {
+    "title": "Manufacturing Tooling Engineer",
+    "company": "Kreysler & Associates",
+    "location": "Vallejo, CA",
+    "applicationURL": "https://bit.ly/3lEFpVA",
+    "postedDate": "8 days ago",
+    "imageURL": "https://github.com/wilderbuchanan/job-board/raw/main/logos/k%26A%20_logo.png",
+    "tags": ["internship","california"]
+
+  },
+  {
+    "title": "Design and Development Engineer",
+    "company": "Cover",
+    "location": "Gardena, CA",
+    "applicationURL": "https://example.com/apply",
+    "postedDate": "2023-02-19",
+    "imageURL": "https://github.com/wilderbuchanan/job-board/raw/main/logos/cover_logo.png",
+    "tags": ["startup", "manufacturing"]
+
+  }
+]
