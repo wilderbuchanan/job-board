@@ -81,24 +81,20 @@ def harvest(link,page,priority): #0 = top of page
         try:
             with open("jobs.json") as infile:
                 job_postings_list = json.load(infile)
+                job_posting_list = [job for job in job_posting_list if job['priority'] != priority]
         except (FileNotFoundError):
             pass
         tags = []
         e.click()
         if len(driver.find_elements(By.XPATH, "//span[@class='artdeco-button__text' and text()='Easy Apply']")) == 0:
             time.sleep(randomWaitTime())
-            print("in job posting")
             jobID = str(uuid.uuid4())
             title = e.find_element(By.CLASS_NAME,"job-card-list__title")
-            print("found title")
             title = title.text
-            print(title)
             companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
             companyName = companyName.text
-            print(companyName)
             location = e.find_element(By.CLASS_NAME,"job-card-container__metadata-item")
             location = location.text
-            print(location)
             state = location[-2:]
             state_name = state_codes_formatted.get(state)
             tags.append(state_name)
@@ -109,32 +105,27 @@ def harvest(link,page,priority): #0 = top of page
                 tags.append("internship")
             image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
             image = image.get_attribute("src")
-            print(image)
             posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
             posted = posted.text
-            print(posted)
             apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
             time.sleep(randomWaitTime())
             driver.switch_to.window(driver.window_handles[1])
             time.sleep(randomWaitTime())
             applicationURL = driver.current_url
-            print(applicationURL)
+            applicationURL += '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
             driver.close()
             time.sleep(randomWaitTime())
             driver.switch_to.window(driver.window_handles[0])
             time.sleep(randomWaitTime())
             if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
-                print("found tags")
                 skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
                 time.sleep(randomWaitTime())
                 #caps = driver.find_elements(By.CLASS_NAME, "job-details-skill-match-status-list__unmatched-skill text-body-small")
                 caps = driver.find_elements(By.XPATH, "//div[contains(@aria-label,'Your')]")
-                print(caps)
                 for s in caps:
                     cappy = s.text
                     if cappy.lower() in keyTags:
                         tags.append(cappy.lower())
-                print(tags)
                 time.sleep(randomWaitTime())
                 close = driver.find_element(By.XPATH, "//span[text()='Done']")
                 parent = close.find_element(By.XPATH, "..")
@@ -166,12 +157,44 @@ def harvest(link,page,priority): #0 = top of page
     if page != 0:
         element = driver.find_element(By.XPATH, "//button[contains(@aria-label,'Page " + str(page) + "')]").click()
     time.sleep(randomWaitTime()*2)
+
+def shuffle():
+    # Load the JSON data
+    with open('jobs.json', 'r') as f:
+        data = json.load(f)
+
+    # Group the data by priority level
+    grouped_data = {}
+    for item in data:
+        priority = item['priority']
+        if priority not in grouped_data:
+            grouped_data[priority] = []
+        grouped_data[priority].append(item)
+
+    # Shuffle the data within each priority level
+    for priority in grouped_data:
+        random.shuffle(grouped_data[priority])
+
+    # Flatten the data back into a list, sorted by priority
+    sorted_data = []
+    for priority in sorted(map(int, grouped_data.keys())):
+        sorted_data += grouped_data[priority]
+    with open('jobs.json', 'w') as f:
+        json.dump(sorted_data, f)
+    # Print the sorted and shuffled data
+    #print(sorted_data)
+
+
 harvest(topCompaniesInternship,1,0)
+shuffle()
 time.sleep(randomWaitTime())
 harvest(topCompaniesInternship,2,0)
+shuffle()
 time.sleep(randomWaitTime())
 for page in pages:
     harvest(topCompanies,page,1)
+shuffle()
 time.sleep(randomWaitTime())
 for page in pages:
     harvest(allJobs,page,2)
+shuffle()
