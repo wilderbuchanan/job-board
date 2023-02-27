@@ -81,10 +81,10 @@ def harvest(link,page,priority): #0 = top of page
         try:
             with open("jobs.json") as infile:
                 job_postings_list = json.load(infile)
-                job_posting_list = [job for job in job_posting_list if job['priority'] != priority]
         except (FileNotFoundError):
             pass
         tags = []
+        job_posting_list = [job for job in job_posting_list if job['priority'] != priority]
         e.click()
         if len(driver.find_elements(By.XPATH, "//span[@class='artdeco-button__text' and text()='Easy Apply']")) == 0:
             time.sleep(randomWaitTime())
