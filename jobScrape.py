@@ -118,6 +118,7 @@ def harvest(link,page,priority): #0 = top of page
             driver.switch_to.window(driver.window_handles[1])
             time.sleep(randomWaitTime())
             applicationURL = driver.current_url
+            applicationURL = applicationURL.replace('?source=LinkedIn', '')
             applicationURL += '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
             driver.close()
             time.sleep(randomWaitTime())
