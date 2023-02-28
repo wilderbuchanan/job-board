@@ -92,6 +92,7 @@ def harvest(link,page,priority): #0 = top of page
             pass
         tags = []
         title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
+        time.sleep(randomWaitTime()*2)
         if len(driver.find_elements(By.XPATH, "//span[text()='Easy Apply']")) == 0:
             time.sleep(randomWaitTime())
             jobID = str(uuid.uuid4())
@@ -192,12 +193,12 @@ def shuffle():
     #print(sorted_data)
 
 
-#harvest(topCompaniesInternship,1,0)
-#shuffle()
-#time.sleep(randomWaitTime())
-#harvest(topCompaniesInternship,2,0)
-#shuffle()
-#time.sleep(randomWaitTime())
+harvest(topCompaniesInternship,1,0)
+shuffle()
+time.sleep(randomWaitTime())
+harvest(topCompaniesInternship,2,0)
+shuffle()
+time.sleep(randomWaitTime())
 for page in pages:
     harvest(topCompanies,page,1)
 shuffle()
