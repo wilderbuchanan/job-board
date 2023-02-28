@@ -192,12 +192,12 @@ def shuffle():
     #print(sorted_data)
 
 
-harvest(topCompaniesInternship,1,0)
-shuffle()
-time.sleep(randomWaitTime())
-harvest(topCompaniesInternship,2,0)
-shuffle()
-time.sleep(randomWaitTime())
+#harvest(topCompaniesInternship,1,0)
+#shuffle()
+#time.sleep(randomWaitTime())
+#harvest(topCompaniesInternship,2,0)
+#shuffle()
+#time.sleep(randomWaitTime())
 for page in pages:
     harvest(topCompanies,page,1)
 shuffle()
