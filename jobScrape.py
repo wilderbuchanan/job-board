@@ -81,7 +81,7 @@ def harvest(link,page,priority): #0 = top of page
         job_postings_list = json.load(infile)
     job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
     with open("jobs.json", "w") as outfile:
-        json.dump(sorted_job_list, outfile)
+        json.dump(job_postings_list, outfile)
 
     for e in jobPostings:
 
