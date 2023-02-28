@@ -76,6 +76,13 @@ def harvest(link,page,priority): #0 = top of page
     jobPostings = driver.find_elements(By.CLASS_NAME,"job-card-container")
     print("found postings")
     job_postings_list = []
+
+    with open("jobs.json") as infile:
+        job_postings_list = json.load(infile)
+    job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
+    with open("jobs.json", "w") as outfile:
+        json.dump(sorted_job_list, outfile)
+
     for e in jobPostings:
 
         try:
@@ -84,7 +91,6 @@ def harvest(link,page,priority): #0 = top of page
         except (FileNotFoundError):
             pass
         tags = []
-        job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
         title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
         if len(driver.find_elements(By.XPATH, "//span[@class='artdeco-button__text' and text()='Easy Apply']")) == 0:
             time.sleep(randomWaitTime())
