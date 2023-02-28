@@ -85,7 +85,7 @@ def harvest(link,page,priority): #0 = top of page
             pass
         tags = []
         job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
-        e.click()
+        title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
         if len(driver.find_elements(By.XPATH, "//span[@class='artdeco-button__text' and text()='Easy Apply']")) == 0:
             time.sleep(randomWaitTime())
             jobID = str(uuid.uuid4())
