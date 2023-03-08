@@ -26,13 +26,14 @@ topCompaniesInternship = "https://www.linkedin.com/jobs/search/?currentJobId=349
 
 topCompanies = "https://www.linkedin.com/jobs/search/?currentJobId=3407862076&f_C=10464881%2C1684122%2C1586%2C2018%2C6407329%2C42881474%2C1441%2C1384%2C1483%2C18264661%2C18203768%2C18157704%2C11046103%2C83277441%2C7952659%2C27238745%2C1904%2C5383634%2C18293159%2C7939313%2C18238200%2C12587763%2C1472%2C10981144%2C7584134%2C34228736%2C40018%2C18801275%2C10799650%2C7602863%2C51607174%2C18280200%2C30846%2C18067251%2C12955216%2C1999%2C737010%2C2002%2C2003%2C1116%2C2004%2C1412%2C3959849%2C15564&f_E=2%2C3&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R"
 
-allJobs = "https://www.linkedin.com/jobs/search/?currentJobId=3459209529&f_E=1&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering%20Internship&location=United%20States&refresh=true"
+allInternships = "https://www.linkedin.com/jobs/search/?currentJobId=3459209529&f_E=1&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering%20Internship&location=United%20States&refresh=true"
 
+allJobs = "https://www.linkedin.com/jobs/search/?currentJobId=3483542671&f_E=2%2C3&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true"
 
 state_codes = {'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio', 'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina', 'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming'}
 state_codes_formatted = {code: name.lower().replace(' ', '-') for code, name in state_codes.items()}
 
-keyTags = ["co-op","internship","manufactuing","autodesk inventor","finite element analysis (fea)","catia","computer-aided design (cad)","composites","aerodynamics", "Geometric Dimensioning & Tolerancing"," Tooling Design ","ITAR"]
+keyTags = ["co-op","internship","manufacturing","autodesk inventor","finite element analysis (fea)","catia","computer-aided design (cad)","composites","aerodynamics", "Geometric Dimensioning & Tolerancing"," Tooling Design ","ITAR"]
 
 linkedInLogin = ("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
 # One-line dictionary comprehension to format the dictionary
@@ -204,5 +205,8 @@ for page in pages:
 shuffle()
 time.sleep(randomWaitTime())
 for page in pages:
-    harvest(allJobs,page,2)
+    harvest(allInternships,page,2)
+shuffle()
+for page in pages:
+    harvest(allJobs,page,3)
 shuffle()
