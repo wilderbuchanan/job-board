@@ -122,17 +122,18 @@ def harvest(link,type,page,priority): #0 = top of page
             image = image.get_attribute("src")
             posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
             posted = posted.text
-            apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
-            time.sleep(randomWaitTime())
-            driver.switch_to.window(driver.window_handles[1])
-            time.sleep(randomWaitTime())
-            applicationURL = driver.current_url
-            applicationURL = applicationURL.replace('?source=LinkedIn', '')
-            applicationURL += '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
-            driver.close()
-            time.sleep(randomWaitTime())
-            driver.switch_to.window(driver.window_handles[0])
-            time.sleep(randomWaitTime())
+            if len(driver.find_elements(By.CLASS_NAME,"jobs-apply-button")) == 1:
+                apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
+                time.sleep(randomWaitTime())
+                driver.switch_to.window(driver.window_handles[1])
+                time.sleep(randomWaitTime())
+                applicationURL = driver.current_url
+                applicationURL = applicationURL.replace('?source=LinkedIn', '')
+                applicationURL += '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
+                driver.close()
+                time.sleep(randomWaitTime())
+                driver.switch_to.window(driver.window_handles[0])
+                time.sleep(randomWaitTime())
 # SKILL CAPTURE HAS BEEN COMMENTED OUT FOR SPEED AND REABILITY
     #        if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
     #            skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
