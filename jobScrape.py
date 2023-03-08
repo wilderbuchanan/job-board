@@ -22,12 +22,15 @@ searchDestination = "United States"
 Email = "Kate19Anderson2001@gmail.com"
 Password = "Ryobi&Dewault"
 
-topCompaniesInternship = "https://www.linkedin.com/jobs/search/?currentJobId=3495954434&f_C=10464881%2C1684122%2C1586%2C2018%2C6407329%2C42881474%2C1441%2C1384%2C1483%2C18264661%2C18203768%2C18157704%2C11046103%2C83277441%2C7952659%2C27238745%2C1904%2C5383634%2C18293159%2C7939313%2C18238200%2C12587763%2C1472%2C10981144%2C7584134%2C34228736%2C40018%2C18801275%2C10799650%2C7602863%2C51607174%2C18280200%2C30846%2C18067251%2C12955216%2C1999%2C737010%2C2002%2C2003%2C1116%2C2004%2C1412%2C3959849%2C15564&f_E=1&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R&start=25"
+topCompaniesInternship = "https://www.linkedin.com/jobs/search/?currentJobId=3466373427&f_C=1586%2C1384%2C18264661%2C11046103%2C83277441%2C1904%2C5383634%2C3200474%2C18293159%2C3308308%2C3591568%2C10799650%2C7602863%2C51607174%2C5770%2C18280200%2C30846%2C18067251%2C1412%2C3959849%2C10464881%2C1684122%2C6407329%2C2734%2C1882%2C42881474%2C1441%2C1483%2C18203768%2C18157704%2C7952659%2C27238745%2C20708%2C7939313%2C18238200%2C12587763%2C1472%2C10981144%2C7584134%2C34228736%2C40018%2C10891165%2C18801275%2C2706887%2C12955216%2C1999%2C737010%2C2002%2C2003%2C1116%2C2004&f_E=1&f_TPR=r2592000&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R"
 
-topCompanies = "https://www.linkedin.com/jobs/search/?currentJobId=3407862076&f_C=10464881%2C1684122%2C1586%2C2018%2C6407329%2C42881474%2C1441%2C1384%2C1483%2C18264661%2C18203768%2C18157704%2C11046103%2C83277441%2C7952659%2C27238745%2C1904%2C5383634%2C18293159%2C7939313%2C18238200%2C12587763%2C1472%2C10981144%2C7584134%2C34228736%2C40018%2C18801275%2C10799650%2C7602863%2C51607174%2C18280200%2C30846%2C18067251%2C12955216%2C1999%2C737010%2C2002%2C2003%2C1116%2C2004%2C1412%2C3959849%2C15564&f_E=2%2C3&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R"
+topCompanies = "https://www.linkedin.com/jobs/search/?currentJobId=3422067175&f_C=1586%2C1384%2C18264661%2C11046103%2C83277441%2C1904%2C5383634%2C3200474%2C18293159%2C3308308%2C3591568%2C10799650%2C7602863%2C51607174%2C5770%2C18280200%2C18067251%2C3959849%2C1412%2C10464881%2C1684122%2C6407329%2C1882%2C2734%2C1441%2C42881474%2C18203768%2C18157704%2C7952659%2C27238745%2C20708%2C7939313%2C18238200%2C12587763%2C1472%2C10981144%2C7584134%2C34228736%2C40018%2C10891165%2C18801275%2C2706887%2C12955216%2C1999%2C737010%2C2002%2C2003%2C1116%2C2004&f_E=2%2C3&f_TPR=r2592000&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R&start=25"
 
 allInternships = "https://www.linkedin.com/jobs/search/?currentJobId=3459209529&f_E=1&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering%20Internship&location=United%20States&refresh=true"
 
+highVolumeInternship = "https://www.linkedin.com/jobs/search/?currentJobId=3468393505&f_C=1344%2C2018%2C1319%2C15564&f_E=1&f_TPR=r2592000&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R"
+
+highVolumeFullTime = "https://www.linkedin.com/jobs/search/?currentJobId=3473956093&f_C=30846%2C1483%2C2018%2C1344%2C1319%2C15564&f_E=2%2C3&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true&sortBy=R"
 allJobs = "https://www.linkedin.com/jobs/search/?currentJobId=3483542671&f_E=2%2C3&f_TPR=r604800&geoId=103644278&keywords=Mechanical%20Engineering&location=United%20States&refresh=true"
 
 state_codes = {'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio', 'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina', 'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming'}
@@ -38,10 +41,10 @@ keyTags = ["co-op","internship","manufacturing","autodesk inventor","finite elem
 linkedInLogin = ("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
 # One-line dictionary comprehension to format the dictionary
 
-pages = ["1","2","3","4","5"]
+pages = ["1","2","3","4","5","6"]
 
 def randomWaitTime():
-    r1 = random.randint(2, 5)
+    r1 = random.randint(1, 4)
     return r1
 
 driver = webdriver.Firefox()
@@ -65,7 +68,7 @@ time.sleep(randomWaitTime()*2)
 print("Home")
 
 
-def harvest(link,page,priority): #0 = top of page
+def harvest(link,type,page,priority): #0 = top of page
     driver.get(link)
     time.sleep(randomWaitTime()*2)
     driver.execute_script("document.body.style.zoom='30%'")
@@ -109,8 +112,12 @@ def harvest(link,page,priority): #0 = top of page
             for t in keyTags:
                 if t in title.lower():
                     tags.append(t)
-            if "intern" in title.lower() and "internship" not in tags:
+            if "manufacturing" in title.lower() and "manufacturing" not in tags:
                 tags.append("internship")
+            if type == "intern":
+                tags.append("internship")
+            if type == ("ft"):
+                tags.append("full-time")
             image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
             image = image.get_attribute("src")
             posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
@@ -126,21 +133,21 @@ def harvest(link,page,priority): #0 = top of page
             time.sleep(randomWaitTime())
             driver.switch_to.window(driver.window_handles[0])
             time.sleep(randomWaitTime())
-            if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
-                skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
-                time.sleep(randomWaitTime())
-                #caps = driver.find_elements(By.CLASS_NAME, "job-details-skill-match-status-list__unmatched-skill text-body-small")
-                caps = driver.find_elements(By.XPATH, "//div[contains(@aria-label,'Your')]")
-                for s in caps:
-                    cappy = s.text
-                    if cappy.lower() in keyTags:
-                        tags.append(cappy.lower())
-                time.sleep(randomWaitTime())
-                close = driver.find_element(By.XPATH, "//span[text()='Done']")
-                parent = close.find_element(By.XPATH, "..")
-                parent.click()
-            time.sleep(randomWaitTime())
-            testTittle = title.split()
+# SKILL CAPTURE HAS BEEN COMMENTED OUT FOR SPEED AND REABILITY
+    #        if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
+    #            skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
+    #            time.sleep(randomWaitTime())
+    #            #caps = driver.find_elements(By.CLASS_NAME, "job-details-skill-match-status-list__unmatched-skill text-body-small")
+    #            caps = driver.find_elements(By.XPATH, "//div[contains(@aria-label,'Your')]")
+    #            for s in caps:
+    #                cappy = s.text
+    #                if cappy.lower() in keyTags:
+    #                    tags.append(cappy.lower())
+    #            time.sleep(randomWaitTime())
+    #            close = driver.find_element(By.XPATH, "//span[text()='Done']")
+    #            parent = close.find_element(By.XPATH, "..")
+    #            parent.click()
+    #        time.sleep(randomWaitTime())
 
             job_posting ={
                     "title": title,
@@ -194,19 +201,37 @@ def shuffle():
     #print(sorted_data)
 
 
-harvest(topCompaniesInternship,1,0)
+harvest(topCompaniesInternship,"intern",1,0)
 shuffle()
+print("harvested top internships")
 time.sleep(randomWaitTime())
-harvest(topCompaniesInternship,2,0)
+harvest(topCompaniesInternship,"intern",2,0)
+print("harvested top internships")
 shuffle()
+
 time.sleep(randomWaitTime())
 for page in pages:
-    harvest(topCompanies,page,1)
+    harvest(highVolumeInternship,"ft",page,1)
 shuffle()
+print("harvested high volume internships")
+
 time.sleep(randomWaitTime())
 for page in pages:
-    harvest(allInternships,page,2)
+    harvest(topCompanies,"ft",page,2)
 shuffle()
+print("harvested top companies")
+
+time.sleep(randomWaitTime())
 for page in pages:
-    harvest(allJobs,page,3)
+    harvest(highVolumeFullTime,"ft",page,3)
+shuffle()
+print("harvested high volume companies")
+
+time.sleep(randomWaitTime())
+for page in pages:
+    harvest(allInternships,"intern",page,4)
+shuffle()
+
+for page in pages:
+    harvest(allJobs,page,4)
 shuffle()
