@@ -122,7 +122,8 @@ def harvest(link,type,page,priority): #0 = top of page
             image = image.get_attribute("src")
             posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
             posted = posted.text
-            if len(driver.find_elements(By.CLASS_NAME,"jobs-apply-button")) == 1:
+            if len(driver.find_elements(By.CLASS_NAME,"jobs-apply-button")) > 0:
+                print("got url")
                 apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                 time.sleep(randomWaitTime())
                 driver.switch_to.window(driver.window_handles[1])
