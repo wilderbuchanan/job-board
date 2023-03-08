@@ -98,8 +98,7 @@ def harvest(link,type,page,priority): #0 = top of page
         title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
         time.sleep(randomWaitTime()*2)
         if len(driver.find_elements(By.XPATH, "//span[text()='Easy Apply']")) == 0:
-            if len(driver.find_elements(By.CLASS_NAME,"jobs-apply-button")) == 1:
-
+            if len(driver.find_elements(By.CLASS_NAME,"jobs-apply-button")) > 0:
                 time.sleep(randomWaitTime())
                 jobID = str(uuid.uuid4())
                 title = e.find_element(By.CLASS_NAME,"job-card-list__title")
@@ -171,7 +170,7 @@ def harvest(link,type,page,priority): #0 = top of page
                     sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
                 with open("jobs.json", "w") as outfile:
                     json.dump(sorted_job_list, outfile)
-        githubUpdates.git_push()
+            githubUpdates.git_push()
     if page != 0:
         element = driver.find_element(By.XPATH, "//button[contains(@aria-label,'Page " + str(page) + "')]").click()
     time.sleep(randomWaitTime()*2)
