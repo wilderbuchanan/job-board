@@ -98,31 +98,32 @@ def harvest(link,type,page,priority): #0 = top of page
         title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
         time.sleep(randomWaitTime()*2)
         if len(driver.find_elements(By.XPATH, "//span[text()='Easy Apply']")) == 0:
-            time.sleep(randomWaitTime())
-            jobID = str(uuid.uuid4())
-            title = e.find_element(By.CLASS_NAME,"job-card-list__title")
-            title = title.text
-            companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
-            companyName = companyName.text
-            location = e.find_element(By.CLASS_NAME,"job-card-container__metadata-item")
-            location = location.text
-            state = location[-2:]
-            state_name = state_codes_formatted.get(state)
-            tags.append(state_name)
-            for t in keyTags:
-                if t in title.lower():
-                    tags.append(t)
-            if "manufacturing" in title.lower() and "manufacturing" not in tags:
-                tags.append("internship")
-            if type == "intern":
-                tags.append("internship")
-            if type == ("ft"):
-                tags.append("full-time")
-            image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
-            image = image.get_attribute("src")
-            posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
-            posted = posted.text
             if len(driver.find_elements(By.CLASS_NAME,"jobs-apply-button")) == 1:
+
+                time.sleep(randomWaitTime())
+                jobID = str(uuid.uuid4())
+                title = e.find_element(By.CLASS_NAME,"job-card-list__title")
+                title = title.text
+                companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
+                companyName = companyName.text
+                location = e.find_element(By.CLASS_NAME,"job-card-container__metadata-item")
+                location = location.text
+                state = location[-2:]
+                state_name = state_codes_formatted.get(state)
+                tags.append(state_name)
+                for t in keyTags:
+                    if t in title.lower():
+                        tags.append(t)
+                if "manufacturing" in title.lower() and "manufacturing" not in tags:
+                    tags.append("internship")
+                if type == "intern":
+                    tags.append("internship")
+                if type == ("ft"):
+                    tags.append("full-time")
+                image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
+                image = image.get_attribute("src")
+                posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
+                posted = posted.text
                 apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                 time.sleep(randomWaitTime())
                 driver.switch_to.window(driver.window_handles[1])
@@ -134,43 +135,43 @@ def harvest(link,type,page,priority): #0 = top of page
                 time.sleep(randomWaitTime())
                 driver.switch_to.window(driver.window_handles[0])
                 time.sleep(randomWaitTime())
-# SKILL CAPTURE HAS BEEN COMMENTED OUT FOR SPEED AND REABILITY
-    #        if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
-    #            skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
-    #            time.sleep(randomWaitTime())
-    #            #caps = driver.find_elements(By.CLASS_NAME, "job-details-skill-match-status-list__unmatched-skill text-body-small")
-    #            caps = driver.find_elements(By.XPATH, "//div[contains(@aria-label,'Your')]")
-    #            for s in caps:
-    #                cappy = s.text
-    #                if cappy.lower() in keyTags:
-    #                    tags.append(cappy.lower())
-    #            time.sleep(randomWaitTime())
-    #            close = driver.find_element(By.XPATH, "//span[text()='Done']")
-    #            parent = close.find_element(By.XPATH, "..")
-    #            parent.click()
-    #        time.sleep(randomWaitTime())
+    # SKILL CAPTURE HAS BEEN COMMENTED OUT FOR SPEED AND REABILITY
+        #        if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
+        #            skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
+        #            time.sleep(randomWaitTime())
+        #            #caps = driver.find_elements(By.CLASS_NAME, "job-details-skill-match-status-list__unmatched-skill text-body-small")
+        #            caps = driver.find_elements(By.XPATH, "//div[contains(@aria-label,'Your')]")
+        #            for s in caps:
+        #                cappy = s.text
+        #                if cappy.lower() in keyTags:
+        #                    tags.append(cappy.lower())
+        #            time.sleep(randomWaitTime())
+        #            close = driver.find_element(By.XPATH, "//span[text()='Done']")
+        #            parent = close.find_element(By.XPATH, "..")
+        #            parent.click()
+        #        time.sleep(randomWaitTime())
 
-            job_posting ={
-                    "title": title,
-                    "company": companyName,
-                    "location": location,
-                    "applicationURL": applicationURL,
-                    "postedDate": posted,
-                    "imageURL": image,
-                    "tags": tags,
-                    "priority": priority
-                }
-            job_postings_list.append(job_posting)
-            with open("jobs.json", "w") as outfile:
-                json.dump(job_postings_list,outfile)
-            time.sleep(randomWaitTime())
-            #print(job_postings_list)
-            time.sleep(randomWaitTime())
-            with open("jobs.json", "r") as outfile:
-                sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
-            with open("jobs.json", "w") as outfile:
-                json.dump(sorted_job_list, outfile)
-    githubUpdates.git_push()
+                job_posting ={
+                        "title": title,
+                        "company": companyName,
+                        "location": location,
+                        "applicationURL": applicationURL,
+                        "postedDate": posted,
+                        "imageURL": image,
+                        "tags": tags,
+                        "priority": priority
+                    }
+                job_postings_list.append(job_posting)
+                with open("jobs.json", "w") as outfile:
+                    json.dump(job_postings_list,outfile)
+                time.sleep(randomWaitTime())
+                #print(job_postings_list)
+                time.sleep(randomWaitTime())
+                with open("jobs.json", "r") as outfile:
+                    sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
+                with open("jobs.json", "w") as outfile:
+                    json.dump(sorted_job_list, outfile)
+        githubUpdates.git_push()
     if page != 0:
         element = driver.find_element(By.XPATH, "//button[contains(@aria-label,'Page " + str(page) + "')]").click()
     time.sleep(randomWaitTime()*2)
