@@ -113,7 +113,7 @@ def harvest(link,type,page,priority): #0 = top of page
                 if t in title.lower():
                     tags.append(t)
             if "manufacturing" in title.lower() and "manufacturing" not in tags:
-                tags.append("internship")
+                tags.append("manufacturing")
             if type == "intern":
                 tags.append("internship")
             if type == ("ft"):
@@ -211,13 +211,13 @@ harvest(topCompaniesInternship,"intern",1,0)
 shuffle()
 print("harvested top internships")
 time.sleep(randomWaitTime())
-harvest(topCompaniesInternship,"intern",2,0)
+harvest(topCompaniesInternship,"ft",2,0)
 print("harvested top internships")
 shuffle()
 
 time.sleep(randomWaitTime())
 for page in pages:
-    harvest(highVolumeInternship,"ft",page,1)
+    harvest(highVolumeInternship,"intern",page,1)
 shuffle()
 print("harvested high volume internships")
 
@@ -239,5 +239,5 @@ for page in pages:
 shuffle()
 
 for page in pages:
-    harvest(allJobs,page,4)
+    harvest(allJobs,"ft",page,4)
 shuffle()
