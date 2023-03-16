@@ -41,7 +41,7 @@ keyTags = ["co-op","internship","manufacturing","autodesk inventor","finite elem
 linkedInLogin = ("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
 # One-line dictionary comprehension to format the dictionary
 
-pages = ["1","2","3","4","5","6"]
+pages = ["1","2","3","4","5"]
 
 def randomWaitTime():
     r1 = random.randint(1, 4)
