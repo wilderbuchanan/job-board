@@ -62,10 +62,7 @@ password.clear()
 password.send_keys(Password)
 time.sleep(randomWaitTime())
 password.send_keys(Keys.RETURN)
-
-element = WebDriverWait(driver, 60).until( EC.presence_of_element_located((By.ID, "main")))
-time.sleep(randomWaitTime()*2)
-print("Home")
+time.sleep(randomWaitTime()*3)
 
 
 def harvest(link,type,page,priority): #0 = top of page
