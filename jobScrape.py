@@ -69,9 +69,6 @@ time.sleep(randomWaitTime()*3)
 def harvest(link,type,page,priority): #0 = top of page
     while True:
         try:
-            current_page_element = driver.find_element(By.XPATH, "//li[@aria-current='true']//span")
-            current_page = int(current_page_element.text)
-            print("Processing page:", current_page)
             driver.get(link)
             time.sleep(randomWaitTime()*2)
             driver.execute_script("document.body.style.zoom='30%'")
@@ -196,9 +193,9 @@ def harvest(link,type,page,priority): #0 = top of page
                     with open("jobs.json", "w") as outfile:
                         json.dump(sorted_job_list, outfile)
             githubUpdates.git_push()
-            if page != 0:
-                element = driver.find_element(By.XPATH, "//button[contains(@aria-label,'Page " + str(page) + "')]").click()
-            time.sleep(randomWaitTime()*2)
+            current_page_element = driver.find_element(By.XPATH, "//li[@aria-current='true']//span")
+            current_page = int(current_page_element.text)
+            print("Processing page:", current_page)
         except NoSuchElementException:
             print("Page selector bar not found. Exiting the loop.")
             break
