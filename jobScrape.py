@@ -230,33 +230,24 @@ harvest(topCompaniesInternship,"intern",1,0)
 shuffle()
 print("harvested top internships")
 time.sleep(randomWaitTime())
-harvest(topCompaniesInternship,"ft",2,0)
-print("harvested top internships")
-shuffle()
 
 time.sleep(randomWaitTime())
-for page in pages:
-    harvest(highVolumeInternship,"intern",page,1)
+harvest(highVolumeInternship,"intern",page,1)
 shuffle()
 print("harvested high volume internships")
 
-time.sleep(randomWaitTime())
-for page in pages:
-    harvest(topCompanies,"ft",page,2)
+
+harvest(topCompanies,"ft",page,2)
 shuffle()
 print("harvested top companies")
 
 time.sleep(randomWaitTime())
-for page in pages:
-    harvest(highVolumeFullTime,"ft",page,3)
+harvest(highVolumeFullTime,"ft",page,3)
 shuffle()
 print("harvested high volume companies")
 
-time.sleep(randomWaitTime())
-for page in pages:
-    harvest(allInternships,"intern",page,4)
+harvest(allInternships,"intern",page,4)
 shuffle()
 
-for page in pages:
-    harvest(allJobs,"ft",page,4)
+harvest(allJobs,"ft",page,4)
 shuffle()
