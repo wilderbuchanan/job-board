@@ -16,6 +16,8 @@ import uuid
 import json
 import githubUpdates
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
 
 current_page = 1
 jobSearch = "Mechanical Engineering Internship"
@@ -48,9 +50,6 @@ def randomWaitTime():
     r1 = random.randint(1, 4)
     return r1
 
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options
-from selenium import webdriver
 
 # Path to geckodriver executable
 geckodriver_path = '/home/ubuntu/geckodriver-v0.30.0-linux64/geckodriver'
