@@ -142,7 +142,7 @@ def harvest(link,type,page,priority): #0 = top of page
                     buttons = driver.find_elements(By.CLASS_NAME,"jobs-apply-button")
                     #print(buttons)
                     if len(buttons) > 0:
-                        print("got url")
+                        #print("got url")
                         apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                         time.sleep(randomWaitTime())
                         driver.switch_to.window(driver.window_handles[1])
@@ -156,21 +156,6 @@ def harvest(link,type,page,priority): #0 = top of page
                         time.sleep(randomWaitTime())
                     else:
                         applicationURL = "https://www.hardwareishard.net/job-board"
-        # SKILL CAPTURE HAS BEEN COMMENTED OUT FOR SPEED AND REABILITY
-            #        if len(driver.find_elements(By.XPATH, "//button[contains(@aria-label,'strong')]"))>0:
-            #            skills = driver.find_element(By.XPATH, "//button[contains(@aria-label,'strong')]").click()
-            #            time.sleep(randomWaitTime())
-            #            #caps = driver.find_elements(By.CLASS_NAME, "job-details-skill-match-status-list__unmatched-skill text-body-small")
-            #            caps = driver.find_elements(By.XPATH, "//div[contains(@aria-label,'Your')]")
-            #            for s in caps:
-            #                cappy = s.text
-            #                if cappy.lower() in keyTags:
-            #                    tags.append(cappy.lower())
-            #            time.sleep(randomWaitTime())
-            #            close = driver.find_element(By.XPATH, "//span[text()='Done']")
-            #            parent = close.find_element(By.XPATH, "..")
-            #            parent.click()
-            #        time.sleep(randomWaitTime())
 
                     job_posting ={
                             "title": title,
@@ -226,27 +211,27 @@ def shuffle():
     #print(sorted_data)
 
 
-harvest(topCompaniesInternship,"intern",1,0)
-shuffle()
-print("harvested top internships")
-time.sleep(randomWaitTime())
+#harvest(topCompaniesInternship,"intern",1,0)
+#shuffle()
+#print("harvested top internships")
+#time.sleep(randomWaitTime())
 
 time.sleep(randomWaitTime())
-harvest(highVolumeInternship,"intern",page,1)
+harvest(highVolumeInternship,"intern",1,1)
 shuffle()
 print("harvested high volume internships")
 
 
-harvest(topCompanies,"ft",page,2)
+harvest(topCompanies,"ft",1,2)
 shuffle()
 print("harvested top companies")
 
 time.sleep(randomWaitTime())
-harvest(highVolumeFullTime,"ft",page,3)
+harvest(highVolumeFullTime,"ft",1,3)
 shuffle()
 print("harvested high volume companies")
 
-harvest(allInternships,"intern",page,4)
+harvest(allInternships,"intern",1,4)
 shuffle()
 
 harvest(allJobs,"ft",page,4)
