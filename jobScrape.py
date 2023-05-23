@@ -52,7 +52,7 @@ def randomWaitTime():
 
 
 # Path to geckodriver executable
-geckodriver_path = '/home/ubuntu/geckodriver-v0.30.0-linux64/geckodriver'
+geckodriver_path = '/home/ubuntu/geckodriver'
 
 # Create a Service object
 service = Service(geckodriver_path)
