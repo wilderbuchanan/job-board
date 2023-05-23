@@ -234,5 +234,5 @@ print("harvested high volume companies")
 harvest(allInternships,"intern",1,4)
 shuffle()
 
-harvest(allJobs,"ft",page,4)
+harvest(allJobs,"ft",1,4)
 shuffle()
