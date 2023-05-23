@@ -140,7 +140,7 @@ def harvest(link,type,page,priority): #0 = top of page
                     except:
                         print("no post date")
                     buttons = driver.find_elements(By.CLASS_NAME,"jobs-apply-button")
-                    print(buttons)
+                    #print(buttons)
                     if len(buttons) > 0:
                         print("got url")
                         apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
