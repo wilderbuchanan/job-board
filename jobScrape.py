@@ -97,28 +97,45 @@ def harvest(link,type,page,priority): #0 = top of page
         if len(driver.find_elements(By.XPATH, "//span[text()='Easy Apply']")) == 0:
             time.sleep(randomWaitTime())
             jobID = str(uuid.uuid4())
-            title = e.find_element(By.CLASS_NAME,"job-card-list__title")
-            title = title.text
-            companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
-            companyName = companyName.text
-            location = e.find_element(By.CLASS_NAME,"job-card-container__metadata-item")
-            location = location.text
-            state = location[-2:]
-            state_name = state_codes_formatted.get(state)
-            tags.append(state_name)
-            for t in keyTags:
-                if t in title.lower():
-                    tags.append(t)
-            if "manufacturing" in title.lower() and "manufacturing" not in tags:
-                tags.append("manufacturing")
-            if type == "intern":
-                tags.append("internship")
-            if type == ("ft"):
-                tags.append("full-time")
-            image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
-            image = image.get_attribute("src")
-            posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
-            posted = posted.text
+
+            try:
+                title = e.find_element(By.CLASS_NAME,"job-card-list__title")
+                title = title.text
+            except Exception:
+                title = "None"
+
+            try:
+                companyName = e.find_element(By.CLASS_NAME, "job-card-container__primary-description") #  OLD: job-card-container__company-name
+                companyName = companyName.text
+            except Exception:
+                companyName = "None"
+            try:
+                location = e.find_element(By.CLASS_NAME,"job-card-container__metadata-item")
+                location = location.text
+                state = location[-2:]
+                state_name = state_codes_formatted.get(state)
+                tags.append(state_name)
+                for t in keyTags:
+                    if t in title.lower():
+                        tags.append(t)
+                if "manufacturing" in title.lower() and "manufacturing" not in tags:
+                    tags.append("manufacturing")
+                if type == "intern":
+                    tags.append("internship")
+                if type == ("ft"):
+                    tags.append("full-time")
+            except Exception:
+                print("no location")
+            try:
+                image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
+                image = image.get_attribute("src")
+            except Exception:
+                print("no image")
+            try:
+                posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
+                posted = posted.text
+            except:
+                print("no post date")
             buttons = driver.find_elements(By.CLASS_NAME,"jobs-apply-button")
             print(buttons)
             if len(buttons) > 0:
