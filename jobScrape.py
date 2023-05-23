@@ -48,7 +48,8 @@ def randomWaitTime():
     r1 = random.randint(1, 4)
     return r1
 
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(executable_path='/home/ubuntu/geckodriver-v0.30.0-linux64/geckodriver')
+
 driver.get(linkedInLogin)
 element = WebDriverWait(driver, 60).until( EC.presence_of_element_located((By.ID, "username")))
 time.sleep(randomWaitTime())
