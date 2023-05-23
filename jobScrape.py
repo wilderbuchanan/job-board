@@ -60,7 +60,8 @@ service = Service(geckodriver_path)
 
 # Configure Firefox options
 options = Options()
-options.headless = True  # Set to True if you want to run Firefox in headless mode
+options.add_argument('-headless')  # Set to True if you want to run Firefox in headless mode
+
 
 # Initialize the Firefox webdriver with the Service object and options
 driver = webdriver.Firefox(service=service, options=options)
