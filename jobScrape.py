@@ -48,8 +48,22 @@ def randomWaitTime():
     r1 = random.randint(1, 4)
     return r1
 
-driver = webdriver.Firefox(executable_path='/home/ubuntu/geckodriver-v0.30.0-linux64/geckodriver')
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
+from selenium import webdriver
 
+# Path to geckodriver executable
+geckodriver_path = '/home/ubuntu/geckodriver-v0.30.0-linux64/geckodriver'
+
+# Create a Service object
+service = Service(geckodriver_path)
+
+# Configure Firefox options
+options = Options()
+options.headless = True  # Set to True if you want to run Firefox in headless mode
+
+# Initialize the Firefox webdriver with the Service object and options
+driver = webdriver.Firefox(service=service, options=options)
 driver.get(linkedInLogin)
 element = WebDriverWait(driver, 60).until( EC.presence_of_element_located((By.ID, "username")))
 time.sleep(randomWaitTime())
