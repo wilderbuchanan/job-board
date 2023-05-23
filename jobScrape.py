@@ -39,7 +39,7 @@ state_codes_formatted = {code: name.lower().replace(' ', '-') for code, name in 
 
 keyTags = ["co-op","internship","manufacturing","autodesk inventor","finite element analysis (fea)","catia","computer-aided design (cad)","composites","aerodynamics", "Geometric Dimensioning & Tolerancing"," Tooling Design ","ITAR"]
 
-linkedInLogin = ("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
+linkedInLogin = "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
 # One-line dictionary comprehension to format the dictionary
 
 pages = ["1","2","3","4","5"]
