@@ -18,6 +18,13 @@ import githubUpdates
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
+import expressvpn
+
+client = expressvpn.Client()
+client.connect('us-lax')
+
+print('Connected to ExpressVPN LA server.')
+
 
 current_page = 1
 jobSearch = "Mechanical Engineering Internship"
@@ -272,3 +279,5 @@ shuffle()
 
 harvest(allJobs,"ft",1,4)
 shuffle()
+client.disconnect()
+print('Disconnected from ExpressVPN LA server.')
