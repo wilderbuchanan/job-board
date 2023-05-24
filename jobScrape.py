@@ -93,18 +93,18 @@ password.send_keys("Ryobi&Dewault")
 driver.save_screenshot('screenshot2.png')
 time.sleep(randomWaitTime())
 password.send_keys(Keys.RETURN)
-driver.save_screenshot('screenshot3.png')
-
 time.sleep(randomWaitTime()*3)
+driver.save_screenshot('screenshot3.png')
 print("logged in")
 def harvest(link,type,page,priority): #0 = top of page
     while True:
         try:
             print("in try statement")
+            driver.save_screenshot('screenshot4.png')
             driver.get(link)
             time.sleep(randomWaitTime()*2)
             print("made to webpage")
-            driver.save_screenshot('screenshot4.png')
+            driver.save_screenshot('screenshot5.png')
             driver.execute_script("document.body.style.zoom='30%'")
             print("zoomed")
             time.sleep(randomWaitTime())
