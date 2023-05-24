@@ -16,8 +16,6 @@ import uuid
 import json
 import githubUpdates
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options
 
 current_page = 1
 jobSearch = "Mechanical Engineering Internship"
@@ -41,7 +39,7 @@ state_codes_formatted = {code: name.lower().replace(' ', '-') for code, name in 
 
 keyTags = ["co-op","internship","manufacturing","autodesk inventor","finite element analysis (fea)","catia","computer-aided design (cad)","composites","aerodynamics", "Geometric Dimensioning & Tolerancing"," Tooling Design ","ITAR"]
 
-linkedInLogin = "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
+linkedInLogin = ("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
 # One-line dictionary comprehension to format the dictionary
 
 pages = ["1","2","3","4","5"]
@@ -50,23 +48,7 @@ def randomWaitTime():
     r1 = random.randint(1, 4)
     return r1
 
-
-# Path to geckodriver executable
-geckodriver_path = '/usr/local/bin/geckodriver'
-
-# Create a Service object
-service = Service(geckodriver_path)
-
-# Configure Firefox options
-options = Options()
-options.set_preference('fission.bfcacheInParent', False)
-options.set_preference('fission.webContentIsolationStrategy', 0)
-options.add_argument('-headless')
-options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
-
-# Initialize the Firefox webdriver with the Service object and options
-driver = webdriver.Firefox(service=service, options=options)
+driver = webdriver.Firefox()
 driver.get(linkedInLogin)
 element = WebDriverWait(driver, 60).until( EC.presence_of_element_located((By.ID, "username")))
 time.sleep(randomWaitTime())
@@ -82,18 +64,14 @@ password.send_keys(Password)
 time.sleep(randomWaitTime())
 password.send_keys(Keys.RETURN)
 time.sleep(randomWaitTime()*3)
-driver.save_screenshot('screenshot.png')
+
 
 def harvest(link,type,page,priority): #0 = top of page
     while True:
         try:
-            print("in try statement")
             driver.get(link)
             time.sleep(randomWaitTime()*2)
-            print("made to webpage")
-            driver.save_screenshot('screenshot2.png')
             driver.execute_script("document.body.style.zoom='30%'")
-            print("zoomed")
             time.sleep(randomWaitTime())
         #    element = driver.find_element(By.XPATH, "//button[contains(@aria-label,'Page')]")
             element = driver.find_element(By.XPATH, "//footer[contains(@aria-label,'LinkedIn Footer Content')]")

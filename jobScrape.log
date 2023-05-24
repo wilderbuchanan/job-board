@@ -1,0 +1,99 @@
+Some error occured while pushing the code
+Home
+found postings
+Traceback (most recent call last):
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 188, in <module>
+    harvest(topCompaniesInternship,1,0)
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 92, in harvest
+    title = e.find_element(By.CLASS_NAME,"job-card-list__title")
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 433, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <div class="job-card-container relative job-card-list
+    job-card-container--clickable
+    
+    job-card-list--underline-title-on-hover jobs-search-results-list__list-item--active jobs-search-two-pane__job-card-container--viewport-tracking-4"> is stale; either its node document is not the active document, or it is no longer connected to the DOM
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:461:5
+element.resolveElement@chrome://remote/content/marionette/element.sys.mjs:509:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:206:33
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:56:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:213:16
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:56:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:213:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:217:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:30
+
+Some error occured while pushing the code
+found postings
+Traceback (most recent call last):
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 207, in <module>
+    harvest(topCompaniesInternship,"intern",1,0)
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 102, in harvest
+    companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 433, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .job-card-container__company-name
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+Some error occured while pushing the code
+found postings
+Traceback (most recent call last):
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 207, in <module>
+    harvest(topCompaniesInternship,"intern",1,0)
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 102, in harvest
+    companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 433, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .job-card-container__company-name
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+Some error occured while pushing the code
+found postings
+Traceback (most recent call last):
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 207, in <module>
+    harvest(topCompaniesInternship,"intern",1,0)
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 102, in harvest
+    companyName = e.find_element(By.CLASS_NAME, "job-card-container__company-name")
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 433, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .job-card-container__company-name
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:180:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:392:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
