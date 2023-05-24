@@ -1,0 +1,32 @@
+1684911007130	geckodriver	INFO	Listening on 127.0.0.1:58173
+1684911007653	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileyNNzYc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684911008140	Marionette	INFO	Marionette enabled
+1684911008235	Marionette	INFO	Listening on port 58183
+Read port: 58183
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58174
+1684911008971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileyNNzYc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58174/devtools/browser/8b375bdb-4630-4ad7-9fd2-9620af8d47e2
+JavaScript warning: https://static.licdn.com/sc/h/wzq8hzk44dff7dipyoqsd5ef, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/wzq8hzk44dff7dipyoqsd5ef, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/7o53hxezl67kecj11x1pmh7ac, line 18930: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/73f17ccfo3cceotuihxd5ltmz, line 2576: unreachable code after return statement
+1684911024962	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/7o53hxezl67kecj11x1pmh7ac, line 18930: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/73f17ccfo3cceotuihxd5ltmz, line 2576: unreachable code after return statement
+1684911057748	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1684911083501	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
