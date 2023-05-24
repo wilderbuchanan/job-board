@@ -218,6 +218,7 @@ def harvest(link,type,page,priority): #0 = top of page
             print("Processing page:", current_page)
         except NoSuchElementException:
             print("Page selector bar not found. Exiting the loop.")
+            driver.quit()
             break
 def shuffle():
     # Load the JSON data
