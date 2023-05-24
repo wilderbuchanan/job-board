@@ -66,7 +66,11 @@ options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 print("exited options")
 # Initialize the Firefox webdriver with the Service object and options
-driver = webdriver.Firefox(service=service, options=options)
+try:
+    driver = webdriver.Firefox(service=service, options=options)
+    print("assigned driver")
+except Exception as e:
+    print("Error creating webdriver:", e)
 print("assigned driver")
 driver.get(linkedInLogin)
 print("on login page)")
