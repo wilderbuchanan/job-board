@@ -56,7 +56,7 @@ geckodriver_path = '/usr/local/bin/geckodriver'
 
 # Create a Service object
 service = Service(geckodriver_path)
-
+print("in options section")
 # Configure Firefox options
 options = Options()
 options.set_preference('fission.bfcacheInParent', False)
@@ -64,26 +64,29 @@ options.set_preference('fission.webContentIsolationStrategy', 0)
 options.add_argument('-headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
-
+print("exited options")
 # Initialize the Firefox webdriver with the Service object and options
 driver = webdriver.Firefox(service=service, options=options)
+print("assigned driver")
 driver.get(linkedInLogin)
+print("on login page)")
 element = WebDriverWait(driver, 60).until( EC.presence_of_element_located((By.ID, "username")))
 time.sleep(randomWaitTime())
-
+driver.save_screenshot('screenshot.png')
 email = driver.find_element(By.ID, "username")
+print("found username")
 email.clear()
 email.send_keys(Email)
 time.sleep(randomWaitTime())
 
 password = driver.find_element(By.ID, "password")
+print("found password")
 password.clear()
 password.send_keys(Password)
 time.sleep(randomWaitTime())
 password.send_keys(Keys.RETURN)
 time.sleep(randomWaitTime()*3)
-driver.save_screenshot('screenshot.png')
-
+print("logged in")
 def harvest(link,type,page,priority): #0 = top of page
     while True:
         try:
