@@ -59,6 +59,8 @@ service = Service(geckodriver_path)
 
 # Configure Firefox options
 options = Options()
+options.set_preference('fission.bfcacheInParent', False)
+options.set_preference('fission.webContentIsolationStrategy', 0)
 options.add_argument('-headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
