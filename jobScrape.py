@@ -59,8 +59,9 @@ service = Service(geckodriver_path)
 
 # Configure Firefox options
 options = Options()
-options.add_argument('-headless')  # Set to True if you want to run Firefox in headless mode
-
+options.headless = True
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
 
 # Initialize the Firefox webdriver with the Service object and options
 driver = webdriver.Firefox(service=service, options=options)
