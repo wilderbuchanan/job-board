@@ -19,9 +19,14 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 import expressvpn
+print("connecting")
+from expressvpn import connect
+try:
+    connect()
+    print("connected")
+except:
+    print("failed")
 
-client = expressvpn.Client()
-client.connect('us-lax')
 
 print('Connected to ExpressVPN LA server.')
 
