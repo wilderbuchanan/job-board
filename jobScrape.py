@@ -189,6 +189,8 @@ def harvest(link,type,page,priority): #0 = top of page
                     #print("got url")
                     apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                     time.sleep(randomWaitTime())
+                    continueAgain = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
+                    time.sleep(randomWaitTime())
                     driver.switch_to.window(driver.window_handles[1])
                     time.sleep(randomWaitTime())
                     applicationURL = driver.current_url
@@ -257,8 +259,8 @@ def shuffle():
 for p in pages:
     harvest(topCompaniesInternship,"intern",p,0)
 shuffle()
-#print("harvested top internships")
-#time.sleep(randomWaitTime())
+print("harvested top internships")
+time.sleep(randomWaitTime())
 
 time.sleep(randomWaitTime())
 harvest(highVolumeInternship,"intern",1,1)
