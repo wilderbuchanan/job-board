@@ -282,3 +282,41 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1685552878638	geckodriver	INFO	Listening on 127.0.0.1:58521
+1685552879156	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofilejXTfOG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685552879746	Marionette	INFO	Marionette enabled
+1685552880055	Marionette	INFO	Listening on port 58527
+Read port: 58527
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:58522
+1685552880364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofilejXTfOG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58522/devtools/browser/17a9ce14-dada-43a8-affe-8fc9138c3e1a
+JavaScript warning: https://static.licdn.com/sc/h/dntdjvo4gh4my7f5q2x3t335c, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/dntdjvo4gh4my7f5q2x3t335c, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/2re9fcfkk10w5afbbtw7onaze, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/fvhnvenrrv7pmy4k0kk81laa, line 2578: unreachable code after return statement
+1685552905334	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/2re9fcfkk10w5afbbtw7onaze, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/fvhnvenrrv7pmy4k0kk81laa, line 2578: unreachable code after return statement
+1685552933650	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://static.licdn.com/sc/h/9vghoawmkb5fvzav7oabel24l, line 7005: uncaught exception: Object
+console.error: "Unable to find target with innerWindowId:4294967315"
+console.warn: "Async method failed in safeAsyncMethod" (new Error("The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown", "resource://devtools/client/fronts/inspector.js", 148))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://static.licdn.com/sc/h/nf58ki2bni4n4pbrvbrs703o, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9e5ncjocfsx88am8b632dgoff, line 2580: unreachable code after return statement
+JavaScript error: resource://devtools/shared/layout/utils.js, line 47: TypeError: win is null
+JavaScript warning: https://static.licdn.com/sc/h/nf58ki2bni4n4pbrvbrs703o, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9e5ncjocfsx88am8b632dgoff, line 2580: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+1685554159916	Marionette	INFO	Stopped listening on port 58527
