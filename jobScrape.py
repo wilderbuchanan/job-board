@@ -22,7 +22,7 @@ import expressvpn
 
 
 
-pageKey["","&start=25","&start=50","&start=75","&start=100"]
+pageKey = ["","&start=25","&start=50","&start=75","&start=100"]
 current_page = 1
 jobSearch = "Mechanical Engineering Internship"
 searchDestination = "United States"
