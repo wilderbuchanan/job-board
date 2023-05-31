@@ -1383,3 +1383,123 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
 JavaScript warning: https://www.youtube.com/embed/AVdv-Uy07rQ line 801 > injectedScript line 2 > eval line 1802 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/nf58ki2bni4n4pbrvbrs703o, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9e5ncjocfsx88am8b632dgoff, line 2580: unreachable code after return statement
+1685558905682	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685558909010	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685558909814	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript warning: https://www.google.com/js/th/JF2eii1kyhF9uLrjdHdlzksnpph7hdM6Lhf1MY88MeI.js line 2 > eval line 935 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685558932016	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685558933764	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685558934838	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685558937144	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript warning: https://www.google.com/js/th/JF2eii1kyhF9uLrjdHdlzksnpph7hdM6Lhf1MY88MeI.js line 2 > eval line 3834 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685558956127	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685558958974	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685558958994	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685558960650	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/JF2eii1kyhF9uLrjdHdlzksnpph7hdM6Lhf1MY88MeI.js line 2 > eval line 1864 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+1685558985958	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685558988084	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685558988850	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript warning: https://www.youtube.com/embed/dHgeq9QSCcw line 801 > injectedScript line 2 > eval line 4232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685559014113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685559015728	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559016654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.youtube.com/embed/dHgeq9QSCcw line 801 > injectedScript line 2 > eval line 7424 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685559042497	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685559044788	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+1685559048820	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.youtube.com/embed/AVdv-Uy07rQ line 801 > injectedScript line 2 > eval line 5250 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685559062113	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559070321	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685559071330	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559072311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+1685559098322	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685559101250	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+1685559102555	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/JF2eii1kyhF9uLrjdHdlzksnpph7hdM6Lhf1MY88MeI.js line 2 > eval line 3957 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685559114227	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559123527	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559125647	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1685559126352	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559127978	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+JavaScript warning: https://www.google.com/js/th/JF2eii1kyhF9uLrjdHdlzksnpph7hdM6Lhf1MY88MeI.js line 2 > eval line 946 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
+1685559141723	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685559155204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
