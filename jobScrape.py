@@ -257,30 +257,37 @@ def shuffle():
     #print(sorted_data)
 
 for p in pages:
+    time.sleep(randomWaitTime())
     harvest(topCompaniesInternship,"intern",p,0)
 shuffle()
 print("harvested top internships")
-time.sleep(randomWaitTime())
 
-time.sleep(randomWaitTime())
-harvest(highVolumeInternship,"intern",1,1)
+for p in pages:
+    time.sleep(randomWaitTime())
+    harvest(highVolumeInternship,"intern",p,1)
 shuffle()
 print("harvested high volume internships")
 
-
-harvest(topCompanies,"ft",1,2)
+for p in pages:
+    time.sleep(randomWaitTime())
+    harvest(topCompanies,"ft",1,2)
 shuffle()
 print("harvested top companies")
 
-time.sleep(randomWaitTime())
-harvest(highVolumeFullTime,"ft",1,3)
+for p in pages:
+    time.sleep(randomWaitTime())
+    harvest(highVolumeFullTime,"ft",1,3)
 shuffle()
 print("harvested high volume companies")
 
-harvest(allInternships,"intern",1,4)
+for p in pages:
+    time.sleep(randomWaitTime())
+    harvest(allInternships,"intern",1,4)
 shuffle()
+print("harvested all internships")
 
-harvest(allJobs,"ft",1,4)
+for p in pages:
+    time.sleep(randomWaitTime())
+    harvest(allJobs,"ft",1,4)
 shuffle()
-client.disconnect()
-print('Disconnected from ExpressVPN LA server.')
+print("harvested all jobs")
