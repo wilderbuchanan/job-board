@@ -401,3 +401,25 @@ JavaScript warning: https://static.licdn.com/sc/h/9e5ncjocfsx88am8b632dgoff, lin
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript error: , line 0: uncaught exception: Object
+1685554717874	geckodriver	INFO	Listening on 127.0.0.1:59202
+1685554717884	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofile8SAVMp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685554718359	Marionette	INFO	Marionette enabled
+1685554718751	Marionette	INFO	Listening on port 59206
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 59206
+WebDriver BiDi listening on ws://127.0.0.1:59203
+1685554718892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofile8SAVMp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59203/devtools/browser/7fc645d3-25e5-4e15-9cdd-85355d1ed57e
+JavaScript warning: https://static.licdn.com/sc/h/dntdjvo4gh4my7f5q2x3t335c, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/dntdjvo4gh4my7f5q2x3t335c, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/nf58ki2bni4n4pbrvbrs703o, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9e5ncjocfsx88am8b632dgoff, line 2580: unreachable code after return statement
+1685554742622	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/nf58ki2bni4n4pbrvbrs703o, line 18951: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9e5ncjocfsx88am8b632dgoff, line 2580: unreachable code after return statement
