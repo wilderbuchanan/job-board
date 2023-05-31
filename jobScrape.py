@@ -109,7 +109,7 @@ print("logged in")
 def harvest(link,type,page,priority): #0 = top of page
     print("in try statement")
     driver.save_screenshot('screenshot4.png')
-    driver.get(link+pageKey[1+page])
+    driver.get(link + pageKey[1 + int(page)])
     time.sleep(randomWaitTime()*2)
     print("made to webpage")
     driver.save_screenshot('screenshot5.png')
