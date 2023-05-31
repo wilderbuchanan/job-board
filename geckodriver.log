@@ -705,3 +705,4 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/HONEUS/en_us/desktop/assets/scripts/1599478731403-custom.js?v=1, line 644: TypeError: document.querySelector(...) is null
 1685555998719	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 JavaScript warning: https://www.youtube.com/embed/AVdv-Uy07rQ line 801 > injectedScript line 2 > eval line 5170 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
