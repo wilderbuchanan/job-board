@@ -2734,3 +2734,17 @@ TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1685924014619	geckodriver	INFO	Listening on 127.0.0.1:55749
+1685924015169	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofiletBVcIX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685924016260	Marionette	INFO	Marionette enabled
+1685924016491	Marionette	INFO	Listening on port 55758
+Read port: 55758
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55750
+1685924017121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55750/devtools/browser/0d727065-ad20-437a-9575-c30cf97e4367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Grx7oFpFltq8b-fsl1vgPlw_mz8UVJv5RtxGiy-srTQ.js line 2 > eval line 3416 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
