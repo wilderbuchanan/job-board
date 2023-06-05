@@ -2984,3 +2984,32 @@ WebDriver BiDi listening on ws://127.0.0.1:55618
 [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
 DevTools listening on ws://127.0.0.1:55618/devtools/browser/39782d3d-5b12-4213-ad8b-81d62ef653e0
 JavaScript warning: https://pagead2.googlesyndication.com/bg/VQdDSOd05UIjXCKVon8X_ASAqVpdX2ccZF2BDi7w8G4.js line 2 > eval line 6673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685927111663	geckodriver	INFO	Listening on 127.0.0.1:55907
+1685927112192	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileCECr6P"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1685927112640	Marionette	INFO	Marionette enabled
+1685927112747	Marionette	INFO	Listening on port 55913
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 55913
+WebDriver BiDi listening on ws://127.0.0.1:55908
+1685927113113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55908/devtools/browser/e6f0c6d5-d916-4a96-84db-cc03826b2078
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VQdDSOd05UIjXCKVon8X_ASAqVpdX2ccZF2BDi7w8G4.js line 2 > eval line 2098 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://whatismyipaddress.com/wp-content/plugins/svg-support/js/min/svgs-inline-min.js?ver=1.0.0, line 1: ReferenceError: frontSanitizationEnabled is not defined
+JavaScript error: https://whatismyipaddress.com/wp-content/plugins/svg-support/js/min/svgs-inline-min.js?ver=1.0.0, line 1: ReferenceError: frontSanitizationEnabled is not defined
+JavaScript error: https://whatismyipaddress.com/wp-content/plugins/svg-support/js/min/svgs-inline-min.js?ver=1.0.0, line 1: ReferenceError: frontSanitizationEnabled is not defined
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VQdDSOd05UIjXCKVon8X_ASAqVpdX2ccZF2BDi7w8G4.js line 2 > eval line 838 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VQdDSOd05UIjXCKVon8X_ASAqVpdX2ccZF2BDi7w8G4.js line 2 > eval line 4397 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VQdDSOd05UIjXCKVon8X_ASAqVpdX2ccZF2BDi7w8G4.js line 2 > eval line 6597 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VQdDSOd05UIjXCKVon8X_ASAqVpdX2ccZF2BDi7w8G4.js line 2 > eval line 1260 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/021tMgbmWdpib38qUft40v3Y3wOFK7xcDKTuj95SMW0.js line 2 > eval line 2223 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
