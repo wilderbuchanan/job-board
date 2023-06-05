@@ -167,6 +167,10 @@ def harvest(link,type,page,priority): #0 = top of page
                             tags.append(t)
                     if "manufacturing" in title.lower() and "manufacturing" not in tags:
                         tags.append("manufacturing")
+                    if "product" in title.lower() and "product design" not in tags:
+                        tags.append("product design")
+                    if "system" in title.lower() and "product design" not in tags:
+                        tags.append("product design")
                     if type == "intern":
                         tags.append("internship")
                     if type == ("ft"):
