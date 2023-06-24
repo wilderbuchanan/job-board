@@ -4230,3 +4230,89 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: unreachable code after return statement
 JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.24/dist/core.js, line 9: unreachable code after return statement
 JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/f2xbzhpzvdqr0xdqxgf4qy71i, line 19399: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/3k7b8xhdhgeimz9vmzeudw8tp, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/5o8xni4k9ojgg2l6ecw69dhnr, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5o8xni4k9ojgg2l6ecw69dhnr, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: unreachable code after return statement
+JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.24/dist/core.js, line 9: unreachable code after return statement
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687645597854	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: unreachable code after return statement
+JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.24/dist/core.js, line 9: unreachable code after return statement
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687645626450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645655560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645669786	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.error: ({})
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://recruiting.ultipro.com."
+1687645682903	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1687645683041	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://recruiting.ultipro.com."
+1687645684686	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1687645716916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645747995	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645780543	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645795836	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.error: ({})
+1687645807037	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.error: ({})
+1687645808167	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1687645810117	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js, line 2801: unreachable code after return statement
+1687645826421	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: unreachable code after return statement
+JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.24/dist/core.js, line 9: unreachable code after return statement
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687645840902	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: unreachable code after return statement
+JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
