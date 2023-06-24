@@ -4316,3 +4316,107 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mj
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
 JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: unreachable code after return statement
 JavaScript warning: https://us231.dayforcehcm.com/3voR9-0KtPbJ6czlM3QB/apEuhmhtmkV55u/W2wAV3k9/bB5NDFU/YXCw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/f2xbzhpzvdqr0xdqxgf4qy71i, line 19399: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/3k7b8xhdhgeimz9vmzeudw8tp, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/5o8xni4k9ojgg2l6ecw69dhnr, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5o8xni4k9ojgg2l6ecw69dhnr, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687645904915	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645933482	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+send@https://itron.referrals.selectminds.com/jquery/jquery-3.6.0.min.js:2:82714
+ajax@https://itron.referrals.selectminds.com/jquery/jquery-3.6.0.min.js:2:78291
+TVAPP.ajaxIncludeContent@https://itron.referrals.selectminds.com/desktop.js?v=apptss.2023.PRD.2.0.37:516:7
+TVAPP.refreshUserBindings@https://itron.referrals.selectminds.com/desktop.js?v=apptss.2023.PRD.2.0.37:2489:18
+TVAPP.pageInit@https://itron.referrals.selectminds.com/desktop.js?v=apptss.2023.PRD.2.0.37:2965:9
+jsQueue<@https://itron.referrals.selectminds.com/jobs/intern-r-d-mechanical-design-engineer-5741:1183:9
+x@https://itron.referrals.selectminds.com/LAB.min.js:5:3686
+U@https://itron.referrals.selectminds.com/LAB.min.js:5:3629
+j@https://itron.referrals.selectminds.com/LAB.min.js:5:2874
+I@https://itron.referrals.selectminds.com/LAB.min.js:5:1393
+J/S/<@https://itron.referrals.selectminds.com/LAB.min.js:5:3310
+t/a.onreadystatechange@https://itron.referrals.selectminds.com/LAB.min.js:5:1280
+1687645960394	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687645991632	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687646021179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687646025903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687646056834	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687646070029	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } in compound statement
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 3057
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 9991
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 28299
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 32076
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: { opened at line 149, column 2135
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: SyntaxError: expected property name, got end of script
+1687646082370	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1687646082385	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://platform.twitter.com/js/button.dd024c345fc26f7c7a8d9938b67e5d3d.js, line 1: TypeError: r.prototype is not an object or null
+1687646083562	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } in compound statement
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 3057
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 9991
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 28299
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 32076
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: SyntaxError: missing } after function body
+JavaScript note: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: { opened at line 149, column 2135
+JavaScript error: https://careers-cnhind.icims.com/jobs/24508/engineering-test-lab-college-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: SyntaxError: expected property name, got end of script
+JavaScript error: https://platform.twitter.com/js/button.dd024c345fc26f7c7a8d9938b67e5d3d.js, line 1: TypeError: r.prototype is not an object or null
+1687646083846	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1687646083856	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1687646084789	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1687646086583	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://widget.altrulabs.com/main.js, line 2: TypeError: document.querySelector(...) is null
+JavaScript warning: https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js, line 2801: unreachable code after return statement
+JavaScript warning: https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js, line 2801: unreachable code after return statement
+1687646100123	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687646114973	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
