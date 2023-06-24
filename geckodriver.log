@@ -4768,3 +4768,10 @@ TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
 JavaScript error: https://www.northropgrumman.com/jobs/engineering/mechanical/united-states-of-america/arizona/gilbert/r10114127/engineer-mechanical/?source=JB-18202&utm_audience=null&utm_campaign=engineering2&utm_code=JB-18202&utm_content=null&utm_format=null&utm_medium=jobboard&utm_source=linkedin-organic&jClickId=7e9898fc-e69b-43b9-a254-5a955efe6c5f, line 2993: ReferenceError: searchEngine is not defined
+JavaScript warning: https://static.licdn.com/sc/h/f2xbzhpzvdqr0xdqxgf4qy71i, line 19399: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/3k7b8xhdhgeimz9vmzeudw8tp, line 2571: unreachable code after return statement
+1687647485360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
