@@ -5229,3 +5229,4 @@ TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: uncaught exception: Object
