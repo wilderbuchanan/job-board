@@ -4964,3 +4964,36 @@ WebDriver BiDi listening on ws://127.0.0.1:52708
 DevTools listening on ws://127.0.0.1:52708/devtools/browser/2c79c2a4-4251-4709-9cf7-201b08ef1067
 JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687998959860	geckodriver	INFO	Listening on 127.0.0.1:52830
+1687998960383	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileO5WUde"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687998960822	Marionette	INFO	Marionette enabled
+1687998961202	Marionette	INFO	Listening on port 52838
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:52831
+Read port: 52838
+1687998961471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52831/devtools/browser/189d0d03-084e-45c5-ba60-044e795be9b2
+JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/bll9gnaki8u50flcw1mkblivz, line 19450: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/86k1epx3dk3z25bejcpjkdk6n, line 2571: unreachable code after return statement
+1687998980438	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687998988994	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.licdn.com/sc/h/bll9gnaki8u50flcw1mkblivz, line 19450: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/86k1epx3dk3z25bejcpjkdk6n, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687999002199	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/JJPLUS/en_us/desktop/assets/scripts/1619108531628-custom.js, line 175: TypeError: getHeroBlack is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
