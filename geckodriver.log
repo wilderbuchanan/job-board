@@ -5043,3 +5043,33 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
 1688000051230	Marionette	INFO	Stopped listening on port 53242
 1688000053212	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1688000433616	geckodriver	INFO	Listening on 127.0.0.1:53448
+1688000434133	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileJ6vinq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688000434608	Marionette	INFO	Marionette enabled
+1688000434721	Marionette	INFO	Listening on port 53456
+Read port: 53456
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:53449
+1688000435140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53449/devtools/browser/a2afaddb-bbdd-4b8a-aa34-1bd61e385edd
+JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/bll9gnaki8u50flcw1mkblivz, line 19450: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/86k1epx3dk3z25bejcpjkdk6n, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/bll9gnaki8u50flcw1mkblivz, line 19450: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/86k1epx3dk3z25bejcpjkdk6n, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688000472324	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+1688000540111	Marionette	INFO	Stopped listening on port 53456
+1688000543737	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
