@@ -5073,3 +5073,5 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
 1688000540111	Marionette	INFO	Stopped listening on port 53456
 1688000543737	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1688005161763	Marionette	INFO	Stopped listening on port 52715
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
