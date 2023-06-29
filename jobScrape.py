@@ -105,14 +105,6 @@ print("logged in")
 
 ## FUNCTIONS
 def harvest(link,type,page,priority):
-    job_postings_list = []
-    if page == 1:
-        with open("jobs.json") as infile:
-            job_postings_list = json.load(infile)
-        job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
-        with open("jobs.json", "w") as outfile:
-            json.dump(job_postings_list, outfile) #0 = top of page
-        print("deleting old entries")
     driver.get(link + pageKey[1 - int(page)])
     time.sleep(randomWaitTime()*2)
     print("made to webpage")
@@ -267,41 +259,64 @@ def delete_duplicate_entries():
 
     with open("jobs.json", "w") as outfile:
         json.dump(unique_job_postings, outfile)
+def delete_jobs_by_priority(priority):
+    try:
+        # Load the JSON data
+        with open('jobs.json', 'r') as file:
+            job_postings_list = json.load(file)
+    except FileNotFoundError:
+        print("File not found.")
+        return
+
+    # Filter out entries with the specified priority
+    filtered_job_postings = [job for job in job_postings_list if job['priority'] != priority]
+
+    # Write the filtered list back to the JSON file
+    with open('jobs.json', 'w') as file:
+        json.dump(filtered_job_postings, file)
 
 
+###### LIVE CODE #################
+
+delete_jobs_by_priority(0)
 for p in pages:
     time.sleep(randomWaitTime())
     harvest(topCompaniesInternship,"intern",p,0)
 shuffle()
 print("harvested top internships")
 
+delete_jobs_by_priority(1)
 for p in pages:
     time.sleep(randomWaitTime())
     harvest(highVolumeInternship,"intern",p,1)
 shuffle()
 print("harvested high volume internships")
 
+delete_jobs_by_priority(2)
 for p in pages:
     time.sleep(randomWaitTime())
     harvest(topCompanies,"ft",p,2)
 shuffle()
 print("harvested top companies")
 
+delete_jobs_by_priority(3)
 for p in pages:
     time.sleep(randomWaitTime())
     harvest(highVolumeFullTime,"ft",p,3)
 shuffle()
 print("harvested high volume companies")
 
+delete_jobs_by_priority(4)
 for p in pages:
     time.sleep(randomWaitTime())
     harvest(allInternships,"intern",p,4)
 shuffle()
 print("harvested all internships")
 
+delete_jobs_by_priority(5)
 for p in pages:
     time.sleep(randomWaitTime())
-    harvest(allJobs,"ft",p,4)
+    harvest(allJobs,"ft",p,5)
 shuffle()
 print("harvested all jobs")
 delete_duplicate_entries()
