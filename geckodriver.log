@@ -5451,3 +5451,36 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1688010796031	geckodriver	INFO	Listening on 127.0.0.1:55653
+1688010796545	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofile7EOFVs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688010797389	Marionette	INFO	Marionette enabled
+1688010797544	Marionette	INFO	Listening on port 55661
+Read port: 55661
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:55654
+1688010798269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55654/devtools/browser/52513878-e893-4205-beaf-0f8653ed4ef6
+JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/ep60svikd1vvyt09hil0utv2t, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/bll9gnaki8u50flcw1mkblivz, line 19450: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/86k1epx3dk3z25bejcpjkdk6n, line 2571: unreachable code after return statement
+1688010816178	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/bll9gnaki8u50flcw1mkblivz, line 19450: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/86k1epx3dk3z25bejcpjkdk6n, line 2571: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1163: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/4uwfrrt0otqq673umcz5cr5e6, line 1159: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688010834547	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/JJPLUS/en_us/desktop/assets/scripts/1619108531628-custom.js, line 160: TypeError: getHeroBlack is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
