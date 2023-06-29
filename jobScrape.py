@@ -149,8 +149,7 @@ def harvest(link,type,page,priority): #0 = top of page
                     title = e.find_element(By.CLASS_NAME,"job-card-list__title")
                     title = title.text
                 except Exception:
-                    title = "None"
-
+                    title = "Mechanical Engineer"
                 try:
                     companyName = e.find_element(By.CLASS_NAME, "job-card-container__primary-description") #  OLD: job-card-container__company-name
                     companyName = companyName.text
@@ -171,7 +170,7 @@ def harvest(link,type,page,priority): #0 = top of page
                         tags.append("product design")
                     if "system" in title.lower() and "product design" not in tags:
                         tags.append("product design")
-                    if type == "intern":
+                    if type == "intern" and "internship" not in tags:
                         tags.append("internship")
                     if type == ("ft"):
                         tags.append("full-time")
@@ -193,7 +192,7 @@ def harvest(link,type,page,priority): #0 = top of page
                     #print("got url")
                     apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                     time.sleep(randomWaitTime())
-                    continueAgain = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
+                    #continueAgain = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                     time.sleep(randomWaitTime())
                     driver.switch_to.window(driver.window_handles[1])
                     time.sleep(randomWaitTime())
@@ -259,6 +258,22 @@ def shuffle():
         json.dump(sorted_data, f)
     # Print the sorted and shuffled data
     #print(sorted_data)
+def delete_duplicate_entries():
+    with open("jobs.json", "r") as infile:
+        job_postings_list = json.load(infile)
+
+    unique_job_postings = []
+    titles = set()
+
+    for job in job_postings_list:
+        if job['title'] not in titles:
+            unique_job_postings.append(job)
+            titles.add(job['title'])
+
+    with open("jobs.json", "w") as outfile:
+        json.dump(unique_job_postings, outfile)
+
+# Call the function to delete duplicate entries
 
 for p in pages:
     time.sleep(randomWaitTime())
@@ -295,3 +310,4 @@ for p in pages:
     harvest(allJobs,"ft",1,4)
 shuffle()
 print("harvested all jobs")
+delete_duplicate_entries()
