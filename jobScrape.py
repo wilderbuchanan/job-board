@@ -97,22 +97,25 @@ print("found password")
 password.clear()
 time.sleep(randomWaitTime())
 password.send_keys("Ryobi&Dewault")
-driver.save_screenshot('screenshot2.png')
 time.sleep(randomWaitTime())
 password.send_keys(Keys.RETURN)
 time.sleep(randomWaitTime()*3)
-driver.save_screenshot('screenshot3.png')
 print("logged in")
 
 
 ## FUNCTIONS
-def harvest(link,type,page,priority): #0 = top of page
-    print("in try statement")
-    driver.save_screenshot('screenshot4.png')
+def harvest(link,type,page,priority):
+    job_postings_list = []
+    if page == 1:
+        with open("jobs.json") as infile:
+            job_postings_list = json.load(infile)
+        job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
+        with open("jobs.json", "w") as outfile:
+            json.dump(job_postings_list, outfile) #0 = top of page
+        print("deleting old entries")
     driver.get(link + pageKey[1 - int(page)])
     time.sleep(randomWaitTime()*2)
     print("made to webpage")
-    driver.save_screenshot('screenshot5.png')
     driver.execute_script("document.body.style.zoom='30%'")
     print("zoomed")
     time.sleep(randomWaitTime())
@@ -123,14 +126,6 @@ def harvest(link,type,page,priority): #0 = top of page
     try:
         jobPostings = driver.find_elements(By.CLASS_NAME,"job-card-container")
         print("found postings")
-        job_postings_list = []
-        if page == 1:
-            with open("jobs.json") as infile:
-                job_postings_list = json.load(infile)
-            job_postings_list = [job for job in job_postings_list if job['priority'] != priority]
-            with open("jobs.json", "w") as outfile:
-                json.dump(job_postings_list, outfile)
-
         for e in jobPostings:
 
             try:
@@ -273,7 +268,6 @@ def delete_duplicate_entries():
     with open("jobs.json", "w") as outfile:
         json.dump(unique_job_postings, outfile)
 
-# Call the function to delete duplicate entries
 
 for p in pages:
     time.sleep(randomWaitTime())
@@ -289,25 +283,25 @@ print("harvested high volume internships")
 
 for p in pages:
     time.sleep(randomWaitTime())
-    harvest(topCompanies,"ft",1,2)
+    harvest(topCompanies,"ft",p,2)
 shuffle()
 print("harvested top companies")
 
 for p in pages:
     time.sleep(randomWaitTime())
-    harvest(highVolumeFullTime,"ft",1,3)
+    harvest(highVolumeFullTime,"ft",p,3)
 shuffle()
 print("harvested high volume companies")
 
 for p in pages:
     time.sleep(randomWaitTime())
-    harvest(allInternships,"intern",1,4)
+    harvest(allInternships,"intern",p,4)
 shuffle()
 print("harvested all internships")
 
 for p in pages:
     time.sleep(randomWaitTime())
-    harvest(allJobs,"ft",1,4)
+    harvest(allJobs,"ft",p,4)
 shuffle()
 print("harvested all jobs")
 delete_duplicate_entries()
