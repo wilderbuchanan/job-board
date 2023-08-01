@@ -5839,3 +5839,27 @@ Exiting due to channel error.
 1690903038643	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileRoXKkX"
 WebDriver BiDi listening on ws://127.0.0.1:51566
 DevTools listening on ws://127.0.0.1:51566/devtools/browser/5c9ec05f-a06e-4fcd-b819-b1940ebbd43a
+1690903120637	geckodriver	INFO	Listening on 127.0.0.1:51632
+1690903121160	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileaC2dJy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690903121648	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690903122097	Marionette	INFO	Listening on port 51639
+WebDriver BiDi listening on ws://127.0.0.1:51633
+Read port: 51639
+1690903122338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51633/devtools/browser/043acbea-5d0e-4d45-a9ae-0cf19f116ed0
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/9kt970l54ung8evzrmmz4a8cr, line 19733: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/ctq1xdiu4fb67y6ykh90jv2lk, line 2569: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/ejk5wy0rcxec1r2rpakou8p7i, line 1166: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/ejk5wy0rcxec1r2rpakou8p7i, line 1162: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/9kt970l54ung8evzrmmz4a8cr, line 19733: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/ctq1xdiu4fb67y6ykh90jv2lk, line 2569: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/ejk5wy0rcxec1r2rpakou8p7i, line 1166: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/ejk5wy0rcxec1r2rpakou8p7i, line 1162: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
