@@ -176,6 +176,7 @@ def harvest(link,type,page,priority):
                     posted = posted.text
                 except:
                     print("no post date")
+                    posted = ""
                 buttons = driver.find_elements(By.CLASS_NAME,"jobs-apply-button")
                 #print(buttons)
                 if len(buttons) > 0:
