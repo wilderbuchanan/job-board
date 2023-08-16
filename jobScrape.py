@@ -117,13 +117,16 @@ def harvest(link,type,page,priority):
     time.sleep(2)
     try:
         jobPostings = driver.find_elements(By.CLASS_NAME,"job-card-container")
-        print("found postings")
+        print(len(jobPostings))
+        print("job postings found")
+
         for e in jobPostings:
 
             try:
                 with open("jobs.json") as infile:
                     job_postings_list = json.load(infile)
             except (FileNotFoundError):
+                print("jobs json load issue")
                 pass
             tags = []
             title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
@@ -178,7 +181,7 @@ def harvest(link,type,page,priority):
                 if len(buttons) > 0:
                     #print("got url")
                     apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
-                    time.sleep(randomWaitTime())
+                    time.sleep(randomWaitTime()*2)
                     #continueAgain = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                     time.sleep(randomWaitTime())
                     driver.switch_to.window(driver.window_handles[1])
@@ -186,9 +189,11 @@ def harvest(link,type,page,priority):
                     applicationURL = driver.current_url
                     applicationURL = applicationURL.replace('?source=LinkedIn', '')
                     applicationURL += '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
+                    print("got url")
                     driver.close()
                     time.sleep(randomWaitTime())
                     driver.switch_to.window(driver.window_handles[0])
+                    print("back to search")
                     time.sleep(randomWaitTime())
                 else:
                     applicationURL = "https://www.hardwareishard.net/job-board"
@@ -213,6 +218,7 @@ def harvest(link,type,page,priority):
                     sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
                 with open("jobs.json", "w") as outfile:
                     json.dump(sorted_job_list, outfile)
+                print("a job collection has completed")
     except:
         print("no more job postings for this search")
         pass
