@@ -209,21 +209,23 @@ def harvest(link,type,page,priority):
                         "priority": priority
                     }
                 job_postings_list.append(job_posting)
+                print("list appended")
                 with open("jobs.json", "w") as outfile:
                     json.dump(job_postings_list,outfile)
+                print("json dumped")
                 time.sleep(randomWaitTime())
-                #print(job_postings_list)
-                time.sleep(randomWaitTime())
-                with open("jobs.json", "r") as outfile:
-                    sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
-                with open("jobs.json", "w") as outfile:
-                    json.dump(sorted_job_list, outfile)
+                print(job_postings_list)
+            #    time.sleep(randomWaitTime())
+            #    with open("jobs.json", "r") as outfile:
+            #        sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
+            #    with open("jobs.json", "w") as outfile:
+            #        json.dump(sorted_job_list, outfile)
                 print("a job collection has completed")
     except:
         print("no more job postings for this search")
         pass
     githubUpdates.git_push()
-
+    print("github updated")
 
 
 def shuffle():
