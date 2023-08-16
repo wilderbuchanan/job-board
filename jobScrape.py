@@ -215,7 +215,7 @@ def harvest(link,type,page,priority):
                     json.dump(job_postings_list,outfile)
                 print("json dumped")
                 time.sleep(randomWaitTime())
-                print(job_postings_list)
+            #    print(job_postings_list)
             #    time.sleep(randomWaitTime())
             #    with open("jobs.json", "r") as outfile:
             #        sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
