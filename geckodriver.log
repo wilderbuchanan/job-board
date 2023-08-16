@@ -6034,3 +6034,5 @@ JavaScript error: https://www.pgcareers.com/global/en/job/R000088182/Manufacturi
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/caas-platform/widgets/pcs-nps-v1.js, line 1: TypeError: this.npsInfo[C] is undefined
 JavaScript error: https://careers.rivian.com/careers-home/jobs/12639?lang=en-us&iis=LinkedIn, line 545: SyntaxError: redeclaration of let headers
 JavaScript error: https://careers.rivian.com/careers-home/jobs/12094?lang=en-us&iis=LinkedIn, line 545: SyntaxError: redeclaration of let headers
+JavaScript warning: https://static.licdn.com/sc/h/darlw1c8i2p85zol12kkqz8t2, line 19817: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/aer9u8w9zdfbnfuhsntc69qrd, line 2571: unreachable code after return statement
