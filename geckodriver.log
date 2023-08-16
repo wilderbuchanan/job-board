@@ -5999,3 +5999,38 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1692161136441	geckodriver	INFO	Listening on 127.0.0.1:50538
+1692161136959	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileWZQLIi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692161137405	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692161137859	Marionette	INFO	Listening on port 50544
+WebDriver BiDi listening on ws://127.0.0.1:50539
+Read port: 50544
+1692161138052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50539/devtools/browser/89db4502-b49a-4892-b556-01bf65ab0862
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/darlw1c8i2p85zol12kkqz8t2, line 19817: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/aer9u8w9zdfbnfuhsntc69qrd, line 2571: unreachable code after return statement
+1692161159586	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/darlw1c8i2p85zol12kkqz8t2, line 19817: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/aer9u8w9zdfbnfuhsntc69qrd, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.pgcareers.com/global/en/job/R000085101/Engineering-Co-Op?source=RS_LINKEDIN line 503 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript warning: https://www.google.com/js/th/kZUfMIxLFCrGLqrjV_r7qa5I0vri4QUiGn20NtGfMuI.js line 2 > eval line 334 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.pgcareers.com/global/en/job/R000083580/Engineering-Internship?source=RS_LINKEDIN line 503 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/caas-platform/widgets/pcs-nps-v1.js, line 1: TypeError: this.npsInfo[C] is undefined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000086758/Manufacturing-Engineering-2024-Summer-Internship?source=RS_LINKEDIN line 503 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/caas-platform/widgets/pcs-nps-v1.js, line 1: TypeError: this.npsInfo[C] is undefined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000088182/Manufacturing-Engineering-Intern-Y29?source=RS_LINKEDIN line 503 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/caas-platform/widgets/pcs-nps-v1.js, line 1: TypeError: this.npsInfo[C] is undefined
+JavaScript error: https://careers.rivian.com/careers-home/jobs/12639?lang=en-us&iis=LinkedIn, line 545: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/12094?lang=en-us&iis=LinkedIn, line 545: SyntaxError: redeclaration of let headers
