@@ -5929,3 +5929,28 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1692160601584	geckodriver	INFO	Listening on 127.0.0.1:50219
+1692160602108	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofilexfHXFK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692160602703	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692160602918	Marionette	INFO	Listening on port 50227
+Read port: 50227
+WebDriver BiDi listening on ws://127.0.0.1:50220
+1692160603408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50220/devtools/browser/ea13db6e-e406-4e79-a4b9-00893cfc6d57
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/darlw1c8i2p85zol12kkqz8t2, line 19817: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/aer9u8w9zdfbnfuhsntc69qrd, line 2571: unreachable code after return statement
+1692160623629	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/darlw1c8i2p85zol12kkqz8t2, line 19817: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/aer9u8w9zdfbnfuhsntc69qrd, line 2571: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
