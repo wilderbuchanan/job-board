@@ -6058,3 +6058,8 @@ console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1
 console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
 JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/embed/XsotvlI2KHI line 813 > injectedScript line 2 > eval line 4120 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7skm3dba7hua9ugrsfcboxw11, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/embed/XsotvlI2KHI line 813 > injectedScript line 2 > eval line 4402 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/JJPLUS/en_us/desktop/assets/scripts/1619108531628-custom.js, line 175: TypeError: getHeroBlack is null
