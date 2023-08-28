@@ -6261,3 +6261,24 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mj
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
 1693201467576	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1693201467628	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1693201566544	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693201616283	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1693201679048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
