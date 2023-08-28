@@ -6321,3 +6321,12 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180
 JavaScript warning: https://medtronic.eightfold.ai/gen/jquery.985d673d.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://medtronic.eightfold.ai/gen/js/ef-4afbb465.dabb34f362b92fbe102c.js, line 3: unreachable code after return statement
 JavaScript warning: https://medtronic.eightfold.ai/gen/js/ef-4afbb465.dabb34f362b92fbe102c.js, line 3: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://www.google.com/js/th/KDVvO9GjIfwsimPSyouGCiRo4iCKU6sA3ozlySOQvk8.js line 2 > eval line 7199 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.pgcareers.com/global/en/job/R000088984/PS-Engineering?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/caas-platform/widgets/pcs-nps-v1.js, line 1: TypeError: this.npsInfo[C] is undefined
+1693203203195	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1693203203340	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
