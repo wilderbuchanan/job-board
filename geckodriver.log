@@ -6155,3 +6155,40 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1693198558785	geckodriver	INFO	Listening on 127.0.0.1:64794
+1693198559310	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileAec1jK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693198559840	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1693198560049	Marionette	INFO	Listening on port 64800
+Read port: 64800
+WebDriver BiDi listening on ws://127.0.0.1:64795
+1693198560303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64795/devtools/browser/b4154259-f0a0-42f4-8965-dcde0110631e
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/754ujv6lo7n6h2c03pya2oxuu, line 19888: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/cjvaumr1lekmm4xbhv13qlb10, line 2588: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/754ujv6lo7n6h2c03pya2oxuu, line 19888: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/cjvaumr1lekmm4xbhv13qlb10, line 2588: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.pgcareers.com/global/en/job/R000088581/FORMER-INTERN-CO-OP-Manufacturing-Process-Engineer-Iowa-City-Beauty-Care?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000088294/Process-Engineer-FORMER-INTERN-CO-OP?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000086935/Design-Co-op-Spring-2024?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000088776/Engineering-Internship?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000085101/Engineering-Co-Op?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000088182/Manufacturing-Engineering-Intern-Y29?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000087464/Design-Co-op-Summer-2024?source=RS_LINKEDIN line 519 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
