@@ -6429,3 +6429,5 @@ console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefin
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
