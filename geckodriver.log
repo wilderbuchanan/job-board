@@ -6341,3 +6341,31 @@ JavaScript warning: https://assets.adobedtm.com/717b2dc27cb7/0f95c181beeb/launch
 JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1168: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/sc/h/kmj78b01hx0mqplvf2l8fdzn, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1693205231166	Marionette	INFO	Stopped listening on port 64800
+1694616467267	geckodriver	INFO	Listening on 127.0.0.1:57691
+1694616467793	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofiletCK2jG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694616468396	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694616468879	Marionette	INFO	Listening on port 57698
+WebDriver BiDi listening on ws://127.0.0.1:57692
+Read port: 57698
+1694616469119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57692/devtools/browser/89057131-80fe-4c1d-a773-58c1c68d5a28
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/elh0r4r5mj3vwd145m50mro4o, line 19865: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/1zwsqvu9kkkcert3fbn1q4lc9, line 2582: unreachable code after return statement
+1694616492807	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/sc/h/elh0r4r5mj3vwd145m50mro4o, line 19865: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/1zwsqvu9kkkcert3fbn1q4lc9, line 2582: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694616517357	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:429:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:178:31
