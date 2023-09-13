@@ -6382,3 +6382,28 @@ JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, lin
 emit@https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs:783:263
 rt@https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs:784:142
 
+1694617313562	geckodriver	INFO	Listening on 127.0.0.1:58041
+1694617314082	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofile4aobqu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694617314959	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694617315277	Marionette	INFO	Listening on port 58047
+Read port: 58047
+WebDriver BiDi listening on ws://127.0.0.1:58042
+1694617315643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58042/devtools/browser/e728c917-dd3d-42a6-aeba-155ffa706bc0
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/5soyzzyxt32xpeav15k39wmxs, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/sc/h/elh0r4r5mj3vwd145m50mro4o, line 19865: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/1zwsqvu9kkkcert3fbn1q4lc9, line 2582: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/elh0r4r5mj3vwd145m50mro4o, line 19865: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/1zwsqvu9kkkcert3fbn1q4lc9, line 2582: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
