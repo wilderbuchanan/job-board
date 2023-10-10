@@ -6574,3 +6574,12 @@ console.error: ({})
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/JJPLUS/en_us/desktop/assets/scripts/1619108531628-custom.js, line 160: TypeError: getHeroBlack is null
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
 JavaScript error: https://careers.rivian.com/careers-home/jobs/13781?lang=en-us&iis=LinkedIn, line 529: SyntaxError: redeclaration of let headers
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1696918520563	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1696918520898	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/aEM3wyowRXOK6McamWb124rcQG3qi0dPiMX68DfHFCE.js line 2 > eval line 1033 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1696918544053	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1696918544593	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.youtube.com/embed/AVdv-Uy07rQ line 834 > injectedScript line 2 > eval line 4465 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.pgcareers.com/global/en/job/R000089450/Manufacturing-Intern?source=RS_LINKEDIN line 556 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
