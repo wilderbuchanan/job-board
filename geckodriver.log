@@ -6806,3 +6806,12 @@ JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at lin
 JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
 console.error: ({})
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/common/ph-common-bundle-part1-4.60.js, line 19: TypeError: t is undefined
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.goodyear.com."
+console.error: ({})
+1696925639981	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://careers.liebherr.com/job/Newport-News%252C-VA-Manufacturing-Engineer-VA-23601/954250301/?feedId=335501&jobPipeline=LinkedIn&utm_source=LinkedinJobPostings, line 1247: ReferenceError: adjustFooter is not defined
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://recruiting.adp.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.goodyear.com."
