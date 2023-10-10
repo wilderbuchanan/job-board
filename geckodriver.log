@@ -6550,3 +6550,8 @@ JavaScript error: https://careers.rivian.com/careers-home/jobs/5685?lang=en-us&i
 JavaScript error: https://careers.rivian.com/careers-home/jobs/5817?lang=en-us&iis=LinkedIn, line 529: SyntaxError: redeclaration of let headers
 1696917876059	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
 JavaScript error: https://careers.rivian.com/careers-home/jobs/13477?lang=en-us&iis=LinkedIn, line 529: SyntaxError: redeclaration of let headers
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/6us9me7dm6x6duv84lbdswh6u, line 19988: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bskxwf7oe7ewg3miqex7cwc3q, line 2628: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
