@@ -6472,3 +6472,9 @@ JavaScript warning: https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs, lin
 emit@https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs:783:263
 rt@https://static.licdn.com/sc/h/9vsgydwm2m5sivo47tclkpufs:784:142
 
+1694765627148	Marionette	INFO	Stopped listening on port 58047
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1694765629928	Marionette	INFO	Stopped listening on port 57698
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
