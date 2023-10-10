@@ -6518,3 +6518,7 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1696917601363	geckodriver	INFO	Listening on 127.0.0.1:50483
+1696917601887	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofile4wKiSB"
+WebDriver BiDi listening on ws://127.0.0.1:50484
+DevTools listening on ws://127.0.0.1:50484/devtools/browser/9b67e94d-adc9-4c93-8c42-391372b260c9
