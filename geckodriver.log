@@ -6777,3 +6777,12 @@ TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:429:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:178:31
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1164: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz, line 1160: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.goodyear.com."
+console.error: ({})
+JavaScript error: https://www.clearancejobs.com/workbox-dba11fc1.js, line 1: non-precached-url: non-precached-url :: [{"url":"index.html"}]
+console.error: ({})
+JavaScript warning: https://careers.enproindustries.com/assets/es-module-shims.min-4ca9b3dd5e434131e3bb4b0c1d7dff3bfd4035672a5086deec6f73979a49be73.js, line 0: Successfully compiled asm.js code (total compilation time 13ms)
+JavaScript warning: https://583ec472ee7d.edge.sdk.awswaf.com/583ec472ee7d/ff2b87c263f8/challenge.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://wd5.myworkday.com/wday/backpack-hub/muse-web-client/2023.37.710/93a686123a1d2f279bf1.videojs-component.js, line 1: TypeError: J.current.addRemoteTextTrack(...).setAttribute is not a function
