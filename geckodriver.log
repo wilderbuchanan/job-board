@@ -6819,3 +6819,37 @@ JavaScript warning: https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6
 emit@https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz:783:211
 rt@https://static.licdn.com/aero-v1/sc/h/745xhiclkp6li5izoefnw6ghz:784:142
 
+1698307115192	geckodriver	INFO	Listening on 127.0.0.1:56205
+1698307115720	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileUwqMf6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698307116495	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1698307116758	Marionette	INFO	Listening on port 56211
+Read port: 56211
+WebDriver BiDi listening on ws://127.0.0.1:56206
+1698307117338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56206/devtools/browser/591eea85-82d2-42f9-aa68-903f7702a1c1
+JavaScript warning: https://static.licdn.com/sc/h/6univ27u795x0srosop91yogc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/6univ27u795x0srosop91yogc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/13o0zt5irldc3q5cxxb492d5s, line 21555: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7lgzef0xm99pzdnw6mu1dv0oc, line 2648: unreachable code after return statement
+1698307142060	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 2698: MDError: [web-messenger-data] Network Error - initialSyncConversations (104) - NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/13o0zt5irldc3q5cxxb492d5s, line 21555: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7lgzef0xm99pzdnw6mu1dv0oc, line 2648: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698307175410	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1698307242346	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1698307269212	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1698307352762	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript error: https://careers.rivian.com/careers-home/jobs/5817?lang=en-us&iis=LinkedIn, line 900: SyntaxError: redeclaration of let headers
