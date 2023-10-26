@@ -7049,3 +7049,8 @@ JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4R
 JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 3196 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 [Child 43513, MediaDecoderStateMachine #1] WARNING: Decoder=130684b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
 [Child 43513, MediaDecoderStateMachine #1] WARNING: Decoder=130684b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310675600	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310675677	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.youtube.com/embed/AVdv-Uy07rQ line 838 > injectedScript line 2 > eval line 2175 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
