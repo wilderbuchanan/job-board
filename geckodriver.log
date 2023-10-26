@@ -7025,3 +7025,27 @@ JavaScript warning: https://static.ripplematch.com/js/distribution/assets/setup.
 JavaScript error: https://www.pgcareers.com/global/en/job/R000084082/Intelligent-Controls--Automation-Engineer?source=RS_LINKEDIN line 564 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
 JavaScript error: https://www.pgcareers.com/global/en/job/R000084082/Intelligent-Controls--Automation-Engineer?source=RS_LINKEDIN line 564 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
 JavaScript error: https://www.pgcareers.com/global/en/job/R000084082/Intelligent-Controls--Automation-Engineer?source=RS_LINKEDIN line 564 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/54kqbpnfahadn1ufk60j7nizj, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310209433	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310209670	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 556: TypeError: browser is null
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 556: TypeError: browser is null
+JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 5872 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310236701	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310237026	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 296 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310262938	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310263330	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 1587 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310355796	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310355920	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 5958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310382810	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310382821	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 5043 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698310413509	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1698310413510	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/PvMP5jFXqkAD8J0HLOrftoqGwpLki4Rvuid20pxIYpw.js line 2 > eval line 3196 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 43513, MediaDecoderStateMachine #1] WARNING: Decoder=130684b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 43513, MediaDecoderStateMachine #1] WARNING: Decoder=130684b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
