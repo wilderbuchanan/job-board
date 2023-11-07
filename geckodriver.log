@@ -7289,3 +7289,37 @@ console.error: "Problem getting stored prefs for TopSites"
 JavaScript error: , line 0: uncaught exception: null
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1699338441927	geckodriver	INFO	Listening on 127.0.0.1:51610
+1699338442439	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileaQLoTZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699338443034	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1699338443595	Marionette	INFO	Listening on port 51616
+WebDriver BiDi listening on ws://127.0.0.1:51611
+Read port: 51616
+1699338443905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51611/devtools/browser/3ca054ae-3ec3-42d1-997b-39d8a0bb639c
+JavaScript warning: https://static.licdn.com/sc/h/es8jfua30moj789rlzkfx9heo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/es8jfua30moj789rlzkfx9heo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7pqyr7lswyihrrlp69odzfn7w, line 21659: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/dqdnkb2a00tvfpoo7pghqyjvt, line 2668: unreachable code after return statement
+1699338464986	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7pqyr7lswyihrrlp69odzfn7w, line 21659: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/dqdnkb2a00tvfpoo7pghqyjvt, line 2668: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1699338513763	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1699338603998	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://static.amazon.jobs/assets/application-ecf898838c3d4563b50f8fa44a4ba9af08d60e5bc1b754c0132788bd5374e87d.js, line 42: Error: Request failed with status code 400
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
