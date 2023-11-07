@@ -7634,3 +7634,16 @@ JavaScript warning: https://www.google.com/js/th/FHpo6pEqcSRgVdNkQyOrWf56osNa_Sw
 1699344595054	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.goodyear.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.goodyear.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7pqyr7lswyihrrlp69odzfn7w, line 21659: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.goodyear.com."
+1699344851290	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://careers-ssoe.icims.com/jobs/2490/spring-mechanical-engineering-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-ssoe.icims.com/jobs/2490/spring-mechanical-engineering-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 41880
+JavaScript error: https://careers-ssoe.icims.com/jobs/2490/spring-mechanical-engineering-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: SyntaxError: missing } after function body
+JavaScript note: https://careers-ssoe.icims.com/jobs/2490/spring-mechanical-engineering-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 29: { opened at line 29, column 45354
+JavaScript error: https://careers-ssoe.icims.com/jobs/2490/spring-mechanical-engineering-co-op/job?mode=job&iis=Job+Board&iisn=LinkedIn, line 149: SyntaxError: unexpected token: keyword 'var'
+JavaScript error: https://www.ssoe.com/wp-content/uploads/pum/pum-site-scripts.js?defer&generated=1678337267&ver=1.18.1, line 7: SyntaxError: JSON.parse: end of data while reading object contents at line 1 column 2 of the JSON data
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.25/dist/core.js, line 9: unreachable code after return statement
