@@ -7692,3 +7692,21 @@ JavaScript error: https://maps.googleapis.com/maps/api/js?libraries=places&v=3.1
 JavaScript warning: https://www.google.com/js/th/FHpo6pEqcSRgVdNkQyOrWf56osNa_SwdaUPxzrL5JrM.js line 2 > eval line 3882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jobs.hatch.com."
 console.error: ({})
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7pqyr7lswyihrrlp69odzfn7w, line 21659: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2rm5cmxa5jw9iqnzx3774wqhp, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1699345818958	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1699345819071	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/FHpo6pEqcSRgVdNkQyOrWf56osNa_SwdaUPxzrL5JrM.js line 2 > eval line 5725 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 62444, MediaDecoderStateMachine #1] WARNING: Decoder=12220e100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 62444, MediaDecoderStateMachine #1] WARNING: Decoder=12220e100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1699345838890	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1699345838956	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.youtube.com/embed/dHgeq9QSCcw line 851 > injectedScript line 2 > eval line 6417 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+1699346011688	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1699346012280	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/FHpo6pEqcSRgVdNkQyOrWf56osNa_SwdaUPxzrL5JrM.js line 2 > eval line 641 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
