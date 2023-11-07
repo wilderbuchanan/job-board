@@ -7273,3 +7273,19 @@ JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4
 JavaScript error: , line 0: uncaught exception: Object
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 1411: Script terminated by timeout at:
+value@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:1411:17
+value@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:1426:422
+14446/emit/<@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:281
+emit@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:263
+rt@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:803:142
+
+1699212224943	Marionette	INFO	Stopped listening on port 52005
+console.error: (new AbortError("A request was aborted, for example through a call to IDBTransaction.abort.", (void 0)))
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+console.error: "Problem getting stored prefs for TopSites"
+JavaScript error: , line 0: uncaught exception: null
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
