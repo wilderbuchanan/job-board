@@ -8039,3 +8039,14 @@ JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5l0gok3vtx1dsl279mtrw3
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/7lldh0cnc264yf7098n3b5wtj, line 2614: unreachable code after return statement
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5l0gok3vtx1dsl279mtrw3fpn, line 20938: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705915517528	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/e4KNrNezHvGe_SA60BxYba8nt93XKTbVAQxfSxUqUHI.js line 2 > eval line 2417 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705915626323	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1705915738030	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:429:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:178:31
