@@ -1,17 +1,7 @@
-from git import Repo, exc
+from git import Repo
 
 PATH_OF_GIT_REPO = r'.git'  # make sure .git folder is properly configured
-COMMIT_MESSAGE = 'New Emails!'
-
-def git_pull():
-    try:
-        repo = Repo(PATH_OF_GIT_REPO)
-        origin = repo.remote(name='origin')
-        origin.fetch()
-        repo.git.merge('FETCH_HEAD')
-        print('Successfully pulled from the repository')
-    except exc.GitCommandError as e:
-        print(f'Error occurred while pulling: {e}')
+COMMIT_MESSAGE = 'New Jobs!'
 
 def git_push():
     try:
@@ -20,6 +10,7 @@ def git_push():
         repo.index.commit(COMMIT_MESSAGE)
         origin = repo.remote(name='origin')
         origin.push()
-        print('Successfully pushed to the repository')
-    except exc.GitCommandError as e:
-        print(f'Error occurred while pushing: {e}')
+    except:
+        print('Some error occured while pushing the code')
+
+git_push()
