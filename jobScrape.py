@@ -181,6 +181,13 @@ def harvest(link,type,page,priority):
                 if len(buttons) > 0:
                     #print("got url")
                     apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
+                    time.sleep(randomWaitTime())
+                    if len(driver.find_elements(By.CLASS_NAME, "artdeco-modal-overlay.artdeco-modal-overlay--layer-default.artdeco-modal-overlay--is-top-layer.display-flexflex-column justify-center.ember-view")) > 0:
+                        exit = driver.find_element(By.CLASS_NAME,"artdeco-button.artdeco-button--circle.artdeco-button--muted.artdeco-button--2.artdeco-button--tertiary.ember-view artdeco-modal__dismiss").click()
+                        time.sleep(randomWaitTime())
+                        apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
+
+
                     time.sleep(randomWaitTime()*2)
                     #continueAgain = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
                     time.sleep(randomWaitTime())
