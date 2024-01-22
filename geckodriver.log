@@ -8104,3 +8104,16 @@ JavaScript error: https://assets.jibecdn.com/prod/constellationenergy/0.0.50/ass
 JavaScript error: https://assets.jibecdn.com/prod/constellationenergy/0.0.50/assets/_scripts/slider.js, line 99: TypeError: active is null
 JavaScript error: https://jobs.danfoss.com/job/Eden-Prairie-Industrial-Application-Engineer-MN-55343/780902702/?utm_source=LINKEDIN&utm_medium=referrer, line 48: ReferenceError: CookieConsent is not defined
 JavaScript error: https://jobs.danfoss.com/job/Eden-Prairie-Industrial-Application-Engineer-MN-55343/780902702/?utm_source=LINKEDIN&utm_medium=referrer, line 1616: TypeError: document.getElementsByClassName(...)[0] is undefined
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5l0gok3vtx1dsl279mtrw3fpn, line 20938: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://app.loxo.co/job/MTQxMzctMzkxc3Njdzg3OGM2ZGcxbg==?source_type=li&t=1705916097, line 123: SyntaxError: unexpected token: ':'
+console.error: ({})
+console.error: ({})
+JavaScript error: https://joinus.gknaerospace.com/job/15997-en_US line 437 > injectedScript, line 1: ReferenceError: addthis is not defined
+JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: unreachable code after return statement
+JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.26/dist/core.js, line 9: unreachable code after return statement
+JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.26/dist/core.js, line 27: unreachable code after return statement
+JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
