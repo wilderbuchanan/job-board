@@ -8117,3 +8117,10 @@ JavaScript warning: https://static.dayforcehcm.com/libraries/@platform/core/1.26
 JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://us232.dayforcehcm.com/6W1Is23UNHD4BgwE2w/t51VG4EaOL/BX5qK2AC/YS/xCFUEOd1w, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5l0gok3vtx1dsl279mtrw3fpn, line 20938: unreachable code after return statement
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705917697665	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: ({})
