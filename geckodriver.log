@@ -8050,3 +8050,12 @@ TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:429:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:178:31
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5l0gok3vtx1dsl279mtrw3fpn, line 20938: unreachable code after return statement
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705915989200	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/e4KNrNezHvGe_SA60BxYba8nt93XKTbVAQxfSxUqUHI.js line 2 > eval line 1588 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705916151533	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/e4KNrNezHvGe_SA60BxYba8nt93XKTbVAQxfSxUqUHI.js line 2 > eval line 3560 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
