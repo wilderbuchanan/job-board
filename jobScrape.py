@@ -18,7 +18,6 @@ import githubUpdates
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
-import expressvpn
 
 
 
