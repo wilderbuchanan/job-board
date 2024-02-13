@@ -4,7 +4,7 @@
       .job-listings li .apply-button {
         display: none !important;
       }
-      .job-listings li { 
+      .job-listings li {
         cursor: pointer;
       }
       .job-listings li a {
@@ -171,7 +171,7 @@
 
 
 <script>
-  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/featuredJobs.json')
+  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json')
   .then(response => response.json())
   .then(data => {
     const jobListingsUl = document.getElementById('job-listings-ul');
