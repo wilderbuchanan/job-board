@@ -196,6 +196,37 @@
 	margin-bottom: 20px;
 }
 
+onshape-jobs li .apply-button {
+	display: inline-block;
+	background-color: #ED7979;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.onshape-jobs li {
+	background-color: #fdf2f2;
+	list-style: none;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 95%;
+	justify-content: center;
+}
+
+.onshape-jobs {
+	margin-bottom: 20px;
+}
+
 .job-listings h4 {
 	margin-top: -30px;
 }
@@ -211,6 +242,21 @@
 }
 
 .featured-jobs .apply-button:hover {
+	background-color: transparent;
+	outline: 2px solid #ED7979;
+	color: black;
+}
+.onshape-jobs h1 {
+	font-weight: bold;
+	color: #ED7979;
+}
+
+.onshape-jobs .tag {
+	outline: 1px solid #ED7979;
+	color: #ED7979
+}
+
+.onshape-jobs .apply-button:hover {
 	background-color: transparent;
 	outline: 2px solid #ED7979;
 	color: black;
@@ -245,6 +291,22 @@
 <div class="featured-jobs">
   <ul id="featured-jobs-ul" class="job-listings">
     <h4>*These are sponsored postings, thus YOU are way more likely to get them because they are actively recruiting from the HWH community</h4>
+  </ul>
+</div>
+
+<div class="filter-container">
+  <label for="filter-type" class="filter-label">Filter by tag:</label>
+  <select id="filter-type" class="filter-select">
+    <option value="all">All</option>
+    <option value="co-op">Co-Op</option>
+    <option value="internship">Internship</option>
+    <option value="manufacturing">Manufacturing</option>
+  </select>
+</div>
+
+<div class="onshape-jobs">
+  <ul id="onshape-jobs-ul" class="job-listings">
+    <h4>*These are jobs that require Onshape skills!</h4>
   </ul>
 </div>
 
