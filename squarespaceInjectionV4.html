@@ -546,3 +546,58 @@ onshape-jobs li .apply-button {
     });
   });
 </script>
+
+<script>
+  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json')
+  .then(response => response.json())
+  .then(data => {
+    const jobListingsUl = document.getElementById('onshape-jobs-ul');
+    data.forEach(job => {
+      const li = document.createElement('li');
+      li.setAttribute('data-category', job.category);
+      const imageWrapper = document.createElement('div');
+      const image = document.createElement('img');
+      image.src = job.imageURL;
+      const jobInfoWrapper = document.createElement('div');
+      jobInfoWrapper.classList.add('job-info-wrapper');
+      const h3 = document.createElement('h3');
+      h3.textContent = job.title;
+      const company = document.createElement('p');
+      company.classList.add('company-name');
+      company.textContent = job.company;
+      const location = document.createElement('p');
+      location.classList.add('location');
+      location.textContent = job.location;
+      const postedDate = document.createElement('p');
+      postedDate.classList.add('posted-date');
+      postedDate.textContent = `Posted ${job.postedDate}`;
+      const applyButton = document.createElement('a');
+      applyButton.href = job.applicationURL;
+      applyButton.target = "_blank";
+      applyButton.classList.add('apply-button');
+      applyButton.textContent = 'Apply Now';
+      const tagsContainer = document.createElement('div');
+      tagsContainer.classList.add('tag-container');
+      job.tags.forEach(tag => {
+        const tagEl = document.createElement('span');
+        tagEl.classList.add('tag');
+        tagEl.textContent = tag;
+        tagsContainer.appendChild(tagEl);
+      });
+      jobInfoWrapper.appendChild(h3);
+      jobInfoWrapper.appendChild(company);
+      jobInfoWrapper.appendChild(location);
+      jobInfoWrapper.appendChild(postedDate);
+      li.appendChild(imageWrapper);
+      li.appendChild(image);
+      li.appendChild(jobInfoWrapper);
+      li.appendChild(applyButton);
+      li.appendChild(tagsContainer); // Add the tags container to the li element
+      jobListingsUl.appendChild(li);
+
+      li.addEventListener('click', () => {
+        window.open(job.applicationURL);
+      });
+    });
+  });
+</script>
