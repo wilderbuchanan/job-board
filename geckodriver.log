@@ -8628,3 +8628,43 @@ JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 1708602274714	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 4741 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://jobs.johnsoncontrols.com/job/19853803/hvac-engineering-intern-horsham-pa/, line 406: ReferenceError: XCLOUD is not defined
+JavaScript error: https://jobs.johnsoncontrols.com/?amd_asset_type=script&amd_is_asset=1&ver=10833, line 1268: ReferenceError: OnetrustActiveGroups is not defined
+JavaScript warning: https://www.google.com/js/th/6mt_jkCC8QEMfVv4UaXe0WVRezbgElH9_VSMBGBwk28.js line 2 > eval line 1280 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 3843 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 5241 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 7614 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 7104 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8531131569771832, line 86: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 3835 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 5204 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 80 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BoEj1MRYnOy5BSN5ElbJySd6MGFyYBWT_ZtkFEIAVvM.js line 2 > eval line 362 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 2093 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8531131569771832, line 86: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BoEj1MRYnOy5BSN5ElbJySd6MGFyYBWT_ZtkFEIAVvM.js line 2 > eval line 2386 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8531131569771832, line 86: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 4616 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 1614 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 6992 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/susE4wCQGjo81FKHs9-5ESeldxvWjf24bzthmuzw7UQ.js line 2 > eval line 6224 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/BoEj1MRYnOy5BSN5ElbJySd6MGFyYBWT_ZtkFEIAVvM.js line 2 > eval line 4857 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
