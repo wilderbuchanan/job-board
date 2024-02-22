@@ -8141,3 +8141,41 @@ track@https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x:582:194
 fireTrackingEvents@https://static.licdn.com/aero-v1/sc/h/9b7onwharwmr52kajlvsaro9x:581:485
 
 1705941099962	Marionette	INFO	Stopped listening on port 61235
+1708595099418	geckodriver	INFO	Listening on 127.0.0.1:57090
+1708595099932	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileWvgxn8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1708595100594	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1708595101205	Marionette	INFO	Listening on port 57096
+WebDriver BiDi listening on ws://127.0.0.1:57091
+1708595101769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57091/devtools/browser/d884bcbc-855c-4f6f-a69e-611692340875
+JavaScript warning: https://static.licdn.com/sc/h/9khh7n0e2ss763aeozygh9d7, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/9khh7n0e2ss763aeozygh9d7, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/11f6ve8yxsprqvp3fobvrvkio, line 21340: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ev6yb0eaomehxdly6wi9n97og, line 2638: unreachable code after return statement
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=33f52af4-b5fa-4859-89f1-a3e54b8da213&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DC338AFC2B9259&mdt=1708595121039&rticks=1708595120898, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/11f6ve8yxsprqvp3fobvrvkio, line 21340: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ev6yb0eaomehxdly6wi9n97og, line 2638: unreachable code after return statement
+1708595130651	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16342?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16301?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16357?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16303?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16343?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+1708595491039	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://careers.rivian.com/careers-home/jobs/15779?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
