@@ -8179,3 +8179,8 @@ JavaScript error: https://careers.rivian.com/careers-home/jobs/16343?lang=en-us&
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
 1708595491039	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: https://careers.rivian.com/careers-home/jobs/15779?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/11f6ve8yxsprqvp3fobvrvkio, line 21340: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ev6yb0eaomehxdly6wi9n97og, line 2638: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
