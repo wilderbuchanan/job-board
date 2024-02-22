@@ -8507,3 +8507,8 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1708601482995	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: https://careers-novelis.icims.com/jobs/44271/mechanical-engineering-intern/login, line 149: SyntaxError: expected expression, got '='
 1708601486688	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
