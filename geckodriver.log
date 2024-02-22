@@ -8208,3 +8208,13 @@ JavaScript error: https://careers.rivian.com/careers-home/jobs/16387?lang=en-us&
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
 1708596105610	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 JavaScript error: https://careers.rivian.com/careers-home/jobs/16341?lang=en-us&iis=LinkedIn, line 908: SyntaxError: redeclaration of let headers
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/11f6ve8yxsprqvp3fobvrvkio, line 21340: unreachable code after return statement
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
