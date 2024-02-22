@@ -8454,3 +8454,20 @@ Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window
 Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708599511550	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1708599574723	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1708599688340	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 527 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708599726284	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 293 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708599751982	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 5180 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708599782047	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 5633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1708599814947	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.google.com/js/th/5Gun2TJSo1iAfQWmwsFeyvzh7Bp9T6BUsc3Gr-2U4_c.js line 2 > eval line 1386 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
