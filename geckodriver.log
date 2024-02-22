@@ -8706,3 +8706,21 @@ JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at lin
 console.error: ({})
 JavaScript error: https://cdn.phenompeople.com/CareerConnectResources/common/js/common/ph-common-bundle-part1-4.60.js, line 19: TypeError: t is undefined
 console.error: ({})
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://hcxg.fa.em2.oraclecloud.com/hcmUI/CandExpStatic/js/ce-custom.js?themeNumber=5&themeVersion=2, line 1: SyntaxError: unexpected token: identifier
+JavaScript warning: https://hcxg.fa.em2.oraclecloud.com/hcmUI/CandExpStatic/js/23.10.81/main-mohegan.js, line 4: unreachable code after return statement
+JavaScript warning: https://hcxg.fa.em2.oraclecloud.com/hcmUI/CandExpStatic/js/23.10.81/main-mohegan.js line 3 > Function, line 4: unreachable code after return statement
+JavaScript warning: https://assets.adobedtm.com/5721cad0347b/09581fb6124d/launch-c9e49922b277.min.js, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-W5NWMRD, line 62: uncaught exception: [object Object]
+JavaScript error: https://jobs.rockwellautomation.com/?amd_asset_type=script&amd_is_asset=1&ver=1986, line 4: ReferenceError: allPagesAddUTM is not defined
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://assets.adobedtm.com/d0cc0600946eb3957f703b9fe43c3590597a8c2c/satelliteLib-e8d23c2e444abadc572df06537e2def59c01db09.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.mathworks.com/ggSGfL/AFAgA/055O3/3rAH/YQc7hQbJJ0wu/AXBCTA/a2ER/PGJcXys, line 1: unreachable code after return statement
+JavaScript warning: https://www.mathworks.com/ggSGfL/AFAgA/055O3/3rAH/YQc7hQbJJ0wu/AXBCTA/a2ER/PGJcXys, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.mathworks.com/ggSGfL/AFAgA/055O3/3rAH/YQc7hQbJJ0wu/AXBCTA/a2ER/PGJcXys, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.mathworks.com/ggSGfL/AFAgA/055O3/3rAH/YQc7hQbJJ0wu/AXBCTA/a2ER/PGJcXys, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: ({})
