@@ -8218,3 +8218,7 @@ JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Ma
 JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
 JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
 JavaScript error: https://www.pgcareers.com/global/en/job/R000099738/Standout-Manufacturing-Midwest--Iowa-City--Intern-2025-Sophomores?source=RS_LINKEDIN line 671 > injectedScript, line 10: ReferenceError: PGdataLayer is not defined
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/11f6ve8yxsprqvp3fobvrvkio, line 21340: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
