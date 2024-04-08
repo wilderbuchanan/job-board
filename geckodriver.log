@@ -8729,3 +8729,46 @@ emit@https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9:5853:263
 rt@https://static.licdn.com/aero-v1/sc/h/eq8ui6qnrwh7pb0w384jpurj9:5854:142
 
 JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1712559559804	geckodriver	INFO	Listening on 127.0.0.1:50483
+1712559560311	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofile5JFswY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712559561516	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1712559561839	Marionette	INFO	Listening on port 50490
+WebDriver BiDi listening on ws://127.0.0.1:50484
+1712559561968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50484/devtools/browser/db6dbca4-f684-4b44-b313-5de0866e29ef
+JavaScript warning: https://static.licdn.com/sc/h/46f9yq0xpy8dzff7r440aornx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/46f9yq0xpy8dzff7r440aornx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5otwav7qap5tmzxur25vsripv, line 21555: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bvnmzci5g37w25lp04rhl97fw, line 2631: unreachable code after return statement
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=0a8c9550-e15c-4a60-8719-b20c8f021195&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DC5799761E3959&mdt=1712559579782&rticks=1712559580307, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5otwav7qap5tmzxur25vsripv, line 21555: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bvnmzci5g37w25lp04rhl97fw, line 2631: unreachable code after return statement
+1712559591535	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16704?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.formlabs.com/job/5852352/apply/?gh_jid=5852352, line 6: SyntaxError: expected expression, got '&'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16527?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16635?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/5685?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+1712560002978	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16366?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://boards.greenhouse.io."
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16387?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16366?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
+JavaScript error: https://careers.rivian.com/careers-home/jobs/16366?lang=en-us&iis=LinkedIn, line 915: SyntaxError: redeclaration of let headers
