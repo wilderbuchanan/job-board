@@ -9118,3 +9118,9 @@ JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 2:
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/440iegvfj1n63r59ubcczpxw3, line 21746: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/997drvt3jc81e6v39u43toeon, line 2648: unreachable code after return statement
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
