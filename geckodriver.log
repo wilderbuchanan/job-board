@@ -9082,3 +9082,11 @@ JavaScript warning: https://app.brazenconnect.com/BrazenChatWidget/CCD5816896898
 JavaScript error: https://siteimproveanalytics.com/js/siteanalyze_6012907.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
 JavaScript error: https://siteimproveanalytics.com/js/siteanalyze_6012907.js, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
 JavaScript warning: https://www.google.com/js/th/ZsUwGEaTXaXoI738hgfiAxwmtaoYIPrUg4qZn7H1-gg.js line 2 > eval line 3635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3770: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y, line 7768: Script terminated by timeout at:
+emit@https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y:7768:263
+rt@https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y:7769:142
+
+1712590688132	Marionette	INFO	Stopped listening on port 50490
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
