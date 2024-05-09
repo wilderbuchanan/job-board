@@ -9090,3 +9090,31 @@ rt@https://static.licdn.com/aero-v1/sc/h/2hygl4j32zw66wmzugk51149y:7769:142
 1712590688132	Marionette	INFO	Stopped listening on port 50490
 console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715269445192	geckodriver	INFO	Listening on 127.0.0.1:62044
+1715269445302	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileSQdA2J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715269445769	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715269446313	Marionette	INFO	Listening on port 62048
+WebDriver BiDi listening on ws://127.0.0.1:62045
+1715269446455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62045/devtools/browser/21246d68-b8ee-4aa3-9a62-9fadc3037f65
+JavaScript warning: https://static.licdn.com/sc/h/abxtfdoe63m7bntcqj6owpbhb, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/abxtfdoe63m7bntcqj6owpbhb, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/440iegvfj1n63r59ubcczpxw3, line 21746: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/997drvt3jc81e6v39u43toeon, line 2648: unreachable code after return statement
+1715269475917	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=b085a3d2-5c04-4827-8933-a46805fbd874&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DC703EED8FFA50&mdt=1715269475747&rticks=1715269475568, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/440iegvfj1n63r59ubcczpxw3, line 21746: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/997drvt3jc81e6v39u43toeon, line 2648: unreachable code after return statement
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/eezvuxxpuxvqvuv9o6aoiz41m, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
