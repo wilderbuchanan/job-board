@@ -9200,3 +9200,6 @@ Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window
 Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/6b17zojmq2nq2l6hkqiar9zhx, line 21798: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
