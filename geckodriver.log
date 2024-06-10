@@ -9281,3 +9281,8 @@ Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window
 Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6, line 601: Script terminated by timeout at:
+track@https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6:601:194
+fireTrackingEvents@https://static.licdn.com/aero-v1/sc/h/9bzjcmpk4vtbv4t7hssbc2hk6:600:485
+
+1715313867870	Marionette	INFO	Stopped listening on port 64955
