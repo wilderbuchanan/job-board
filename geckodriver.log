@@ -9341,3 +9341,31 @@ _end@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6221:9
 B/this._boundAutorunEnd@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6158:6
 
 1717983912590	Marionette	INFO	Stopped listening on port 53077
+1717983920245	geckodriver	INFO	Listening on 127.0.0.1:53228
+1717983920254	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofilebIr2Qi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717983920602	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1717983920928	Marionette	INFO	Listening on port 53232
+WebDriver BiDi listening on ws://127.0.0.1:53229
+1717983921331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53229/devtools/browser/99387987-d7bc-4f2a-af83-bc37b9f7dc1f
+JavaScript warning: https://static.licdn.com/sc/h/al4wbhnk9xhp29li2dtg2ru66, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/al4wbhnk9xhp29li2dtg2ru66, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2eurfmvbl5d1egni1pfphm6fn, line 21864: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ew4rvu1g5pojn6dbgplrm5hgv, line 2667: unreachable code after return statement
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=2ef6b40d-6255-45e2-8c53-07260557f322&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DC88EF096E9E26&mdt=1717983941752&rticks=1717983941657, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/8yzg5v7on75gpinbpjej4xfen, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/8yzg5v7on75gpinbpjej4xfen, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1717983950785	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/2eurfmvbl5d1egni1pfphm6fn, line 21864: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ew4rvu1g5pojn6dbgplrm5hgv, line 2667: unreachable code after return statement
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/8yzg5v7on75gpinbpjej4xfen, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/8yzg5v7on75gpinbpjej4xfen, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
