@@ -383,7 +383,7 @@
         li.setAttribute('data-category', job.category);
         const imageWrapper = document.createElement('div');
         const image = document.createElement('img');
-        image.src = job.imageURL;
+        image.src = 'https://via.placeholder.com/150'; //job.imageURL;
         const jobInfoWrapper = document.createElement('div');
         jobInfoWrapper.classList.add('job-info-wrapper');
         const h3 = document.createElement('h3');
@@ -523,8 +523,8 @@
       jobInfoWrapper.appendChild(company);
       jobInfoWrapper.appendChild(location);
       jobInfoWrapper.appendChild(postedDate);
-      li.appendChild(imageWrapper);
-      li.appendChild(image);
+			imageWrapper.appendChild(image);
+			li.appendChild(imageWrapper);
       li.appendChild(jobInfoWrapper);
       li.appendChild(applyButton);
       li.appendChild(tagsContainer); // Add the tags container to the li element
@@ -578,8 +578,8 @@
       jobInfoWrapper.appendChild(company);
       jobInfoWrapper.appendChild(location);
       jobInfoWrapper.appendChild(postedDate);
-      li.appendChild(imageWrapper);
-      li.appendChild(image);
+			imageWrapper.appendChild(image);
+			li.appendChild(imageWrapper);
       li.appendChild(jobInfoWrapper);
       li.appendChild(applyButton);
       li.appendChild(tagsContainer); // Add the tags container to the li element
