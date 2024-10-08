@@ -9383,3 +9383,33 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1728355821741	geckodriver	INFO	Listening on 127.0.0.1:50028
+1728355821824	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofilenEjGuY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1728355822300	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1728355822955	Marionette	INFO	Listening on port 50035
+WebDriver BiDi listening on ws://127.0.0.1:50029
+1728355823033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/cqalguhxcfs802n4eeg3n09iq, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/cqalguhxcfs802n4eeg3n09iq, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3349lsc7isinoyve9kkkc4lxa, line 22142: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5f4g2rh82q4uoqk8ivsvnggg1, line 2750: unreachable code after return statement
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=a5030c0e-e32f-479d-8195-2d2262af5b38&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DCE74402B026DD&mdt=1728355847275&rticks=1728355846865, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+1728355852331	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3349lsc7isinoyve9kkkc4lxa, line 22142: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5f4g2rh82q4uoqk8ivsvnggg1, line 2750: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
