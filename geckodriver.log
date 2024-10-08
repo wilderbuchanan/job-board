@@ -9504,3 +9504,11 @@ JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
 Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript error: https://cadmus2.script.ac/fs01/main.js, line 1: TypeError: n is null
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3349lsc7isinoyve9kkkc4lxa, line 22142: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.error: ({})
+JavaScript error: https://assets.jibecdn.com/prod/siriusxmradio/0.0.73/assets/_scripts/change-images.js, line 14: TypeError: sku8ItemsContainer is null
+JavaScript error: https://tbcdn.talentbrew.com/company/40062/js/56192-GST.min.js, line 1: TypeError: check_cookie_name(...) is undefined
