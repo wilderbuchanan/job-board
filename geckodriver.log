@@ -9430,3 +9430,36 @@ B/this._boundAutorunEnd@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvs
 
 1728355900178	Marionette	INFO	Stopped listening on port 50035
 1728355907840	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
+1728355915177	geckodriver	INFO	Listening on 127.0.0.1:50181
+1728355915704	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileV2N4o9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1728355916126	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1728355916554	Marionette	INFO	Listening on port 50187
+WebDriver BiDi listening on ws://127.0.0.1:50182
+1728355916776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/cqalguhxcfs802n4eeg3n09iq, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/cqalguhxcfs802n4eeg3n09iq, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3349lsc7isinoyve9kkkc4lxa, line 22142: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5f4g2rh82q4uoqk8ivsvnggg1, line 2750: unreachable code after return statement
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=f62230ef-6b6c-4bb2-80a5-8e20675302b3&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DCE744388A2663&mdt=1728355937365&rticks=1728355937213, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3349lsc7isinoyve9kkkc4lxa, line 22142: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5f4g2rh82q4uoqk8ivsvnggg1, line 2750: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1728355946343	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://www.epirusinc.com/open-roles?gh_jid=5320554004, line 900: SyntaxError: redeclaration of const pressSwiper
+JavaScript error: https://www.epirusinc.com/open-roles?gh_jid=5320554004, line 925: SyntaxError: redeclaration of const wpSwiper
+JavaScript error: https://www.epirusinc.com/open-roles?gh_jid=5320554004, line 949: SyntaxError: redeclaration of const prSwiper
+JavaScript error: https://www.epirusinc.com/open-roles?gh_jid=5320554004, line 998: SyntaxError: unterminated comment
+1728356119514	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.google.com/js/th/aDz_T_gaBrysQcZbaYaX8h92PYnkBHHJotKz2yKPZZ4.js line 2 > eval line 4470 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
