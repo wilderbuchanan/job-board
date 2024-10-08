@@ -9413,3 +9413,20 @@ JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5f4g2rh82q4uoqk8ivsvng
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/b6dgh8heh24tjljzhpg1zmvpc, line 27: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3349lsc7isinoyve9kkkc4lxa, line 22142: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5f4g2rh82q4uoqk8ivsvnggg1, line 2750: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6936: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9uvnospq9vx5mowogycpzp71a, line 6932: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j, line 7165: Script terminated by timeout at:
+h@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:7165:48
+b@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:7186:113
+g@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:7183:3
+invokeWithOnError@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6108:199
+flush@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6092:20
+flush@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6120:52
+_end@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6221:9
+B/this._boundAutorunEnd@https://static.licdn.com/aero-v1/sc/h/bpj7j23zixfggs7vvsaeync9j:6158:6
+
+1728355900178	Marionette	INFO	Stopped listening on port 50035
+1728355907840	geckodriver::marionette	ERROR	Failed to close browser connection: unknown error
