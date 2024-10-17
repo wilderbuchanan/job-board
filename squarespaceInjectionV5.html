@@ -343,9 +343,9 @@
 	      const location = document.createElement('p');
 	      location.classList.add('location');
 	      location.textContent = job.location;
-	      const postedDate = document.createElement('p');
-	      postedDate.classList.add('posted-date');
-	      postedDate.textContent = `Posted ${job.postedDate}`;
+	      //const postedDate = document.createElement('p');
+	      //postedDate.classList.add('posted-date');
+	      //postedDate.textContent = `Posted ${job.postedDate}`;
 	      const applyButton = document.createElement('a');
 	      applyButton.href = job.applicationURL;
 	      applyButton.target = "_blank";
@@ -364,7 +364,7 @@
 	      jobInfoWrapper.appendChild(h3);
 	      jobInfoWrapper.appendChild(company);
 	      jobInfoWrapper.appendChild(location);
-	      jobInfoWrapper.appendChild(postedDate);
+	      //jobInfoWrapper.appendChild(postedDate);
 	      li.appendChild(imageWrapper);
 	      li.appendChild(image);
 	      li.appendChild(jobInfoWrapper);
@@ -460,9 +460,9 @@
       const location = document.createElement('p');
       location.classList.add('location');
       location.textContent = job.location;
-      const postedDate = document.createElement('p');
-      postedDate.classList.add('posted-date');
-      postedDate.textContent = `Posted ${job.postedDate}`;
+      //const postedDate = document.createElement('p');
+      //postedDate.classList.add('posted-date');
+      //postedDate.textContent = `Posted ${job.postedDate}`;
       const applyButton = document.createElement('a');
       applyButton.href = job.applicationURL;
       applyButton.target = "_blank";
