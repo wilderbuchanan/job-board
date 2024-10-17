@@ -196,6 +196,37 @@
 	margin-bottom: 20px;
 }
 
+.onshape-jobs li .apply-button {
+	display: inline-block;
+	background-color: #FFC24A;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+.onshape-jobs li {
+	background-color: #fff7e7;
+	list-style: none;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 95%;
+	justify-content: center;
+}
+
+.onshape-jobs {
+	margin-bottom: 20px;
+}
+
 .job-listings h4 {
 	margin-top: -30px;
 }
@@ -215,6 +246,23 @@
 	outline: 2px solid #ED7979;
 	color: black;
 }
+
+.onshape-jobs h1 {
+	font-weight: bold;
+	color: #FFC24A;
+}
+
+.onshape-jobs .tag {
+	outline: 1px solid #FFC24A;
+	color: #3B404A
+}
+
+.onshape-jobs .apply-button:hover {
+	background-color: transparent;
+	outline: 2px solid #FFC24A;
+	color: black;
+}
+
 
 /* position and format the filter container *******************/
 .filter-label {
@@ -248,13 +296,18 @@
   </ul>
 </div>
 
+<div class="onshape-jobs">
+  <ul id="onshape-jobs-ul" class="job-listings">
+    <h4>*You know we love Onshape, so here are some jobs that require Onshape skills!</h4>
+  </ul>
+</div>
+
 <div class="filter-container">
   <label for="filter-type" class="filter-label">Filter by tag:</label>
   <select id="filter-type" class="filter-select">
     <option value="all">All</option>
-    <option value="full-time">Full Time</option>
+    <option value="co-op">Co-Op</option>
     <option value="internship">Internship</option>
-		<option value="co-op">Co-Op</option>
     <option value="manufacturing">Manufacturing</option>
   </select>
 </div>
@@ -319,6 +372,7 @@
   <ul id="job-listings-ul" class="job-listings">
   </ul>
 </div>
+
 
 
 
@@ -479,9 +533,63 @@
       jobInfoWrapper.appendChild(h3);
       jobInfoWrapper.appendChild(company);
       jobInfoWrapper.appendChild(location);
-      jobInfoWrapper.appendChild(postedDate);
+      //jobInfoWrapper.appendChild(postedDate);
       li.appendChild(imageWrapper);
       li.appendChild(image);
+      li.appendChild(jobInfoWrapper);
+      li.appendChild(applyButton);
+      li.appendChild(tagsContainer); // Add the tags container to the li element
+      jobListingsUl.appendChild(li);
+
+      li.addEventListener('click', () => {
+        window.open(job.applicationURL);
+      });
+    });
+  });
+</script>
+<script>
+  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json')
+  .then(response => response.json())
+  .then(data => {
+    const jobListingsUl = document.getElementById('onshape-jobs-ul');
+    data.forEach(job => {
+      const li = document.createElement('li');
+      li.setAttribute('data-category', job.category);
+      const imageWrapper = document.createElement('div');
+      const image = document.createElement('img');
+      image.src = job.imageURL;
+      const jobInfoWrapper = document.createElement('div');
+      jobInfoWrapper.classList.add('job-info-wrapper');
+      const h3 = document.createElement('h3');
+      h3.textContent = job.title;
+      const company = document.createElement('p');
+      company.classList.add('company-name');
+      company.textContent = job.company;
+      const location = document.createElement('p');
+      location.classList.add('location');
+      location.textContent = job.location;
+      //const postedDate = document.createElement('p');
+      //postedDate.classList.add('posted-date');
+      //postedDate.textContent = `Posted ${job.postedDate}`;
+      const applyButton = document.createElement('a');
+      applyButton.href = job.applicationURL;
+      applyButton.target = "_blank";
+      applyButton.classList.add('apply-button');
+      applyButton.textContent = 'Apply Now';
+      const tagsContainer = document.createElement('div');
+      tagsContainer.classList.add('tag-container');
+      job.tags.forEach(tag => {
+        const tagEl = document.createzElement('span');
+        tagEl.classList.add('tag');
+        tagEl.textContent = tag;
+        tagsContainer.appendChild(tagEl);
+      });
+      jobInfoWrapper.appendChild(h3);
+      jobInfoWrapper.appendChild(company);
+      jobInfoWrapper.appendChild(location);
+      //jobInfoWrapper.appendChild(postedDate);
+			imageWrapper.appendChild(image);
+			li.appendChild(imageWrapper);
       li.appendChild(jobInfoWrapper);
       li.appendChild(applyButton);
       li.appendChild(tagsContainer); // Add the tags container to the li element
