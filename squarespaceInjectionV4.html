@@ -383,7 +383,7 @@
         li.setAttribute('data-category', job.category);
         const imageWrapper = document.createElement('div');
         const image = document.createElement('img');
-        image.src = 'https://via.placeholder.com/150'; //job.imageURL;
+        image.src = job.imageURL;
         const jobInfoWrapper = document.createElement('div');
         jobInfoWrapper.classList.add('job-info-wrapper');
         const h3 = document.createElement('h3');
@@ -569,7 +569,7 @@
       const tagsContainer = document.createElement('div');
       tagsContainer.classList.add('tag-container');
       job.tags.forEach(tag => {
-        const tagEl = document.createElement('span');
+        const tagEl = document.createzElement('span');
         tagEl.classList.add('tag');
         tagEl.textContent = tag;
         tagsContainer.appendChild(tagEl);
