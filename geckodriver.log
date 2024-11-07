@@ -9837,3 +9837,18 @@ JavaScript error: https://sjobs.brassring.com/TGNewUI/Scripts/app/v-638651735372
 JavaScript error: https://jobs.bechtel.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
 JavaScript error: https://jobs.bechtel.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 19: TypeError: firstFocusableElementInLangDropDownSlideNav is undefined
 console.error: ({})
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://c-12862-20230410-www-haskell-com.i.icims.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.12.1, line 2: TypeError: _[e] is not a function
+JavaScript error: https://c-12862-20230410-www-haskell-com.i.icims.com/wp-content/plugins/dynamic-content-for-elementor/assets/js/dynamic-posts-base.min.js?ver=2.9.2, line 1: TypeError: $scope.attr(...) is undefined
+1730978859560	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new TypeError("domWindow is null", "jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi!/api.js", 28))
+1730978917241	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new TypeError("domWindow is null", "jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi!/api.js", 28))
+JavaScript error: https://jobs.bechtel.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
+JavaScript error: https://jobs.bechtel.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 19: TypeError: firstFocusableElementInLangDropDownSlideNav is undefined
+console.error: ({})
+JavaScript error: https://c-12862-20230410-www-haskell-com.i.icims.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.12.1, line 2: TypeError: _[e] is not a function
+JavaScript error: https://c-12862-20230410-www-haskell-com.i.icims.com/wp-content/plugins/dynamic-content-for-elementor/assets/js/dynamic-posts-base.min.js?ver=2.9.2, line 1: TypeError: $scope.attr(...) is undefined
+console.error: (new TypeError("domWindow is null", "jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/formautofill@mozilla.org.xpi!/api.js", 28))
