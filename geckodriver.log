@@ -9624,3 +9624,33 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1730977273492	geckodriver	INFO	Listening on 127.0.0.1:59744
+1730977273574	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6l/dv657gm11slb1554_3sz9wrh0000gn/T/rust_mozprofileddXCq1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730977273991	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1730977274431	Marionette	INFO	Listening on port 59749
+WebDriver BiDi listening on ws://127.0.0.1:59745
+1730977274502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/73vju0c5cjw3yjhhmr2cg43lx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/73vju0c5cjw3yjhhmr2cg43lx, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/473v2cdto9klp3y6gfjcs28u2, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/4cw3g6428kuevpbiq2q4pcla6, line 2767: unreachable code after return statement
+JavaScript warning: https://merchantpool1.linkedin.com/?session_id=4f3c6aa6-c431-458d-84b9-dfbf9f7f55af&CustomerId=fb6bbd47-fa7c-4264-b4e9-b25948407586&PageId=&w=8DCFF1B8F1E8A35&mdt=1730977298638&rticks=1730977301011, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/4cw3g6428kuevpbiq2q4pcla6, line 2767: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client.protechts.net/PXdOjV695v/main.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 1615: TypeError: Network request failed
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 1615: TypeError: Network request failed
+JavaScript error: https://careers.hubbell.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
+JavaScript error: https://careers.hubbell.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 50: TypeError: firstFocusableElementInUnifyApplyNowButtonListDropDownSlideNav is undefined
