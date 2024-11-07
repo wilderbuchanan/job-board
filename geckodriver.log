@@ -9664,3 +9664,34 @@ JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1730977531701	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://wd5.myworkdaycdn.com/wday/asset/candidate-experience-jobs/cx-jobs.min.js, line 38: Script terminated by timeout at:
+3620/_/<@https://wd5.myworkdaycdn.com/wday/asset/candidate-experience-jobs/cx-jobs.min.js:38:341075
+_@https://wd5.myworkdaycdn.com/wday/asset/candidate-experience-jobs/cx-jobs.min.js:38:340795
+3620/t.prototype.render/D</<@https://wd5.myworkdaycdn.com/wday/asset/candidate-experience-jobs/cx-jobs.min.js:38:342597
+1913/304/forEach/<@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:375052
+1913/304/P/<@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:374550
+O@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:373581
+O@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:373970
+P@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:374517
+forEach@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:375035
+3620/t.prototype.render/D<@https://wd5.myworkdaycdn.com/wday/asset/candidate-experience-jobs/cx-jobs.min.js:38:342483
+Eu@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:359069
+ws@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:345086
+vs@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:345014
+ys@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:344875
+os@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:340040
+S@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:366754
+P@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:367285
+@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:424686
+O@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:424454
+A@https://wd5.myworkday.com/wday/asset/uic-shared-vendors/shared-vendors.min.js:2:424514
+
+1730977537193	Marionette	INFO	Stopped listening on port 59749
