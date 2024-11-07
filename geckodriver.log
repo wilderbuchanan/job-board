@@ -9654,3 +9654,5 @@ JavaScript error: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b
 JavaScript error: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 1615: TypeError: Network request failed
 JavaScript error: https://careers.hubbell.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
 JavaScript error: https://careers.hubbell.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 50: TypeError: firstFocusableElementInUnifyApplyNowButtonListDropDownSlideNav is undefined
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/4cw3g6428kuevpbiq2q4pcla6, line 2767: unreachable code after return statement
