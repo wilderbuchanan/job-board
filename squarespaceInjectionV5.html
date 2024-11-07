@@ -547,6 +547,7 @@
     });
   });
 </script>
+
 <script>
   fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json')
   .then(response => response.json())
@@ -579,7 +580,7 @@
       const tagsContainer = document.createElement('div');
       tagsContainer.classList.add('tag-container');
       job.tags.forEach(tag => {
-        const tagEl = document.createzElement('span');
+        const tagEl = document.createElement('span');
         tagEl.classList.add('tag');
         tagEl.textContent = tag;
         tagsContainer.appendChild(tagEl);
