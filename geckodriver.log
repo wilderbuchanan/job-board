@@ -9855,3 +9855,23 @@ console.error: (new TypeError("domWindow is null", "jar:file:///Applications/Fir
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/f5b36kgvtvjyzh9oqq4e2w7b3, line 22220: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6933: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/3n7iyzip46mswrkskvjno8x7a, line 6929: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.jibecdn.com/prod/constellationenergy/0.0.108/assets/_scripts/header.js, line 23: TypeError: document.querySelector(...) is null
+JavaScript error: https://assets.jibecdn.com/prod/constellationenergy/0.0.108/assets/_scripts/slider.js, line 99: TypeError: active is null
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://amphenol-tcs.acquiretm.com/scripts/css3/css3-mediaqueries.js, line 474: unreachable code after return statement
+JavaScript warning: https://www.google.com/js/th/UjuEPAY10DV42112mx5RpuL7vL9na3wqBIEQc9gWluY.js line 2 > eval line 2837 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ro.careers.tsmc.com/platform/js/j2w/j2w.bootstrap.collapse.js, line 44: TypeError: firstFocusableElementInSearchSlideNav is undefined
+JavaScript error: https://ro.careers.tsmc.com/platform/js/j2w/j2w.bootstrap.dropdown.js, line 50: TypeError: firstFocusableElementInUnifyApplyNowButtonListDropDownSlideNav is undefined
