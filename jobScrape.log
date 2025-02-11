@@ -18006,3 +18006,393 @@ job postings found
 Some error occured while pushing the code
 github updated
 harvested all jobs
+Some error occured while pushing the code
+in options section
+exited options
+assigned driver
+assigned driver
+on login page)
+found username
+found password
+logged in
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+harvested top internships
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+harvested high volume internships
+made to webpage
+7
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+harvested top companies
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+harvested high volume companies
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+harvested all internships
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+16
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+harvested all jobs
+Some error occured while pushing the code
+in options section
+exited options
+assigned driver
+assigned driver
+on login page)
+found username
+found password
+logged in
+made to webpage
+Traceback (most recent call last):
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 299, in <module>
+    harvest(topCompaniesInternship,"intern",p,0)
+  File "/Users/wilderbuchanan/Documents/hwh/job-board/jobScrape.py", line 114, in harvest
+    element = driver.find_element(By.XPATH, "//footer[contains(@aria-label,'LinkedIn Footer Content')]")
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/Users/wilderbuchanan/miniconda3/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //footer[contains(@aria-label,'LinkedIn Footer Content')]
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+Some error occured while pushing the code
+in options section
+exited options
+assigned driver
+assigned driver
+on login page)
+found username
+found password
+logged in
+made to webpage
+15
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+harvested top internships
+made to webpage
+7
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+harvested high volume internships
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+harvested top companies
+made to webpage
+8
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+harvested high volume companies
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+harvested all internships
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+0
+job postings found
+Some error occured while pushing the code
+github updated
+made to webpage
+15
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+made to webpage
+10
+job postings found
+no more job postings for this search
+Some error occured while pushing the code
+github updated
+harvested all jobs
