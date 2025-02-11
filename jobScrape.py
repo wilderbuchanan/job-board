@@ -104,56 +104,97 @@ print("logged in")
 
 
 ## FUNCTIONS
-def harvest(link,type,page,priority):
-    driver.get(link + pageKey[1 - int(page)])
-    time.sleep(randomWaitTime()*2)
-    print("made to webpage")
-    #driver.execute_script("document.body.style.zoom='30%'")
-    #print("zoomed")
-    time.sleep(randomWaitTime())
-#    element = driver.find_element(By.XPATH, "//button[contains(@aria-label,'Page')]")
-    element = driver.find_element(By.XPATH, "//footer[contains(@aria-label,'LinkedIn Footer Content')]")
-    driver.execute_script("arguments[0].scrollIntoView();", element)
-    time.sleep(2)
-    try:
-        jobPostings = driver.find_elements(By.CLASS_NAME,"job-card-container")
-        print(len(jobPostings))
-        print("job postings found")
+import traceback  # Import traceback for detailed error messages
 
-        for e in jobPostings:
+def harvest(link, type, page, priority):
+    """ Extracts job postings from a LinkedIn job search page """
+
+    print(f"\n>>> Starting harvest: {type}, Page: {page}, Priority: {priority}")
+
+    try:
+        target_url = link + pageKey[1 - int(page)]
+        print(f"Navigating to: {target_url}")
+        driver.get(target_url)
+        time.sleep(randomWaitTime() * 2)
+        print("Successfully loaded webpage.")
+
+        # Scroll to the footer to trigger job listings loading
+        print("Scrolling to footer...")
+        try:
+            footer_element = driver.find_element(By.XPATH, "//footer[contains(@aria-label,'LinkedIn Footer Content')]")
+            driver.execute_script("arguments[0].scrollIntoView();", footer_element)
+            time.sleep(2)
+            print("Scrolled to footer successfully.")
+        except Exception as e:
+            print(f"Error scrolling to footer: {e}")
+            traceback.print_exc()
+
+        # Find job postings
+        print("Searching for job postings...")
+        jobPostings = driver.find_elements(By.CLASS_NAME, "job-card-container")
+        print(f"Found {len(jobPostings)} job postings.")
+
+        if not jobPostings:
+            print("No job postings found. Exiting function.")
+            return  # Exit early if no jobs are found
+
+        for idx, e in enumerate(jobPostings):
+            print(f"\n>>> Processing job {idx + 1}/{len(jobPostings)}")
 
             try:
                 with open("jobs.json") as infile:
                     job_postings_list = json.load(infile)
-            except (FileNotFoundError):
-                print("jobs json load issue")
-                pass
+                    print("Loaded jobs.json successfully.")
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                print(f"Error loading jobs.json: {e}")
+                traceback.print_exc()
+                job_postings_list = []
+
             tags = []
-            title = e.find_element(By.CLASS_NAME,"job-card-list__title").click()
-            time.sleep(randomWaitTime()*4)
+
+            try:
+                print("Clicking on job title...")
+                e.find_element(By.CLASS_NAME, "job-card-list__title").click()
+                time.sleep(randomWaitTime() * 4)
+                print("Clicked on job title successfully.")
+            except Exception as e:
+                print(f"Error clicking job title: {e}")
+                traceback.print_exc()
+                continue  # Skip this job and move to the next one
+
             if len(driver.find_elements(By.XPATH, "//span[text()='Easy Apply']")) == 0:
+                print("Not an Easy Apply job, proceeding...")
                 time.sleep(randomWaitTime())
+
                 jobID = str(uuid.uuid4())
 
                 try:
-                    title = e.find_element(By.CLASS_NAME,"job-card-list__title")
-                    title = title.text
-                except Exception:
+                    title = e.find_element(By.CLASS_NAME, "job-card-list__title").text
+                    print(f"Job Title: {title}")
+                except Exception as e:
+                    print(f"Error finding job title: {e}")
+                    traceback.print_exc()
                     title = "Mechanical Engineer"
+
                 try:
-                    companyName = e.find_element(By.CLASS_NAME, "job-card-container__primary-description") #  OLD: job-card-container__company-name
-                    companyName = companyName.text
-                except Exception:
+                    companyName = e.find_element(By.CLASS_NAME, "job-card-container__primary-description").text
+                    print(f"Company Name: {companyName}")
+                except Exception as e:
+                    print(f"Error finding company name: {e}")
+                    traceback.print_exc()
                     companyName = "None"
+
                 try:
-                    location = e.find_element(By.CLASS_NAME,"job-card-container__metadata-item")
-                    location = location.text
+                    location = e.find_element(By.CLASS_NAME, "job-card-container__metadata-item").text
+                    print(f"Location: {location}")
                     state = location[-2:]
-                    state_name = state_codes_formatted.get(state)
+                    state_name = state_codes_formatted.get(state, "unknown")
                     tags.append(state_name)
+
                     for t in keyTags:
-                        if t in title.lower():
+                        if t.lower() in title.lower():
                             tags.append(t)
+
                     if "manufacturing" in title.lower() and "manufacturing" not in tags:
                         tags.append("manufacturing")
                     if "product" in title.lower() and "product design" not in tags:
@@ -162,78 +203,91 @@ def harvest(link,type,page,priority):
                         tags.append("product design")
                     if type == "intern" and "internship" not in tags:
                         tags.append("internship")
-                    if type == ("ft"):
+                    if type == "ft":
                         tags.append("full-time")
-                except Exception:
-                    print("no location")
+                except Exception as e:
+                    print(f"Error processing location: {e}")
+                    traceback.print_exc()
+
                 try:
-                    image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]")
-                    image = image.get_attribute("src")
-                except Exception:
-                    print("no image")
+                    image = e.find_element(By.XPATH, ".//img[starts-with(@id,'ember')]").get_attribute("src")
+                    print(f"Image URL: {image}")
+                except Exception as e:
+                    print("No image found.")
+                    image = ""
+
                 try:
-                    posted = driver.find_element(By.CLASS_NAME,"jobs-unified-top-card__posted-date")
-                    posted = posted.text
-                except:
-                    print("no post date")
+                    posted = driver.find_element(By.CLASS_NAME, "jobs-unified-top-card__posted-date").text
+                    print(f"Posted Date: {posted}")
+                except Exception as e:
+                    print("No posted date found.")
                     posted = ""
-                buttons = driver.find_elements(By.CLASS_NAME,"jobs-apply-button")
-                #print(buttons)
+
+                buttons = driver.find_elements(By.CLASS_NAME, "jobs-apply-button")
+                print(f"Apply Buttons Found: {len(buttons)}")
+
                 if len(buttons) > 0:
-                    #print("got url")
-                    apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
-                    time.sleep(randomWaitTime())
-                    if len(driver.find_elements(By.CLASS_NAME, "artdeco-modal-overlay.artdeco-modal-overlay--layer-default.artdeco-modal-overlay--is-top-layer.display-flexflex-column justify-center.ember-view")) > 0:
-                        exit = driver.find_element(By.CLASS_NAME,"artdeco-button.artdeco-button--circle.artdeco-button--muted.artdeco-button--2.artdeco-button--tertiary.ember-view artdeco-modal__dismiss").click()
+                    try:
+                        print("Clicking apply button...")
+                        driver.find_element(By.CLASS_NAME, "jobs-apply-button").click()
                         time.sleep(randomWaitTime())
-                        apply = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
 
+                        # Handle modal pop-up
+                        if len(driver.find_elements(By.CLASS_NAME, "artdeco-modal-overlay")) > 0:
+                            print("Modal detected, closing it...")
+                            driver.find_element(By.CLASS_NAME, "artdeco-modal__dismiss").click()
+                            time.sleep(randomWaitTime())
 
-                    time.sleep(randomWaitTime()*2)
-                    #continueAgain = driver.find_element(By.CLASS_NAME,"jobs-apply-button").click()
-                    time.sleep(randomWaitTime())
-                    driver.switch_to.window(driver.window_handles[1])
-                    time.sleep(randomWaitTime())
-                    applicationURL = driver.current_url
-                    applicationURL = applicationURL.replace('?source=LinkedIn', '')
-                    applicationURL += '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
-                    print("got url")
-                    driver.close()
-                    time.sleep(randomWaitTime())
-                    driver.switch_to.window(driver.window_handles[0])
-                    print("back to search")
-                    time.sleep(randomWaitTime())
+                        time.sleep(randomWaitTime() * 2)
+                        driver.switch_to.window(driver.window_handles[1])
+                        time.sleep(randomWaitTime())
+
+                        applicationURL = driver.current_url.replace('?source=LinkedIn', '') + '?utm_source=job-board&utm_medium=website&utm_campaign=job-listing'
+                        print(f"Application URL: {applicationURL}")
+
+                        driver.close()
+                        time.sleep(randomWaitTime())
+                        driver.switch_to.window(driver.window_handles[0])
+                        print("Back to job search.")
+                    except Exception as e:
+                        print(f"Error handling job application: {e}")
+                        traceback.print_exc()
+                        applicationURL = "https://www.hardwareishard.net/job-board"
                 else:
                     applicationURL = "https://www.hardwareishard.net/job-board"
 
-                job_posting ={
-                        "title": title,
-                        "company": companyName,
-                        "location": location,
-                        "applicationURL": applicationURL,
-                        "postedDate": posted,
-                        "imageURL": image,
-                        "tags": tags,
-                        "priority": priority
-                    }
+                job_posting = {
+                    "title": title,
+                    "company": companyName,
+                    "location": location,
+                    "applicationURL": applicationURL,
+                    "postedDate": posted,
+                    "imageURL": image,
+                    "tags": tags,
+                    "priority": priority
+                }
+
                 job_postings_list.append(job_posting)
-                print("list appended")
+                print(f"Job added: {title} at {companyName}")
+
                 with open("jobs.json", "w") as outfile:
-                    json.dump(job_postings_list,outfile)
-                print("json dumped")
+                    json.dump(job_postings_list, outfile, indent=4)
+                print("Updated jobs.json successfully.")
+
                 time.sleep(randomWaitTime())
-            #    print(job_postings_list)
-            #    time.sleep(randomWaitTime())
-            #    with open("jobs.json", "r") as outfile:
-            #        sorted_job_list = sorted(job_postings_list, key=lambda x: int(x["priority"]))
-            #    with open("jobs.json", "w") as outfile:
-            #        json.dump(sorted_job_list, outfile)
-                print("a job collection has completed")
-    except:
-        print("no more job postings for this search")
-        pass
-    githubUpdates.git_push()
-    print("github updated")
+
+        print("Completed processing job postings.")
+
+    except Exception as e:
+        print(f"Unexpected error in harvest(): {e}")
+        traceback.print_exc()
+
+    try:
+        githubUpdates.git_push()
+        print("GitHub updated.")
+    except Exception as e:
+        print(f"Error pushing to GitHub: {e}")
+        traceback.print_exc()
 
 
 def shuffle():
