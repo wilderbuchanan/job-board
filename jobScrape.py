@@ -153,14 +153,21 @@ def harvest(link, type, page, priority):
             tags = []
 
             try:
-                print("Clicking on job title...")
-                e.find_element(By.CLASS_NAME, "job-card-list__title").click()
+                print("Waiting for job title element to appear...")
+                WebDriverWait(e, 10).until(
+                    EC.presence_of_element_located((By.XPATH, ".//a[contains(@class, 'job-card-container__link')]"))
+                )
+                print("Job title element is present. Attempting to click...")
+
+                title_element = e.find_element(By.XPATH, ".//a[contains(@class, 'job-card-container__link')]")
+                title_element.click()
                 time.sleep(randomWaitTime() * 4)
-                print("Clicked on job title successfully.")
-            except Exception as e:
-                print(f"Error clicking job title: {e}")
+                print("Successfully clicked on job title.")
+
+            except NoSuchElementException:
+                print("ERROR: Could not find job title element for this job. Skipping to next.")
                 traceback.print_exc()
-                continue  # Skip this job and move to the next one
+                continue  # Skip this job and proceed with the next
 
             if len(driver.find_elements(By.XPATH, "//span[text()='Easy Apply']")) == 0:
                 print("Not an Easy Apply job, proceeding...")
@@ -169,7 +176,8 @@ def harvest(link, type, page, priority):
                 jobID = str(uuid.uuid4())
 
                 try:
-                    title = e.find_element(By.CLASS_NAME, "job-card-list__title").text
+                    title = e.find_element(By.XPATH, ".//a[contains(@class, 'job-card-container__link')]").text
+
                     print(f"Job Title: {title}")
                 except Exception as e:
                     print(f"Error finding job title: {e}")
