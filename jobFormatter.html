@@ -56,6 +56,10 @@
             padding: 10px;
             border-radius: 5px;
             text-align: left;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 200px;
+            overflow-y: auto;
         }
     </style>
     <script>
@@ -65,9 +69,7 @@
                 company: document.getElementById("company").value,
                 location: document.getElementById("location").value,
                 applicationURL: document.getElementById("applicationURL").value,
-                postedDate: document.getElementById("postedDate").value,
-                imageURL: document.getElementById("imageURL").value,
-                tags: document.getElementById("tags").value.split(",").map(tag => tag.trim())
+                imageURL: document.getElementById("imageURL").value
             };
             document.getElementById("output").textContent = JSON.stringify(jobData, null, 2);
         }
@@ -86,9 +88,7 @@
         <div class="form-group"><label>Company:</label> <input type="text" id="company"></div>
         <div class="form-group"><label>Location:</label> <input type="text" id="location"></div>
         <div class="form-group"><label>Application URL:</label> <input type="text" id="applicationURL"></div>
-        <div class="form-group"><label>Posted Date:</label> <input type="text" id="postedDate"></div>
         <div class="form-group"><label>Image URL:</label> <input type="text" id="imageURL"></div>
-        <div class="form-group"><label>Tags:</label> <input type="text" id="tags"></div>
         <button onclick="generateJSON()">Generate JSON</button>
         <pre id="output"></pre>
         <button onclick="copyToClipboard()">Copy JSON</button>

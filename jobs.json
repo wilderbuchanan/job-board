@@ -1,10 +1,12 @@
 [
+
+    
 {
     "title": "Senior Mechanical Engineer",
     "company": "DURIN",
     "location": "El Segundo, CA",
     "applicationURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c",
-    "imageURL": ""
+    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w"
 
   },
   {
@@ -12,14 +14,18 @@
     "company": "DURIN",
     "location": "El Segundo, CA",
     "applicationURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c",
-    "imageURL": ""
+    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w"
   },
   {
-    "title": "Senior Robotics Engineer",
-    "company": "DURIN",
-    "location": "El Segundo, CA",
-    "applicationURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c",
-    "imageURL": "https://lucid.app/lucidchart/6f395dce-186c-4345-a734-e09ed074bd81/edit?beaconFlowId=AE8E4A45195FC0E7&invitationId=inv_cfcd8539-bfaf-4c34-81e8-671e64324ce5&page=0_0#"
-
+    "title": "Mechanical Design Engineer I ",
+    "company": "ArcBest",
+    "location": "Fort Smith, AR",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=vz5hg7mnia",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQGZ_dliHzuWIg/company-logo_100_100/company-logo_100_100/0/1675369715861/arcbest_logo?e=1748476800&v=beta&t=TbfUXeiHjgvn4qwSQX3q86VRtb9xzVGClVg1LjzPzqk"
   }
+
+
+
+
+
 ]
