@@ -4,9 +4,7 @@
     "company": "Garrett Engineering",
     "location": "Torrance, CA",
     "applicationURL": "https://bit.ly/3TWMQWu",
-    "postedDate": "8 days ago",
-    "imageURL": "https://static.stocktitan.net/company-logo/gtx-lg.png",
-    "tags": ["internship", "california"]
+    "imageURL": "https://static.stocktitan.net/company-logo/gtx-lg.png"
 
   },
     {
@@ -14,9 +12,7 @@
     "company": "Beta Technologies",
     "location": "South Burlington, VT",
     "applicationURL": "https://bit.ly/3NbEeYb",
-    "postedDate": "3 days ago",
-    "imageURL": "https://privatesharesfund.com/site/assets/files/18213/beta_technologies.png",
-    "tags": ["manufacturing","full-time", "vermont"]
+    "imageURL": "https://privatesharesfund.com/site/assets/files/18213/beta_technologies.png"
 
   },
   {
@@ -24,9 +20,7 @@
     "company": "Lumafield",
     "location": "Boston, MA",
     "applicationURL": "https://bit.ly/3TUfXcH",
-    "postedDate": "2 days ago",
-    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7FypWMzsnbBjubPMK70TnYYXkV3nPijGs-Q&s",
-    "tags": ["full-time", "massachusetts"]
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7FypWMzsnbBjubPMK70TnYYXkV3nPijGs-Q&s"
 
   },
   {
@@ -34,9 +28,7 @@
     "company": "Formlabs",
     "location": "Somerville, MA",
     "applicationURL": "https://bit.ly/3BFiMrR",
-    "postedDate": "6 days ago",
-    "imageURL": "https://pbs.twimg.com/profile_images/1410586991067009027/Z2WuGgz0_400x400.png",
-    "tags": ["full-time", "massachusetts"]
+    "imageURL": "https://pbs.twimg.com/profile_images/1410586991067009027/Z2WuGgz0_400x400.png"
 
   }
 ]

@@ -4,9 +4,7 @@
     "company": "Freeform",
     "location": "Los Angeles, CA",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=w27x35nkem",
-    "postedDate": "1 day ago",
-    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w",
-    "tags": ["full-time", "california"]
+    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w"
 
   },
   {
@@ -14,19 +12,14 @@
     "company": "Freeform",
     "location": "Los Angeles, CA",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=v0dfwnbqk8",
-    "postedDate": "1 day ago",
-    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w",
-    "tags": ["full-time", "california"]
-
+    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w"
   },
   {
     "title": "Materials Engineer (Metal 3D Printing)",
     "company": "Freeform",
     "location": "Los Angeles, CA",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=8q3jxeuvzu",
-    "postedDate": "1 day ago",
-    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w",
-    "tags": ["full-time", "california"]
+    "imageURL": "https://images.squarespace-cdn.com/content/v1/61fb0a0cf413a1740c80e064/3c18ce36-87a3-49ff-a703-17839b58ae8e/freeform_logo.png?format=1000w"
 
   },
   {
@@ -34,9 +27,7 @@
     "company": "DURIN",
     "location": "El Segundo, CA",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=xlt8lt9fnn",
-    "postedDate": "1 day ago",
-    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c",
-    "tags": ["full-time", "california"]
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c"
 
   },
   {
@@ -44,8 +35,6 @@
     "company": "DURIN",
     "location": "El Segundo, CA",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=wet0h1o7lw",
-    "postedDate": "1 day ago",
-    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c",
-    "tags": ["full-time", "california"]
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c"
   }
 ]
