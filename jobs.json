@@ -18,11 +18,152 @@
 
   },
   {
+    "title": "Intern - Manufacturing Engineer",
+    "company": " Hikma Pharmaceuticals",
+    "location": "Cherry Hill, NJ",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=nhocayllm2",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQHx0hfNCLbVMg/company-logo_100_100/company-logo_100_100/0/1631414940042?e=1748476800&v=beta&t=FWEclqFTFHA-8EHFVWJ9HOCgW40gnGULZqhy42qI34w"
+  },
+  {
+    "title": "2026 Mechanical Engineering Co-op",
+    "company": "Naval Nuclear Laboratory (FMP)",
+    "location": "West Mifflin, PA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=j3n8slch5z",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQGR7EJbdyLRSA/company-logo_100_100/company-logo_100_100/0/1636639712793/naval_nuclear_laboratory_bmpc__logo?e=1748476800&v=beta&t=chhBeO_NWKP2ISdQ3kRhUQmxEAqR2M5wYiFAt-6yPdg"
+  },
+  {
+    "title": "Manufacturing Engineer Intern (Summer 2025)",
+    "company": "MacLean-Fogg Company",
+    "location": "Detroit Metropolitan Area",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=rojjniluyu",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQEuJkd6CxwojA/company-logo_100_100/company-logo_100_100/0/1720034291697/maclean_fogg_company_logo?e=1748476800&v=beta&t=_aujxESO9xNCxqrD4y6GBV7vu_X88fM7UwL8iMYkrog"
+  },
+  {
+    "title": "Product Development Engineering Intern - Summer 2025",
+    "company": "Amphenol Communications Solutions",
+    "location": "Nashua, NH",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=0oqzflloi0",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQHLhzQu_oroTw/company-logo_100_100/company-logo_100_100/0/1644310668060/amphenol_cs_logo?e=1748476800&v=beta&t=DrHoUyEo0190AnQ_0LWQXKIZZZgARiyN2K11B4ZtrqE"
+  },
+  {
+    "title": "Mechanical Engineering Student Intern - Industrial Market",
+    "company": " Gresham Smith",
+    "location": "Nashville, MI",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=x60353f2mm",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C4D0BAQHXLEpOJ74beQ/company-logo_100_100/company-logo_100_100/0/1630565589597/greshamsmith_logo?e=1748476800&v=beta&t=LgrE9T2USeiJpyqGKmCYO2ZouJdNfOrW4CJIvjG5l30"
+  },
+  {
+    "title": "Manufacturing Engineering Co-op",
+    "company": "Watlow",
+    "location": "Columbia, MO",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=hp5mv4gbh2",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C510BAQE_Cyw3Fp--Jw/company-logo_100_100/company-logo_100_100/0/1631300620166?e=1748476800&v=beta&t=si2Gp5H4LIqo1WpwPJQtXEI4s_5NhKNrlMPpwR1UhxA"
+  },
+  {
+    "title": "Advanced Manufacturing Technology Engineer Co-op",
+    "company": " Trane Technologies",
+    "location": "Davidson, NC",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=1etblk6jef",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C4E0BAQH-dHrFPlFFbg/company-logo_100_100/company-logo_100_100/0/1630610252826/tranetechnologies_logo?e=1748476800&v=beta&t=oB7-vjov0yVqiKpMVO2QztZ_UFVAqKM5Jdrhx8Tzq5c"
+  },
+  {
+    "title": "Mechanical Engineer Internship - Controls",
+    "company": "OTTO Engineering, Inc.",
+    "location": "Carpentersville, IL",
+    "applicationURL": "https://otto-engineering-inc.breezy.hr/p/08fcd9c0f3a6-mechanical-engineer-internship-controls?source=LinkedIn",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQH3FSJPHdTCgQ/company-logo_100_100/company-logo_100_100/0/1652823868257/otto_engineering_logo?e=1748476800&v=beta&t=-TdWEdG-hEsMvO_E5wa5RvBe3rO-9gMGls5NNOlIsLs"
+  },
+  {
+    "title": "Manufacturing Engineer Intern",
+    "company": "Vitamix",
+    "location": "Strongsville, OH",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=kmzg0qq4xh",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C4D0BAQFKHl5A4Qk_FA/company-logo_100_100/company-logo_100_100/0/1630510915294/vita_mix_corporation_logo?e=1748476800&v=beta&t=Ry2WK2vYfHovJSxMsM8GHatk5Nao9fKsoeNcnGaFaZQ"
+  },
+  {
+    "title": "Mechanical Engineer Intern",
+    "company": " Lumentum",
+    "location": "San Jose, CA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=plfoq41qvp",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQGa6IaeP28SVw/company-logo_100_100/company-logo_100_100/0/1630590218021/lumentum_logo?e=1748476800&v=beta&t=90S-_tV2q0xPi6jSnJ5d2n4vxSD350Cc4jzUDVh6tDw"
+  },
+
+
+
+
+
+
+
+
+  {
     "title": "Mechanical Design Engineer I ",
     "company": "ArcBest",
     "location": "Fort Smith, AR",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=vz5hg7mnia",
     "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQGZ_dliHzuWIg/company-logo_100_100/company-logo_100_100/0/1675369715861/arcbest_logo?e=1748476800&v=beta&t=TbfUXeiHjgvn4qwSQX3q86VRtb9xzVGClVg1LjzPzqk"
+  },
+  {
+    "title": "Weird Mechanical Engineer",
+    "company": " WindBorne Systems",
+    "location": "Palo Alto, CA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=2nmysghp38",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D560BAQEQxEZxg99mLw/company-logo_100_100/company-logo_100_100/0/1736977232083/windborne_logo?e=1748476800&v=beta&t=AC8-OUG63pexMAHcxFlzu4-YBoNJzGhC8a8uSwntYOM"
+  },
+  {
+    "title": "Mechanical Engineer II",
+    "company": "Fluxergy",
+    "location": "Palo Alto, CA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=d8bcs437b8",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D560BAQHetVBdK-V7OA/company-logo_100_100/company-logo_100_100/0/1689357272774/fluxergy_logo?e=1748476800&v=beta&t=q86JGnblJgC3WAd4tUQ6uaWakGFP_0T9HmqGUNXtiks"
+  },
+  {
+    "title": "Mechanical Engineer",
+    "company": " GE Vernova",
+    "location": "Greenville, SC",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=vgv2nim3cb",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1748476800&v=beta&t=5WIme17F5mdxuXJXi4MVyTHnFDoA_kSSo_Dg5iWCbvA"
+  },
+  {
+    "title": "Mechanical Engineer - Hybrid ",
+    "company": "Klein Tools",
+    "location": "Mansfield, TX",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=3yix99csku",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C510BAQGGxAFHdMXa8A/company-logo_100_100/company-logo_100_100/0/1631332266567?e=1748476800&v=beta&t=teCkF2DU-0HI-xyzL7C3va3JOQqZjDPNgNjNoiJC-N0"
+  },
+  {
+    "title": "R&D Test Engineer - Operations",
+    "company": "Commonwealth Fusion Systems",
+    "location": "Devens, MA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=tumyg36xse",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQGhKbTi0ycAyw/company-logo_100_100/company-logo_100_100/0/1706821149481/commonwealth_fusion_systems_logo?e=1748476800&v=beta&t=JUnxaFT82rwvQly1sDhmsNxVSW_EFgtElbehZHvqcWI"
+  },
+  {
+    "title": "Mechanical Engineer, Early Career",
+    "company": "Helion",
+    "location": "Everett, WA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=k56kvjbamh",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C560BAQGlvKixBW-auQ/company-logo_100_100/company-logo_100_100/0/1630672671566/helion_energy_logo?e=1748476800&v=beta&t=s42UZsq_zUOASytHlDlT3_IxRdlQdvgFO2JHOinF_Jk"
+  },
+  {
+    "title": "Mechanical Engineer",
+    "company": " General Dynamics Information Technology",
+    "location": "Bethesda, MD",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=nu6n80i2fe",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH2IdlDSaf4fA/company-logo_100_100/company-logo_100_100/0/1719843456272/gdit_logo?e=1748476800&v=beta&t=9OYwIhGSqfhOcqDhx3g4m2EYLWrAnz37mONbOXIPONQ"
+  },
+  {
+    "title": "Mechanical Engineer I",
+    "company": "Yamaha Motor Corporation, USA",
+    "location": "Kennesaw, GA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=gv9biebvpg",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4D0BAQFG9sgnFux1ZQ/company-logo_100_100/company-logo_100_100/0/1738249895508/yamaha_motor_corporation_usa_logo?e=1748476800&v=beta&t=2zOGbcWoV_JI2NS6L7Wb895Vs2pahfXjE0yTykY6tf0"
+  },
+  {
+    "title": "Manufacturing Engineer",
+    "company": " 3M",
+    "location": "Wisconsin",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=3cj5cbvf06",
+    "imageURL": "https://media.licdn.com/dms/image/v2/C4E0BAQEsMlsSfzuADQ/company-logo_100_100/company-logo_100_100/0/1630575759338/3m_logo?e=1748476800&v=beta&t=AFcF5ZrtT_qy7dbbXrrJGcQ-7c1fefypjml7K4FT_RI"
   }
 
 
