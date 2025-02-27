@@ -1,0 +1,225 @@
+<head>
+  <style>
+    @media screen and (max-width: 480px) {
+      .job-listings li .apply-button {
+        display: none !important;
+      }
+      .job-listings li {
+        cursor: pointer;
+      }
+      .job-listings li a {
+        display: none;
+      }
+      .job-listings li:hover {
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        background-color: transparent;
+        outline: 2px solid #26ACAF;
+        color: black;
+      }
+      .job-listings li:hover .job-info-wrapper {
+      }
+      .job-listings li:hover .job-info-wrapper h3,
+      .job-listings li:hover .job-info-wrapper p {
+        color: black;
+      }
+      .job-listings li:hover .job-info-wrapper p.company-name {
+        color: #26ACAF;
+      }
+      .job-listings li:hover .job-info-wrapper p.location {
+        color: #999999;
+      }
+      .job-listings li:hover .job-info-wrapper p.posted-date {
+        color: #999999;
+      }
+      .job-listings li a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      .job-listings .tags-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      .job-listings .tag {
+        font-size: 6px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        display: inline-block;
+
+      }
+    }
+    .job-listings {
+      margin: 20px;
+      margin-bottom: 100px;
+    }
+
+    .job-listings li {
+      list-style: none;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .job-listings img {
+      border-radius: 50%;
+      width: 75px;
+      height: 75px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+
+    .job-listings .apply-button {
+      display: inline-block;
+      background-color: #26ACAF;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+
+    .job-listings .job-info-wrapper {
+      flex-grow: 1;
+      margin-left: 10px;
+      padding-right: 20px;
+      /*background-color: #FFC24A;*/
+
+
+    }
+
+    .job-listings .company-name {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    .job-listings .location {
+      font-size: 12px;
+      margin-bottom: 0px;
+      margin-top: 1px;
+    }
+
+    .job-listings .posted-date {
+      font-size: 10px;
+      margin-bottom: 0px;
+      margin-top: 1px;
+    }
+
+    .job-listings li:hover {
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    }
+
+    .job-listings .apply-button:hover {
+      background-color: transparent;
+      outline: 2px solid #26ACAF;
+      color: black;
+    }
+
+    .job-listings h3 {
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    .job-listings .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 40%;
+      max-width: 600px;
+    }
+
+    .job-listings .tag {
+      display: inline-block;
+      outline: 1px solid #26ACAF;
+      border-radius: 4px;
+      padding: 2px 4px;
+      margin-right: 20px;
+      margin-bottom: 8px;
+      font-size: 14px;
+      background-color: transparent;
+      color: #26ACAF;
+    }
+
+  </style>
+</head>
+
+
+<div class="job-listings">
+  <h1 style="text-align: center; white-space: pre-wrap; transition-timing-function: ease; transition-duration: 0.65s; transition-delay: 0.325s;" class="preScale scaleIn"></h1>
+  <ul id="job-listings-ul">
+  </ul>
+</div>
+
+
+
+<script>
+  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json')
+  .then(response => response.json())
+  .then(data => {
+    const jobListingsUl = document.getElementById('job-listings-ul');
+    data.forEach(job => {
+      const li = document.createElement('li');
+      li.setAttribute('data-category', job.category);
+      const imageWrapper = document.createElement('div');
+      const image = document.createElement('img');
+      image.src = job.imageURL;
+      const jobInfoWrapper = document.createElement('div');
+      jobInfoWrapper.classList.add('job-info-wrapper');
+      const h3 = document.createElement('h3');
+      h3.textContent = job.title;
+      const company = document.createElement('p');
+      company.classList.add('company-name');
+      company.textContent = job.company;
+      const location = document.createElement('p');
+      location.classList.add('location');
+      location.textContent = job.location;
+      const postedDate = document.createElement('p');
+      postedDate.classList.add('posted-date');
+      postedDate.textContent = `Posted ${job.postedDate}`;
+      const applyButton = document.createElement('a');
+      applyButton.href = job.applicationURL;
+      applyButton.target = "_blank";
+      applyButton.classList.add('apply-button');
+      applyButton.textContent = 'Apply Now';
+      const tagsContainer = document.createElement('div');
+      tagsContainer.classList.add('tag-container');
+      job.tags.forEach(tag => {
+        const tagEl = document.createElement('span');
+        tagEl.classList.add('tag');
+        tagEl.textContent = tag;
+        tagsContainer.appendChild(tagEl);
+      });
+      jobInfoWrapper.appendChild(h3);
+      jobInfoWrapper.appendChild(company);
+      jobInfoWrapper.appendChild(location);
+      jobInfoWrapper.appendChild(postedDate);
+      li.appendChild(imageWrapper);
+      li.appendChild(image);
+      li.appendChild(jobInfoWrapper);
+      li.appendChild(applyButton);
+      li.appendChild(tagsContainer); // Add the tags container to the li element
+      jobListingsUl.appendChild(li);
+    });
+
+      });
+    });
+  });
+</script>

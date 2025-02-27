@@ -1,0 +1,95 @@
+<head>
+  <style>
+    .job-listings {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .job-listings li {
+      list-style: none;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .job-listings li img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .job-listings li h3 {
+      margin: 0 0 10px 0;
+    }
+
+    .job-listings li p {
+      margin: 0 0 5px 0;
+    }
+
+    .job-listings li .company {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .job-listings li .posted-date {
+      margin-top: 10px;
+    }
+
+    .job-listings li .apply-btn {
+      margin-left: auto;
+      display: inline-block;
+      background-color: #0077cc;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+
+<div class="job-listings">
+  <h2>Job Openings</h2>
+  <ul id="job-listings-ul">
+  </ul>
+</div>
+
+<script>
+  fetch('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/jobs.json')
+  .then(response => response.json())
+  .then(data => {
+    const jobListingsUl = document.getElementById('job-listings-ul');
+    data.forEach(job => {
+      const li = document.createElement('li');
+      const image = document.createElement('img');
+      image.src = job.imageURL;
+      const h3 = document.createElement('h3');
+      h3.textContent = job.title;
+      const company = document.createElement('p');
+      company.classList.add('company');
+      company.textContent = job.company;
+      const location = document.createElement('p');
+      location.textContent = job.location;
+      const applyLink = document.createElement('a');
+      applyLink.href = job.applicationURL;
+      applyLink.textContent = 'Apply now';
+      applyLink.classList.add('apply-btn');
+      const postedDate = document.createElement('p');
+      postedDate.classList.add('posted-date');
+      postedDate.textContent = `Posted: ${job.postedDate}`;
+      li.appendChild(image);
+      li.appendChild(h3);
+      li.appendChild(company);
+      li.appendChild(location);
+      li.appendChild(postedDate);
+      li.appendChild(applyLink);
+      jobListingsUl.appendChild(li);
+    });
+  });
+
+</script>

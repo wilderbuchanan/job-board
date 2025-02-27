@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job JSON Formatter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D9D9D9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        h2 {
+            color: #3B404A;
+        }
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+        label {
+            color: #3B404A;
+            font-weight: bold;
+        }
+        input {
+            width: 60%;
+            padding: 5px;
+            border: 1px solid #D9D9D9;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #26ACAF;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #ED7979;
+        }
+        pre {
+            background-color: #D9D9D9;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+        }
+    </style>
+    <script>
+        function generateJSON() {
+            const jobData = {
+                title: document.getElementById("title").value,
+                company: document.getElementById("company").value,
+                location: document.getElementById("location").value,
+                applicationURL: document.getElementById("applicationURL").value,
+                postedDate: document.getElementById("postedDate").value,
+                imageURL: document.getElementById("imageURL").value,
+                tags: document.getElementById("tags").value.split(",").map(tag => tag.trim())
+            };
+            document.getElementById("output").textContent = JSON.stringify(jobData, null, 2);
+        }
+        function copyToClipboard() {
+            const text = document.getElementById("output").textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied to clipboard!");
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Job JSON Formatter</h2>
+        <div class="form-group"><label>Title:</label> <input type="text" id="title"></div>
+        <div class="form-group"><label>Company:</label> <input type="text" id="company"></div>
+        <div class="form-group"><label>Location:</label> <input type="text" id="location"></div>
+        <div class="form-group"><label>Application URL:</label> <input type="text" id="applicationURL"></div>
+        <div class="form-group"><label>Posted Date:</label> <input type="text" id="postedDate"></div>
+        <div class="form-group"><label>Image URL:</label> <input type="text" id="imageURL"></div>
+        <div class="form-group"><label>Tags:</label> <input type="text" id="tags"></div>
+        <button onclick="generateJSON()">Generate JSON</button>
+        <pre id="output"></pre>
+        <button onclick="copyToClipboard()">Copy JSON</button>
+    </div>
+</body>
+</html>
