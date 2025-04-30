@@ -3,12 +3,20 @@
 
 {
     "title": "Senior Mechanical Engineer",
+    "company": "Eight Sleep",
+    "location": "San Francisco, CA",
+    "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=1qciufhzxh",
+    "imageURL": "https://media.licdn.com/dms/image/v2/D4D0BAQFgLgCKzQOjvA/company-logo_200_200/company-logo_200_200/0/1714760547717/eight___logo?e=1751500800&v=beta&t=O8mKxa9xYvVKYeqG77hOIAQMmEn3J87-2osUkjqi9VE"
+
+  },
+  {
+    "title": "Senior Mechanical Engineer",
     "company": "DURIN",
     "location": "El Segundo, CA",
     "applicationURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c",
     "imageURL": "https://media.licdn.com/dms/image/v2/D4E0BAQH79pJo6C9D6Q/company-logo_100_100/company-logo_100_100/0/1732564438373/durinmining_logo?e=1746662400&v=beta&t=nqR0G0Cu0-r2IDI1A2i9p7_ogsLCu532iimphbeGa4c"
 
-  },
+  }
   {
     "title": "Senior Robotics Engineer",
     "company": "DURIN",
