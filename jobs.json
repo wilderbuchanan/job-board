@@ -278,13 +278,6 @@
     "location": "Wisconsin",
     "applicationURL": "https://z4g07sa50j.execute-api.us-east-1.amazonaws.com/production/track?id=3cj5cbvf06",
     "imageURL": "https://media.licdn.com/dms/image/v2/C4E0BAQEsMlsSfzuADQ/company-logo_100_100/company-logo_100_100/0/1630575759338/3m_logo?e=1748476800&v=beta&t=AFcF5ZrtT_qy7dbbXrrJGcQ-7c1fefypjml7K4FT_RI"
-  },
-  {
-    "title": "Job Posting",
-    "company": "Company Name",
-    "location": "City, State",
-    "applicationURL": "https://hardwareishard.com/",
-    "imageURL": "https://i.pinimg.com/736x/5d/cf/34/5dcf34617169e2fdd1db0628ec7cfad6.jpg"
   }
 
 
