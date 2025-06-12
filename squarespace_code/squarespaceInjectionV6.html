@@ -1,189 +1,214 @@
-<head><style>@media screen and (max-width: 450px) {
-	.filter-container {
+<head>
+	<style>
+		@media screen and (max-width: 450px) {
+		.filter-container {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.filter-label {
+			margin-right: 0;
+			margin-bottom: 5px;
+		}
+
+		.filter-select {
+			margin-bottom: 10px;
+		}
+
+		.job-listings li .apply-button {
+			display: none !important;
+		}
+
+		.job-listings li {
+			cursor: pointer;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.job-listings li a {
+			display: none;
+		}
+
+		.job-listings li:hover {
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+			background-color: transparent;
+			outline: 2px solid #26ACAF;
+			color: black;
+		}
+
+		.job-listings li:hover .job-info-wrapper p.location {
+			color: #999999;
+		}
+		}
+
+  
+	  .job-listings,
+	  .featured-jobs,
+	  .onshape-jobs {
+		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.filter-label {
-		margin-right: 0;
-		margin-bottom: 5px;
-	}
-
-	.filter-select {
-		margin-bottom: 10px;
-	}
-
-	.job-listings li .apply-button {
-		display: none !important;
-	}
-
-	.job-listings li {
-		cursor: pointer;
-	}
-
-	.job-listings li a {
-		display: none;
-	}
-
-	.job-listings li:hover {
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-		background-color: transparent;
-		outline: 2px solid #26ACAF;
+		justify-content: center;
+		align-items: center;
+		width: 95%;
+		margin: auto;
+	  }
+  
+	  .featured-jobs li {
+		background-color: rgba(237, 121, 121, 0.2);
+		padding: 10px;
+		border-radius: 10px;
+	  }
+  
+	  .onshape-jobs li {
+		background-color: rgba(255, 194, 74, 0.2);
+		padding: 10px;
+		border-radius: 10px;
+	  }
+  
+	  .featured-jobs .job-listings li {
+		background-color: rgba(237, 121, 121, 0.2) !important;
+	  }
+  
+	  .onshape-jobs .job-listings li {
+		background-color: rgba(255, 194, 74, 0.2) !important;
+	  }
+  
+	  .featured-jobs h3 {
 		color: black;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	  }
+  
+	  .job-listings li {
+		background-color: #f5f5f5;
+		border-radius: 10px;
+		margin-bottom: 20px;
+		padding: 10px;
+		align-items: center;
+		position: relative;
+		justify-content: center;
+		width: 100%;
+		display: flex;
+	  }
+  
+	  .job-listings img {
+		border-radius: 50%;
+		width: 75px;
+		height: 75px;
+		object-fit: cover;
+		margin-right: 10px;
+	  }
+  
+	  .job-listings .apply-button {
+		display: inline-block;
+		background-color: #26ACAF;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 10px;
+		font-size: 16px;
+		margin-left: auto;
+		margin-right: 10px;
+		height: 40px;
+		line-height: 40px;
+	  }
+  
+	  .job-listings .job-info-wrapper {
+		flex-grow: 1;
+		margin-left: 10px;
+		padding-right: 20px;
+	  }
+  
+	  .job-listings .company-name {
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	  }
+  
+	  .job-listings .location {
+		font-size: 12px;
+		margin-bottom: 0px;
+		margin-top: 1px;
+	  }
+  
+	  .job-listings h3 {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	  }
+	</style>
+  </head>
+  
+  <div class="featured-jobs">
+	<h2>Sponsored Jobs</h2>
+	<h3 style="color: #FFC24A;">These companies are literally paying us to recruit you! So Apply!!! They Want YOU!</h3>
+	<ul id="featured-jobs-ul" class="job-listings"></ul>
+  </div>
+  
+  <div class="job-listings">
+	<h2>All Jobs</h2>
+	<ul id="job-listings-ul" class="job-listings"></ul>
+  </div>
+  
+  <script>
+	function fetchJobs(url, elementId) {
+	  fetch(url)
+		.then(response => response.json())
+		.then(data => {
+		  const jobListingsUl = document.getElementById(elementId);
+		  data.forEach(job => {
+			const li = document.createElement('li');
+			const image = document.createElement('img');
+			image.src = job.imageURL;
+  
+			const jobInfoWrapper = document.createElement('div');
+			jobInfoWrapper.classList.add('job-info-wrapper');
+  
+			const h3 = document.createElement('h3');
+			h3.textContent = job.title;
+  
+			const company = document.createElement('p');
+			company.classList.add('company-name');
+			company.textContent = job.company;
+  
+			const location = document.createElement('p');
+			location.classList.add('location');
+			location.textContent = job.location;
+  
+			const applyButton = document.createElement('a');
+			applyButton.href = job.applicationURL;
+			applyButton.target = "_blank";
+			applyButton.classList.add('apply-button');
+			applyButton.textContent = 'Apply Now';
+  
+			jobInfoWrapper.appendChild(h3);
+			jobInfoWrapper.appendChild(company);
+			jobInfoWrapper.appendChild(location);
+  
+			li.appendChild(image);
+			li.appendChild(jobInfoWrapper);
+			li.appendChild(applyButton);
+			jobListingsUl.appendChild(li);
+		  });
+  
+		  // Make li clickable on mobile
+		  if (window.innerWidth <= 450) {
+			jobListingsUl.querySelectorAll('li').forEach(li => {
+			  li.addEventListener('click', () => {
+				const link = li.querySelector('.apply-button');
+				if (link) {
+				  window.open(link.href, "_blank");
+				}
+			  });
+			});
+		  }
+		});
 	}
-
-	.job-listings li:hover .job-info-wrapper p.location {
-		color: #999999;
-	}
-}
-
-.job-listings,
-.featured-jobs,
-.onshape-jobs {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 95%;
-	margin: auto;
-}
-
-.featured-jobs li {
-	background-color: rgba(237, 121, 121, 0.2);
-	padding: 10px;
-	border-radius: 10px;
-}
-
-.onshape-jobs li {
-	background-color: rgba(255, 194, 74, 0.2);
-	padding: 10px;
-	border-radius: 10px;
-}
-
-.featured-jobs .job-listings li {
-	background-color: rgba(237, 121, 121, 0.2) !important;
-}
-
-.onshape-jobs .job-listings li {
-	background-color: rgba(255, 194, 74, 0.2) !important;
-}
-
-.featured-jobs h3 {
-	color: black;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.job-listings li {
-	background-color: #f5f5f5;
-	border-radius: 10px;
-	margin-bottom: 20px;
-	padding: 10px;
-	align-items: center;
-	position: relative;
-	justify-content: center;
-	width: 100%;
-	display: flex;
-}
-
-.job-listings img {
-	border-radius: 50%;
-	width: 75px;
-	height: 75px;
-	object-fit: cover;
-	margin-right: 10px;
-}
-
-.job-listings .apply-button {
-  display: inline-block;
-  background-color: #26ACAF;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 16px;
-  margin-left: auto;
-  margin-right: 10px;
-  height: 40px;
-  line-height: 40px;
-}
-
-.job-listings .job-info-wrapper {
-	flex-grow: 1;
-	margin-left: 10px;
-	padding-right: 20px;
-}
-
-.job-listings .company-name {
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-
-.job-listings .location {
-	font-size: 12px;
-	margin-bottom: 0px;
-	margin-top: 1px;
-}
-
-.job-listings h3 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-</style></head>
-
-<div class="featured-jobs">
-  <h2>Sponsored Jobs</h2>
-  <h3 style="color: #FFC24A;">These companies are literally paying us to recruit you! So Apply!!! They Want YOU!</h3>
-  <ul id="featured-jobs-ul" class="job-listings"></ul>
-</div>
-
-
-<div class="job-listings">
-  <h2>All Jobs</h2>
-  <ul id="job-listings-ul" class="job-listings"></ul>
-</div>
-
-<script>
-  function fetchJobs(url, elementId) {
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        const jobListingsUl = document.getElementById(elementId);
-        data.forEach(job => {
-          const li = document.createElement('li');
-          const image = document.createElement('img');
-          image.src = job.imageURL;
-          const jobInfoWrapper = document.createElement('div');
-          jobInfoWrapper.classList.add('job-info-wrapper');
-          const h3 = document.createElement('h3');
-          h3.textContent = job.title;
-          const company = document.createElement('p');
-          company.classList.add('company-name');
-          company.textContent = job.company;
-          const location = document.createElement('p');
-          location.classList.add('location');
-          location.textContent = job.location;
-          const applyButton = document.createElement('a');
-          applyButton.href = job.applicationURL;
-          applyButton.target = "_blank";
-          applyButton.classList.add('apply-button');
-          applyButton.textContent = 'Apply Now';
-          jobInfoWrapper.appendChild(h3);
-          jobInfoWrapper.appendChild(company);
-          jobInfoWrapper.appendChild(location);
-          li.appendChild(image);
-          li.appendChild(jobInfoWrapper);
-          li.appendChild(applyButton);
-          jobListingsUl.appendChild(li);
-        });
-      });
-  }
-
-  fetchJobs('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/jobs.json', 'job-listings-ul');
-  fetchJobs('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/featuredJobs.json', 'featured-jobs-ul');
-  fetchJobs('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json', 'onshape-jobs-ul');
-</script>
+  
+	fetchJobs('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/jobs.json', 'job-listings-ul');
+	fetchJobs('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/featuredJobs.json', 'featured-jobs-ul');
+	fetchJobs('https://raw.githubusercontent.com/wilderbuchanan/job-board/main/onshapeJobs.json', 'onshape-jobs-ul');
+  </script>
+  
